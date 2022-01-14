@@ -37,9 +37,9 @@ public class MethodOverloadingVsMethodOverriding {
 
 
     METHOD OVERRIDING RULES
-    - Must happen in the subclass (child class)
+    - Must occur in the subclass (child class)
     - Return type, method name and parameters must be the same
-    - Access modifier needs to be same or more visible
+    - Access modifier needs to be the same or more visible
       public > protected > default > private
     - CANNOT override methods with
             - Private access modifier
@@ -77,7 +77,5 @@ public class MethodOverloadingVsMethodOverriding {
             Tesla Class
             - explicitly extended Car Class
             - implicitly extended Object Class
-
-
      */
 }
