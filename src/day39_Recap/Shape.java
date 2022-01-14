@@ -2,6 +2,16 @@ package day39_Recap;
 
 public class Shape {
 
+    /*
+	Shape:
+	variables: name
+	Encapsulate the field
+	Add a constructor to set the field.
+	Methods:
+		area(){}
+		perimeter(){}
+    */
+
     private String name;
 
     public String getName() {
@@ -31,5 +41,21 @@ public class Shape {
 
     public double perimeter() {
         return 0;
+    }
+
+    /* Right click + Generate + Override Method + toString
+    @Override // Compile error for @Override because this is an overloaded method
+    public String toString(int a) {
+        return super.toString();
+    }
+    */
+    // Right click + Generate + toString. Then, add area() and perimeter() with a comma + space after ".
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "name='" + name + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
     }
 }
