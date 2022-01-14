@@ -14,6 +14,9 @@ public class Square extends Shape {
  */
 
     private double side;
+    /* The only way to read and write this data is through getter and setter because the data is private
+       With public, there would be no control over data.
+     */
 
     public double getSide() {
         return side;
