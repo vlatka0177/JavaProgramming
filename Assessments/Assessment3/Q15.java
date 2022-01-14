@@ -17,6 +17,6 @@ public class Q15 {
         System.out.println(str); //wlv
     }
     public static char middle(String s) {
-        return s.charAt(s.length()/2); // 4/2 = 2  5/2 = 2.5  8/2 = 4
+        return s.charAt(s.length()/2); // 4/2 = 2  5/2 = 2  8/2 = 4
     }
 }

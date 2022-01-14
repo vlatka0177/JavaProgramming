@@ -6,13 +6,13 @@ public class Q14 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // 5, 7, 3, 8, 20, 14
-        int size = input.nextInt();
+        int size = input.nextInt(); // int size = 5
 
         int [] a = new int[size];
         int i = 0;
 
         while (i < size) {
-            a [i++] = input.nextInt();
+            a [i++] = input.nextInt(); // a [i++] = 7, 3, 8, 20, 14
         }
         method8(a); // 7, 3, 14
     }

@@ -21,10 +21,11 @@ public class Q1_Q2_Q3_Q4_Q5_Q6 {
 
         Q5
         It is possible to overload a method by changing the number of parameters or
-        data-types of the parameters.
+        data-types of the parameters and keeping the same method name.
 
         Q6
         A method cannot be overloaded by changing the return type and keeping the same method name.
+        Method overloading has nothing to do with a return type.
          */
     }
 }

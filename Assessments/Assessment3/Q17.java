@@ -9,7 +9,7 @@ public class Q17 {
     }
 
     public static int action(int i) {
-        return i * 2;
+        return i * 2; // i * 6
     }
 
     public static void main(String[] args) {
@@ -25,14 +25,14 @@ public class Q17 {
     }
 
     public static int action(String s) {
-        return s.length();
+        return s.length(); // four s.length 4
     }
 
-    public static int action(boolean b) {
+    public static int action(boolean b) { // true, false
         if(!b) {
-            return 5;
+            return 5; //
         } else {
-            return 10;
+            return 10; // 10
         }
     }
 }

@@ -7,9 +7,9 @@ public class Q16 {
         double number = add(3.4);
 
         number += add("dual");
-        number += add(Integer.parseInt("100"));
-        number += add(11341L);
-        number += add(Float.parseFloat("50.8"));
+        number += add(Integer.parseInt("100")); // Converts from string to integer
+        number += add(11341L); // implicitly double
+        number += add(Float.parseFloat("50.8")); // Converts to float, and then implicitly double
 
         System.out.println(number); // 22.5
     }

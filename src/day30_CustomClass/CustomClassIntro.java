@@ -3,7 +3,7 @@ package day30_CustomClass;
 public class CustomClassIntro {
 
     /*
-    Custom Class is used for creating objects, and not for running. Thus, no Main Method needed.
+    Custom Class is used for creating objects, and not for running. Thus, no Main Method is needed.
 
     Class
     - A template or a set of instructions to build a specific type of Object
@@ -54,11 +54,11 @@ public class CustomClassIntro {
     Creating an Object/Instance
     - The new keyword is used to create an instance of a class
 
-     Object Name Constructor
+     Object Name    Constructor
           |          |
     Dog dog1 = new Dog;
      |           |
-    Class Name Keyword
+    Class Name  Keyword
      */
 
 }
