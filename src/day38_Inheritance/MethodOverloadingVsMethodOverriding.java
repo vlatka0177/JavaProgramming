@@ -7,13 +7,23 @@ public class MethodOverloadingVsMethodOverriding {
     - Multiple different methods having the same name
     - Parameter must be different
     - Return type and access modifiers do not matter
-    - Any method in Java can be overloaded, including the Main Method
+    - Every method in Java can be overloaded, including the Main Method
 
     METHOD OVERRIDING
-    - One method having multiple different implementations
-    - Overriding a method must take place in a subclass (child)
+    - One method having multiple different implementations in different classes.
+    - Overriding a method MUST take place in a subclass (child)
+    - Return type, method name and parameters must be the same
+    - Access modifier needs to be the same or more visible
+      public > protected > default > private
+    - CANNOT override methods with
+            - Private access modifier
+            - Static specifier
+            - Final specifier
+    - CAN override
+            - Instance methods that are not static or final
     - Less memory usage
     - Improves the re-usability of the code
+    - @Override annotation and blue circle in the left margin indicate method override
 
                         Animal
                         eat()
@@ -36,18 +46,6 @@ public class MethodOverloadingVsMethodOverriding {
     2*radius*pi         side*4              2*(width + length)
 
 
-    METHOD OVERRIDING RULES
-    - Must occur in the subclass (child class)
-    - Return type, method name and parameters must be the same
-    - Access modifier needs to be the same or more visible
-      public > protected > default > private
-    - CANNOT override methods with
-            - Private access modifier
-            - Static specifier
-            - Final specifier
-    - CAN override
-            - Instance methods that are not static or final
-
             Car
                 start() {car started}
 
@@ -67,6 +65,7 @@ public class MethodOverloadingVsMethodOverriding {
                 start()
                     call mechanic
                     jump start
+
 
        toString() and equals() Methods are needed for every single object.
        Object class is presented in java.lang package.

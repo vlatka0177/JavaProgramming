@@ -10,7 +10,7 @@ public class MethodOverloading {
     }
 
     /*
-    All methods can  be overloaded, insluding the main method.
+    All methods can  be overloaded, including the main method.
     Method name must be the same.
     Parameters must be different.
     Access specifier can be changed.
