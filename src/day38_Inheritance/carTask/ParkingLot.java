@@ -1,9 +1,5 @@
 package day38_Inheritance.carTask;
 
-import day38_Inheritance.carTask.BMW;
-import day38_Inheritance.carTask.Tesla;
-import day38_Inheritance.carTask.Toyota;
-
 public class ParkingLot {
 
     public static void main(String[] args) {
@@ -16,7 +12,7 @@ public class ParkingLot {
 
 
         toyota.start(); // Twist the key in ignition to start Toyota Camry
-        tesla.start();
+        tesla.start(); // Say "Start" to start Tesla Model S
         bmw.start(); // Call mechanic to jump start BMW X5
     }
 }

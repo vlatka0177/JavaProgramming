@@ -4,11 +4,12 @@ public class Car {
 
     /*
     Create a class called Car
-			instance variables: brand, model, year, price, color, miles
-			Add a constructor to set all the fields
-			instance methods: start(), drive(), toString()
+	Instance variables: brand, model, year, price, color, miles
+	Add a constructor to set all the fields
+	Instance methods: start(), drive(), toString()
     */
 
+    // Instance variables
     public String brand, model;
     public int year;
     public double price;

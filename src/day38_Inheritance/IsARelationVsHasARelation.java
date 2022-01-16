@@ -15,6 +15,7 @@ public class IsARelationVsHasARelation {
     class Tester extends Employee { // Tester IS A Employee
     }
 
+
     HAS A:
 
     class Tester extends Employee {
@@ -29,7 +30,7 @@ public class IsARelationVsHasARelation {
     Tiger
     }
 
-    class Engine {
+    class Engine extends Car {
     }
     class Car { Car HAS A Engine
     Engine

@@ -1,7 +1,9 @@
 package day38_Inheritance.carTask;
 
-import day38_Inheritance.carTask.Car;
-
+    /*
+    1. Toyota:
+	    Extra methods: reliable()
+    */
 public class Toyota extends Car {
 
     // Right click + Generate + Constructor

@@ -1,6 +1,11 @@
 package day38_Inheritance.carTask;
 
-import day38_Inheritance.carTask.Car;
+    /*
+    2. BMW:
+	   Extra methods:
+						breaksDown()
+						racing()
+    */
 
 public class BMW extends Car {
 

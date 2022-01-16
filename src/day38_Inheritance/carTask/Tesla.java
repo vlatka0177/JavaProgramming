@@ -16,6 +16,6 @@ public class Tesla extends Car {
     // Right click + Generate + Override Methods + start():void + OK
     @Override
     public void start() {
-        super.start();
+        System.out.println("Say \"Start\" to start "+brand+" "+model);
     }
 }
