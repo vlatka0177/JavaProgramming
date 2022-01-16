@@ -3,16 +3,16 @@ package day39_Recap.shapeTask;
 public class Circle extends Shape {
 
     /*
-    Circle extends Shape:
-		variables:
+    Circle extends Shape
+    Variables:
 			radius
 			pi (static)
-		Encapsulate the field
-		Add a constructor to set the filed
-		area(): radius * radius * pi
-		perimeter(): 2 * radius * pi
-		toString(): r, pi, area, perimeter
-     */
+	Encapsulate the field
+	Add a constructor to set the filed
+	area(): radius * radius * pi
+	perimeter(): 2 * radius * pi
+	toString(): r, pi, area, perimeter
+    */
 
     private double radius;
     public static double pi = 3.14;
@@ -21,6 +21,7 @@ public class Circle extends Shape {
         return radius;
     }
 
+    // Encapsulating the fields
     public void setRadius(double radius) {
         if(radius <= 0){
             System.err.println("Invalid Radius: "+radius);
@@ -28,23 +29,20 @@ public class Circle extends Shape {
         }
         this.radius = radius;
     }
-
+    // Constructor to set the fields
     public Circle( double radius) {
         super("Circle");
         setRadius(radius);
     }
 
-    @Override
     public double area() {
-        return radius* radius* pi;
+        return radius * radius * pi;
     }
 
-    @Override
     public double perimeter() {
-        return 2*radius*pi;
+        return 2 * radius * pi;
     }
 
-    @Override
     public String toString() {
         return "Circle{" +
                 "radius=" + radius +

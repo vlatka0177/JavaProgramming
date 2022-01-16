@@ -3,7 +3,7 @@ package day39_Recap.shapeTask;
 public class Shape {
 
     /*
-	Shape:
+	Create class Shape
 	variables: name
 	Encapsulate the field
 	Add a constructor to set the field.
@@ -14,6 +14,7 @@ public class Shape {
 
     private String name;
 
+    // Encapsulate the field
     public String getName() {
 
         return name;
@@ -33,14 +34,17 @@ public class Shape {
     }
 
     public Shape(String name) {
+
         setName(name);
     }
 
     public double area() {
+
         return 0;
     }
 
     public double perimeter() {
+
         return 0;
     }
 

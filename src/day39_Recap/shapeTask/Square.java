@@ -4,8 +4,7 @@ public class Square extends Shape {
 
     /*
     Square extends Shape:
-	variables:
-		side;
+	Variables: side
 	Encapsulate the field
 	Add a constructor to set the filed
 	area(): side * side
@@ -15,11 +14,11 @@ public class Square extends Shape {
 
     private double side;
     /* The only way to read and write this data is through getter and setter because the data is private
-       With public, there would be no control over data.
-     */
+       If public, there would be no control over data.
+    */
 
+    //Encapsulating the field
     public double getSide() {
-
         return side;
     }
 
@@ -32,7 +31,7 @@ public class Square extends Shape {
         this.side = side;
     }
 
-    //                              -100
+    // Constructor to set the field         -100
     public Square(double side) {
         super("Square");
         setSide(side);
@@ -40,13 +39,11 @@ public class Square extends Shape {
 
     @Override
     public double area() {
-
         return side * side;
     }
 
     @Override
     public double perimeter() {
-
         return side * 4;
     }
 

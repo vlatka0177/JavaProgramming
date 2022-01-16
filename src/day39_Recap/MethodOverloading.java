@@ -6,6 +6,7 @@ public class MethodOverloading {
     }
 
     private int method1(int a) {
+
         return a;
     }
 
@@ -15,6 +16,5 @@ public class MethodOverloading {
     Parameters must be different.
     Access specifier can be changed.
     Return type does not matter. It can be same or different.
-
-     */
+    */
 }

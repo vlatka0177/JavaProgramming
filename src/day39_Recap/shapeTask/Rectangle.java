@@ -1,9 +1,21 @@
 package day39_Recap.shapeTask;
 
+    /*
+    Rectangle extends Shape:
+	variables: length, width
+	Encapsulate the fields
+	Add a constructor to set the filed
+	area(): length * width
+	perimeter(): 2 * ( width + length)
+	toString(): length, width, area, perimeter
+    */
+
 public class Rectangle extends Shape {
 
+    // Variables
     private double length, width;
 
+    // Encapsulating the fields
     public double getLength() {
         return length;
     }
@@ -28,6 +40,7 @@ public class Rectangle extends Shape {
         this.width = width;
     }
 
+    // Constructor to set the fields
     public Rectangle( double length, double width) {
         super("Rectangle");
         setLength(length);
