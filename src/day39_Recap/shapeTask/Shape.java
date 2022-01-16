@@ -1,4 +1,4 @@
-package day39_Recap;
+package day39_Recap.shapeTask;
 
 public class Shape {
 
@@ -15,6 +15,7 @@ public class Shape {
     private String name;
 
     public String getName() {
+
         return name;
     }
 

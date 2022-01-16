@@ -1,4 +1,4 @@
-package day39_Recap;
+package day39_Recap.shapeTask;
 
 public class Square extends Shape {
 
@@ -19,6 +19,7 @@ public class Square extends Shape {
      */
 
     public double getSide() {
+
         return side;
     }
 
@@ -39,11 +40,13 @@ public class Square extends Shape {
 
     @Override
     public double area() {
+
         return side * side;
     }
 
     @Override
     public double perimeter() {
+
         return side * 4;
     }
 
