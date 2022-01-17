@@ -10,10 +10,10 @@ public class Animal {
                Add a constructor to set all the fields.
 
                Conditions:
-               1. name, breed and color can not be null (if obj == null means it's error)
-               2. name, breed and color can not be empty or can not be blank
+               1. name, breed and color cannot be null (if obj == null means it's error)
+               2. name, breed and color cannot be empty or cannot be blank
 			   3. gender should only be set to either 'M' or 'F'
-               4. age can not be set to negative
+               4. age cannot be set to negative
 
                Methods:
                eat()

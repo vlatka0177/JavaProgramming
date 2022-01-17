@@ -31,7 +31,7 @@ public class SwitchEx {
                 result ="unknown animal";
         }
 
-        System.out.println(result);
+        System.out.println("Animal: " + result);
 
 
     }

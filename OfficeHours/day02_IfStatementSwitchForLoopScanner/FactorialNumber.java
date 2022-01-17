@@ -10,7 +10,7 @@ public class FactorialNumber {
 
             Ex:
             input: 5
-            output: 120  ( because: 5! = 5 * 4 * 3 * 2* 1 = 120 )
+            output: 120  ( because: 5! = 5 * 4 * 3 * 2 * 1 = 120 )
 
             Factorial number of 3 is the result of  3 * 2 * 1
             Factorial number of 4 is the result of  4 * 3 * 2 * 1
@@ -19,9 +19,7 @@ public class FactorialNumber {
          */
 
         Scanner input = new Scanner(System.in);
-
         System.out.println("Enter any number: ");
-
         int number = input.nextInt();
 
         int result = 1; /* What number will not change the result when I

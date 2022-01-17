@@ -1,6 +1,6 @@
-package day04_Variables;
+package OfficeHours.day01;
 
-public class OfficeHourPatientInfo {
+public class PatientInfo {
 
     public static void main(String[] args) {
 

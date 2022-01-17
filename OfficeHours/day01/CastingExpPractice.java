@@ -1,4 +1,4 @@
-package day06_PrimitiveTypeCastings;
+package OfficeHours.day01;
 
 public class CastingExpPractice {
 

@@ -30,7 +30,9 @@ public class FirstTwoLetters {
         }else if(word.length() <= 2) {
             System.out.println(word);
         }else{
+
         //  System.out.println(word.substring(0,2)); // string length
+
             System.out.println(word.charAt(0) + "" + word.charAt(1)); // index numbers
         /*  System.out.println("" + word.charAt(0) + word.charAt(1));
             Cannot add "" at the end of the concatenation.  */

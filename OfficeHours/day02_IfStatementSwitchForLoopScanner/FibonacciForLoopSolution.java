@@ -34,9 +34,7 @@ public class FibonacciForLoopSolution {
                        */
 
         Scanner input = new Scanner(System.in);
-
         System.out.println("How many Fibonacci numbers do you want to see: ");
-
         int number = input.nextInt();
 
         int num1 = 0;
@@ -57,7 +55,6 @@ public class FibonacciForLoopSolution {
             num2 = result; // num2 = 1, will continue swapping numbers
 
         }
-
 
     }
 }

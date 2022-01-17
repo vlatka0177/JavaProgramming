@@ -1,4 +1,4 @@
-package day11_Switch_Scanner;
+package Replits;
 
 import java.util.Scanner;
 

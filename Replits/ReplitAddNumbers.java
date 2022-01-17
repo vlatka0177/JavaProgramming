@@ -1,4 +1,4 @@
-package day12_Scanner;
+package Replits;
 
 import java.util.Scanner;
 

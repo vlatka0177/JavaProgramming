@@ -1,4 +1,4 @@
-package day10_NestedIf;
+package Replits;
 
 import java.util.Scanner;
 

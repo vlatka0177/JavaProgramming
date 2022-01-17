@@ -27,7 +27,7 @@ public class Test01Variables {
         System.out.println("Result B" + 1 + 2); // Result B12
 
         /* Primitive Type Casting
-        Implicit: smaller primitive types are cast to the larger primitive types automatically.
+        Implicit: smaller primitive types are cast to the larger primitive types implicitly.
         double > float > long > int > short > byte
          */
 

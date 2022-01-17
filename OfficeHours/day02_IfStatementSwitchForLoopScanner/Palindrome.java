@@ -26,9 +26,7 @@ public class Palindrome {
          */
 
         Scanner input = new Scanner(System.in);
-
         System.out.println("Enter your word: ");
-
         String word = input.nextLine();
 
         String result = ""; // Empty string will not change the result.

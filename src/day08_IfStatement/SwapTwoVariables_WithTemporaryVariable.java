@@ -5,10 +5,11 @@ public class SwapTwoVariables_WithTemporaryVariable {
     public static void main(String[] args) {
 
         /*
-        1. write a program that can swop the value of two variables by using a temporary variable
+        1. Write a program that can swap the value of two variables by using a temporary variable
 
-		    Ex:
-		        if a= 10, b=15
+		   Input:
+		        a = 10
+		        b = 15
 
 		    output:
 		        a = 15
