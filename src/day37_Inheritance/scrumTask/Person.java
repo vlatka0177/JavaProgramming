@@ -1,12 +1,22 @@
 package day37_Inheritance.scrumTask;
 
+    /*
+    Create a class named Person
+            variables:
+                name, age, gender
+            methods:
+                eat(String food)
+                drink(String drink)
+                toString()
+    */
+
 public class Person {
 
     public String name;
     public int age;
     public char gender;
 
-    // generate constructor
+    // Generate constructor
     public Person(String name, int age, char gender) {
         this.name = name;
         this.age = age;
@@ -21,7 +31,7 @@ public class Person {
         System.out.println(name + "is drinking.");
     }
 
-    // generate toString
+    // Generate toString
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +

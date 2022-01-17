@@ -21,7 +21,7 @@ public class Phone { // Parent class only contains the common features of all th
 
     public static boolean hasBattery = true;
 
-    // generate constructor
+    // Generate constructor
     public Phone(String brand, String model, String size, double price, String color) {
         this.brand = brand;
         this.model = model;
@@ -32,10 +32,13 @@ public class Phone { // Parent class only contains the common features of all th
 
     public void call(long phoneNumber) {
         System.out.println(brand + " " + model + " is calling " + phoneNumber);
+    }
+
+    public void text(long phoneNumber) {
         System.out.println(brand + " " + model + " is texting " + phoneNumber);
     }
 
-    // generate tpString
+    // Generate tpString
     public String toString() {
         return "Phone{" +
                 "brand='" + brand + '\'' +

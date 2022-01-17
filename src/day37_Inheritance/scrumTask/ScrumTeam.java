@@ -13,7 +13,7 @@ public class ScrumTeam {
     public ArrayList<Tester> testers = new ArrayList<>();
     public ArrayList<Developer> developers = new ArrayList<>();
 
-    // generate the constructor
+    // Generate the constructor
     public ScrumTeam(ProductOwner PO, BusinessAnalyst BO, ScrumMaster SM) {
         this.PO = PO;
         this.BO = BO;
@@ -43,14 +43,14 @@ public class ScrumTeam {
     public void removeDeveloper (int id) {
         developers.removeIf(p -> p.id == id);
     }
-    // generate toString
+    // Generate toString
     public String toString() {
         return "ScrumTeam{" +
                 "PO=" + PO +
                 ", BO=" + BO +
                 ", SM=" + SM +
-                ", number of testers=" + testers.size() +  // Add number of to testers and size.() after testers
-                ", number of developers=" + developers.size() +  // Add number of to developers and size.() after developers
+                ", number of testers=" + testers.size() +  // Add 'number of' to testers and '.size()' after testers
+                ", number of developers=" + developers.size() +  // Add 'number of' to developers and '.size()' after developers
                 '}';
     }
 }

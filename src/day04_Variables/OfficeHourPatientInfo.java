@@ -5,7 +5,7 @@ public class OfficeHourPatientInfo {
     public static void main(String[] args) {
 
        /*
-       Task02: Create a class named PatientInfo. declare the following variables:
+       Create a class named PatientInfo. Declare the following variables:
 
         1. name (String)
         2. age (int)
@@ -18,7 +18,6 @@ public class OfficeHourPatientInfo {
         9. Employer (String)
         10. copayWithInsurance (double)
         11. copayWithoutInsurance (double)
-
         */
 
         String name = "Marko Ludlow";
@@ -27,6 +26,11 @@ public class OfficeHourPatientInfo {
         String dateOfBirth = "24 April, 1994";
         boolean isMarried = false;
         String phoneNumber = "267 885 5542";
+        boolean hasInsurance = true;
+        int insuranceNumber = 4678591;
+        String employer = "WebMD";
+        double copayWithInsurance = 30;
+        double copayWithoutInsurance = 120;
 
     }
 }

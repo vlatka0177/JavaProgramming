@@ -1,8 +1,8 @@
 package day37_Inheritance.animalTask;
 
-public class Cat extends Animal {
+public class Cat extends Animal { // Cat IS AN animal.
 
-    // hover + create constructor matching super
+    // Generate a constructor
     public Cat(String name, String breed, char gender, int age, String size, String color) {
         super(name, breed, gender, age, size, color);
     }

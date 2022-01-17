@@ -6,7 +6,7 @@ public class InheritanceIntro {
     INHERITANCE (Is A Relation)
 
     - Used for creating an "is a" relationship among the classes (parent and child, super and sub)
-    - When an "is-a" relationship exists between objects, it means that the specialized object has all the
+    - When an "is a" relationship exists between objects, it means that the specialized object has all the
       characteristics of the general object
 
 
@@ -17,7 +17,6 @@ public class InheritanceIntro {
           CUSTOM CLASS                CUSTOM CLASS                        CUSTOM CLASS
           Dog                             Cat                                  Cow
           legs                            legs                                 legs
-
 
 
        CHILD/SUB CLASS AND PARENT/SUPER CLASS
@@ -39,7 +38,7 @@ public class InheritanceIntro {
         - All accessible variables and methods (depending on the access modifier)
 
         NOT INHERITED TO SUB CLASS
-        - Private variableS and methods
+        - Private variables and methods
         - Constructors, but child class MUST call one of the parent's class constructors, as long as it is visible
 
         Child/Sub Class extends Parent/Super Class

@@ -1,5 +1,10 @@
 package day37_Inheritance.scrumTask;
 
+    /*
+    name, gender, age, jobTitle, id, salary, companyName
+    work(), toString()
+    */
+
 public class Employee extends Person { // Employee Is A Person
 
     public String jobTitle;
@@ -7,7 +12,7 @@ public class Employee extends Person { // Employee Is A Person
     public double salary;
     public String companyName;
 
-    // generate constructor after Employee class 'extends Person'
+    // Generate constructor after Employee class 'extends Person'
     public Employee(String name, int age, char gender, String jobTitle, int id, double salary, String companyName) {
         super(name, age, gender);
         this.jobTitle = jobTitle;
@@ -20,7 +25,7 @@ public class Employee extends Person { // Employee Is A Person
         System.out.println(jobTitle + " " + name + " is working.");
     }
 
-    // generate toString() to include all instances
+    // Generate toString() to include all instances
     public String toString() {
         return "Employee{" +
                 "jobTitle='" + jobTitle + '\'' +

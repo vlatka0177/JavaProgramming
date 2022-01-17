@@ -55,7 +55,7 @@ public class PrimitivesIntro {
         float tax = 0.2613F;
         double PI = 0.26;
 
-// '#' char variable
+        // '#' char variable
         char ch1 = '#';
         System.out.println("ch1 = " + ch1);
 
@@ -64,6 +64,13 @@ public class PrimitivesIntro {
 
         char ch3 = 35000;
         System.out.println("ch3 = " + ch3);
+
+        char ch4 = 15000;
+        System.out.println("ch4 = " + ch4);
+
+        char gender = 'F';
+
+        char grade = 'A';
 
         char yesNo = 'Y';
         System.out.println("yesNo = " + yesNo);
@@ -81,6 +88,18 @@ public class PrimitivesIntro {
         String city = "North Potomac";
         String state = "Maryland";
         String country = "USA";
+
+        System.out.println("name = " + name);
+        System.out.println("city = " + city);
+        System.out.println("state = " + state);
+        System.out.println("country = " + country);
+
+        String first_name$ = "Vlatka";
+        System.out.println(first_name$);
+
+        int num1 =100;
+        int num2 = 200;
+
 
 
 

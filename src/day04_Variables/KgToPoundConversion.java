@@ -10,11 +10,9 @@ public class KgToPoundConversion {
 
         System.out.println("kg = " + kg);
         System.out.println("lb = " + lb);
-
-
     }
 }
-/*
-4. Create a class named KgToPounds, write a program that can convert kg (int) to pounds (double)
+    /*
+    4. Create a class named KgToPounds, write a program that can convert kg (int) to pounds (double)
                     Hints: 1 kg = 2.2 pounds
- */
+    */

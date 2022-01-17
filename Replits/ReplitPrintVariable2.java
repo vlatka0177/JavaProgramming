@@ -1,4 +1,4 @@
-package day04_Variables;
+package Replits;
 
 public class ReplitPrintVariable2 {
 

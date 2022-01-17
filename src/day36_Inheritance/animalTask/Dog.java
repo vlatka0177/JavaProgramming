@@ -11,10 +11,11 @@ public class Dog extends Animal { /* Inherit, rather than import Animal class
 
   Dog Child Class inherits from Animal Parent Class:
     - 6 variables
-    - 6 methods
+    - 6 methods + 1 own method
    */
 
-    public void bark() {
+    public void bark(){
         System.out.println(name + " is barking");
     }
+
 }

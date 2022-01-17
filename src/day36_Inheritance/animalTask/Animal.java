@@ -1,5 +1,11 @@
 package day36_Inheritance.animalTask;
 
+    /*
+    Animal:
+    name, breed, gender, size, age, color
+    setInfo(), eat(), drink(), move(), sleep(), toString()
+    */
+
 public class Animal {
 
     public String name, breed;

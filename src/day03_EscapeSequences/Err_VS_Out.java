@@ -7,7 +7,7 @@ public class Err_VS_Out {
 
         System.out.println("Hello World"); // sout + enter
 
-        System.out.println("-----------");
+        System.out.println("---------------------------------------");
 
         System.err.println("Hello World"); // serr + enter
         // Used for printing error messages. Prints in red color.

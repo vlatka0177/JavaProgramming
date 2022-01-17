@@ -1,4 +1,4 @@
-package day02_HelloWorld;
+package Replits;
 
 public class ReplitPrintSquare {
 

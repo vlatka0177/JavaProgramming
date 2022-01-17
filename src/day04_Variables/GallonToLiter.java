@@ -12,3 +12,9 @@ public class GallonToLiter {
 
     }
 }
+
+        /*
+        5. Create a class named GallonsToLitters, Write a program that can convert gallon (int) to litter (double)
+					Hints: 1 gallon = 3.79 litters
+        */
+

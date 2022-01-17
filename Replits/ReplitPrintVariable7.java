@@ -1,4 +1,4 @@
-package day03_EscapeSequences;
+package Replits;
 
 import java.util.Scanner;
 

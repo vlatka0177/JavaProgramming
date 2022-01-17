@@ -5,6 +5,7 @@ import java.nio.channels.IllegalBlockingModeException;
 public class EmployeeInfo {
 
     public static void main(String[] args) {
+
         String name = "Matt Anderson";
         int age = 50;
         char gender = 'F';
@@ -17,12 +18,16 @@ public class EmployeeInfo {
         String employeeID = "29574";
         String SSN = "719827863";
 
-        System.out.println("name = " + name);
+        System.out.println("name = " + name); // Shortcut: soutv
         System.out.println("age = " + age);
         System.out.println("gender = " + gender);
         System.out.println("company = " + company);
         System.out.println("jobTitle = " + jobTitle);
         System.out.println("yearsOfExperience = " + yearsOfExperience);
+        System.out.println("salary = " + salary);
+        System.out.println("isFullTime = " + isFullTime);
+        System.out.println("isMarried = " + isMarried);
+        System.out.println("employeeID = " + employeeID);
         System.out.println("SSN = " + SSN);
 
 

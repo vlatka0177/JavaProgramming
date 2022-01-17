@@ -12,11 +12,11 @@ public class Currency {
         double poundSterling = dollar * 0.73;
         double canadianDollar = dollar * 1.24;
 
-        System.out.println("lira = " + turkishLira);
-        System.out.println("euro = " + euro);
-        System.out.println("japaneseYen = " + japaneseYen);
-        System.out.println("poundSterling = " + poundSterling);
-        System.out.println("canadianDollar = " + canadianDollar);
+        System.out.println("Turkish lira = " + turkishLira);
+        System.out.println("Euro = " + euro);
+        System.out.println("Japanese Yen = " + japaneseYen);
+        System.out.println("Pound Sterling = " + poundSterling);
+        System.out.println("Canadian Dollar = " + canadianDollar);
 
     }
 }

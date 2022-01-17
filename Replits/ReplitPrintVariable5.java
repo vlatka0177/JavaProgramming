@@ -1,4 +1,4 @@
-package day04_Variables;
+package Replits;
 
 import java.util.Scanner;
 

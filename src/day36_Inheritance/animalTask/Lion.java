@@ -14,6 +14,4 @@ public class Lion extends Animal { // Lion is an Animal
     Lion now has
     - 6 variables from the Parent Class
     - 6 methods from the Parent Class + 2 own methods                           */
-
-
 }

@@ -1,7 +1,7 @@
 package day37_Inheritance.phoneTask;
 
 /*
-1.4 Create a sub class of Phone named Nokia:
+1.4 Create a subclass of Phone named Nokia:
                 Variables:
                     brand, model, size, price, color
                 Methods:
@@ -18,7 +18,7 @@ public class Nokia extends Phone {
     }
 
     public void selfDefense(){
-            System.out.println("You can use "+brand+" "+model+" as self defense tool");
+        System.out.println("You can use "+brand+" "+model+" as self defense tool");
         }
 
     }

@@ -4,6 +4,16 @@ public class PersonalInfo {
 
     public static void main(String[] args) {
 
+        /*
+        1. Create a class called PersonalInfo and print the following:
+                        name
+                        gender
+                        date of birth
+                        address
+                        phone number
+                        SSN
+        */
+
         System.out.println("Name: Vlatka");
         System.out.println("Gender: Female");
         System.out.println("Date Of Birth:  1/6/1965");
@@ -12,12 +22,3 @@ public class PersonalInfo {
         System.out.println("SSN: (***)-**-**59");
     }
 }
-/*
-1. Create a class called PersonalInfo and print followings:
-                        name
-                        gender
-                        date of birth
-                        address
-                        phone number
-                        SSN
- */

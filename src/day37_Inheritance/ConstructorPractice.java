@@ -2,9 +2,10 @@ package day37_Inheritance;
 
     class A{
 
-        public A(int a){
+        public A(int a) {
             System.out.println("A");
         }
+
     }
 
     class B extends A{
@@ -13,6 +14,7 @@ package day37_Inheritance;
             super(9);
             System.out.println("B");
         }
+
     }
 
     public class ConstructorPractice {
@@ -20,5 +22,7 @@ package day37_Inheritance;
         public static void main(String[] args) {
 
             B obj = new B();
+
         }
+
     }

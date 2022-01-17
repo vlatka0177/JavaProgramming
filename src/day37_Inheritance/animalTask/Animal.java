@@ -20,19 +20,15 @@ public class Animal {
     // If the constructor is not called, the default constructor will be called.
 
     public void eat() {
-
         System.out.println(name + " is eating.");
     }
     public void drink() {
-
         System.out.println(name + " is drinking.");
     }
     public void move() {
-
         System.out.println(name + " is moving.");
     }
     public void sleep() {
-
         System.out.println(name + " is sleeping.");
     }
 
