@@ -1,4 +1,4 @@
-package OfficeHours.day05_ArraysAssessment2;
+package OfficeHours.day05_Arrays_Assessment2;
 
 import java.util.Arrays;
 
@@ -9,9 +9,9 @@ public class MultipleWords {
         /*
          Task :  Write a program that accepts string and prints multiple words in the string
 
-       "knife, wooden spoons, plates, wine opener, cups, forks, rubbish bin";
+         "knife, wooden spoons, plates, wine opener, cups, forks, rubbish bin";
 
-        Output : wooden spoons
+         Output : wooden spoons
                  wine opener
                  rubbish bin
          */

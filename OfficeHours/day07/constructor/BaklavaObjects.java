@@ -12,7 +12,10 @@ public class BaklavaObjects {
         BaklavaRecipe br2 = new BaklavaRecipe("walnut", 3, 50.70);
         System.out.println(br2);
 
-        br1.feedback();
-        br1.order();
+        br1.feedback(); // public void feedback()
+        br2.feedback();
+        // br1.order();
+        BaklavaRecipe.order(); // public static void order()
+
     }
 }

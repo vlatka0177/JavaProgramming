@@ -7,7 +7,7 @@ public class HidePassword {
     public static void main(String[] args) {
 
        /*
-        Given an array of passwords (String), hide each password as a star (*) and show the hidden
+        Given an array of passwords (String), hide each password as a star (*) and show the hidden password
 
         Input: {"one, "hi", "hold"}
         Output: [ ***, **, **** ]                                                                */
@@ -16,11 +16,11 @@ public class HidePassword {
         ArrayList<String> hiddenPassword = new ArrayList<>();
 
         for (String each : password) {
-            // hiddenPassword.add(each); //Before static() is created: hiddenPassword arrayList adding each of string
-            hiddenPassword.add(convertToStar(each)); // After static() is created: add convertToStar
+
+            hiddenPassword.add(convertToStar(each));
         }
-        System.out.println(hiddenPassword); // Before convertToStar is added prints [one, hi, hold]
-                                            // [***, **, ****]
+        System.out.println(hiddenPassword); // [***, **, ****]
+
     }
 
     public static String convertToStar(String str) {

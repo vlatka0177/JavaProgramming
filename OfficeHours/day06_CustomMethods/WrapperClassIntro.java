@@ -2,6 +2,8 @@ package OfficeHours.day06_CustomMethods;
 
 public class WrapperClassIntro {
 
+    public String str = "anything";
+
     public static void main(String[] args) {
 
         String st = new String();
@@ -61,7 +63,7 @@ public class WrapperClassIntro {
         System.out.println("boolean value: " + boolvalue);
 
 
-        //  parseInt(),parseDouble() etc vs valueOf()
+        // parseInt(),parseDouble() etc vs valueOf()
         String str=new String();
 
         //Integer num=new Integer(300);
@@ -70,7 +72,7 @@ public class WrapperClassIntro {
         System.out.println("num2 : "+num2);
         System.out.println("num3 : " + num3);
 
-        // - WrapperClassMethods
+        // WrapperClassMethods
         System.out.println("=================");
         System.out.println(Integer.max(5, 4));
         System.out.println("Integer.min(5,4) = " + Integer.min(5, 4));

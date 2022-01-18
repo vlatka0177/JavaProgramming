@@ -15,6 +15,7 @@ public class MethodCallingSequence {
     }
 
     public static void deeper() {
+
         System.out.println("Deeper"); // Prints third
     }
 }

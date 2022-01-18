@@ -6,10 +6,15 @@ public class RotateLeft {
 
     public static void main(String[] args) {
 
+        /*
+        Move the first two characters of the string to the end of the string
+        Input: hello   Output: lloHe
+        Input: java    Output: vaja
+        */
+
+
         Scanner input = new Scanner (System.in);
-
         System.out.println("Enter a word: ");
-
         String word = input.next();
 
         // Substring Solution

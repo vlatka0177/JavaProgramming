@@ -1,8 +1,10 @@
 package AvengersPractice.day01;
 
-public class StringResult2 {
+public class StringExample2 {
 
     public static void main(String[] args) {
+
+        // Create a new string made of the three copies of the last 2 chars in the original string.
 
         // index      01234
         String str = "Cydeo";  // String length: 5

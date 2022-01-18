@@ -11,12 +11,14 @@ public class CustomMethodsVoidAndReturn {
 
     // VOID METHOD
     public static void sum(int a, int b){
+
         System.out.println(a + b); // 9
     }
 
     // RETURN METHOD
     public static int sum1(int a, int b){
-        return a+b;
+
+        return a + b;
     }
 
 

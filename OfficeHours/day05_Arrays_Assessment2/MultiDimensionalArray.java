@@ -1,4 +1,4 @@
-package OfficeHours.day05_ArraysAssessment2;
+package OfficeHours.day05_Arrays_Assessment2;
 
 import java.util.Arrays;
 
@@ -12,7 +12,7 @@ public class MultiDimensionalArray {
 
         String[] scrum3 = {"Ana", "Caroline", "David"};
 
-        String [][] scrumTeams = {{"Nina", "Tom", "Alex", "Trevor"}, {"Tony", "Silvana"}, {"Ana", "Caroline", "David"}};
+        String[][] scrumTeams = {{"Nina", "Tom", "Alex", "Trevor"}, {"Tony", "Silvana"}, {"Ana", "Caroline", "David"}};
 
         System.out.println(Arrays.deepToString(scrumTeams)); // deepToString
         // [[Nina, Tom, Alex, Trevor], [Tony, Silvana], [Ana, Caroline, David]]
@@ -21,8 +21,9 @@ public class MultiDimensionalArray {
 
         for (String[] eachScrum : scrumTeams) {
             System.out.println(Arrays.toString(eachScrum));
+        }  /* [Nina, Tom, Alex, Trevor]
+              [Tony, Silvana]
+              [Ana, Caroline, David] */
 
-
-        }
     }
 }

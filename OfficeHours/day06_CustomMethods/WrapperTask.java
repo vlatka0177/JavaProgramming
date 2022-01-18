@@ -17,7 +17,7 @@ public class WrapperTask {
                 result += " "; // add it in result
             }
             if (Character.isAlphabetic(str.charAt(i))) {
-                result += str.charAt(i); // added to String result
+                result += str.charAt(i); // add to String result
             }
         }
         System.out.println(result.trim()); // Welcome To Core Java

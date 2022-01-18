@@ -7,6 +7,7 @@ public class BaklavaRecipe {
     public double price;
 
     public BaklavaRecipe(String type) {
+
         this.type = type;
     }
 
@@ -16,15 +17,25 @@ public class BaklavaRecipe {
     }
 
     public BaklavaRecipe(String type, int amountLB, double price) {
-        this(type);
+        this(type, amountLB);
         this.price = price;
     }
 
     public void feedback() {
+
         System.out.println("Please write a feedback for our desserts.");
     }
 
     public static void order() {
+
         System.out.println("Please give your order at least three days in advance.");
     }
+
+        public String toString() {
+            return "BaklavaRecipe{" +
+                    "type='" + type + '\'' +
+                    ", amountLB=" + amountLB +
+                    ", price=" + price +
+                    '}';
+        }
 }

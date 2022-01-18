@@ -21,6 +21,8 @@ public class StaticBlock {
     }
 
     public StaticBlock(int value) {
-        System.out.println("One parameter");
+
+        System.out.println("One parameter constructor");
+        num += value;
     }
 }

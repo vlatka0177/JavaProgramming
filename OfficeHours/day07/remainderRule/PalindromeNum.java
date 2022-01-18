@@ -8,6 +8,8 @@ public class PalindromeNum {
     }
 
     public static boolean isPalNum(int num) {
+        // To get the most right number, 'num % 10'
+        // To remove the most right number, 'num / 10'
 
         int copyOfOriginal = num; // copyOfOriginal: 545
         int reversedNumber = 0; // reversedNumber: 545
@@ -21,5 +23,6 @@ public class PalindromeNum {
             num = num / 10; // num: 54, then num: 5
         }
         return reversedNumber == copyOfOriginal;
+        // If the reversed and original version are equal, it is a palindrome.
     }
 }

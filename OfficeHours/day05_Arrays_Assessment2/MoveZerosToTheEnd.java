@@ -1,4 +1,4 @@
-package OfficeHours.day05_ArraysAssessment2;
+package OfficeHours.day05_Arrays_Assessment2;
 
 import java.util.Arrays;
 
@@ -17,7 +17,7 @@ public class MoveZerosToTheEnd {
 
         int [] array = {10, 0, 5, 0, 1, 0};
 
-        int [] result = new int [array.length]; // {0, 0, 0, 0, 0, 0} result [10, 0, 0, 0, 0, 0]
+        int [] result = new int [array.length]; // {0, 0, 0, 0, 0, 0}
 
         int i = 0;
         for (int each : array) {

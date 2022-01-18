@@ -8,8 +8,7 @@ public class StaticBlockObject {
        System.out.println(sb.num);
 
        StaticBlock sb1 = new StaticBlock(40);
-
-
+       System.out.println(sb1.num);
 
     }
 }
