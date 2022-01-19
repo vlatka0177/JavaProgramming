@@ -5,7 +5,7 @@ public class Q12 {
     public static void main(String[] args) {
 
         System.out.println(method6("mark")); // [I@3f0ee7cb (hashcode)
-                                                 // toString
+                                                 // toString is missing to print
     }
 
     public static int[] method6(String str) {

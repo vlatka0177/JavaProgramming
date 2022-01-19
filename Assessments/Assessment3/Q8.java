@@ -18,7 +18,7 @@ public class Q8 {
         if(a.length() > s.length()) {
             System.out.print(a);
         } else {
-            System.out.println(s);
+            System.out.println(s); // The sun set quickly and created a shadow.
         }
     }
 
@@ -29,7 +29,7 @@ public class Q8 {
         if(a.length() > str.length()) {
             System.out.print(str);
         } else {
-            System.out.println(a);
+            System.out.println(a);  // t quickly and created a shadow.
         }
     }
 }

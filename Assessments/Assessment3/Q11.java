@@ -17,7 +17,7 @@ public class Q11 {
         }
         check = str.substring(0, 1).equals("a") ? check : false;
 
-        return check;
+        return check; // boolean check = true, so the answer is true
     }
 
     public static void main(String[] args) {

@@ -21,7 +21,7 @@ public class Q14 {
             if(n % 4 == 0) { // 8 % 4 == 0 && 20 % 4 == 0
                 continue; // skip
             }
-            System.out.println(n);
+            System.out.println(n); // 7314
         }
     }
 }
