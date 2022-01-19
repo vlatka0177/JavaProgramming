@@ -17,6 +17,5 @@ public class PassedOrFailed {
         This is more efficient than having two Single If statements.
          */
 
-
     }
 }

@@ -19,18 +19,18 @@ public class SwapTwoNumbers_WithoutTempVariable {
 
         System.out.println("-----------------------------------------------------------");
 
-        int i = 20;
-        int j = 30;
+        int c = 20;
+        int e = 30;
 
-        System.out.println("i = " + i);
-        System.out.println("j = " + j);
+        System.out.println("c = " + c);
+        System.out.println("e = " + e);
 
-        i = i + j; // 20 + 30 = 50
-        j = i - j; // 50 - 30 = 20
-        i = i - j; // 50 - 20 = 30
+        c = c + e; // 20 + 30 = 50
+        e = c - e; // 50 - 30 = 20
+        c = c - e; // 50 - 20 = 30
 
-        System.out.println("i = " + i);
-        System.out.println("j = " + j);
+        System.out.println("c = " + c);
+        System.out.println("e = " + e);
 
     }
 }

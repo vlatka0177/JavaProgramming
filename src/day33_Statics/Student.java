@@ -35,6 +35,7 @@ public class Student {
     public char grade;
 
     public Student(String name){  // right click + generate + constructor + highlight only name + OK
+
         this.name = name;
     }
 

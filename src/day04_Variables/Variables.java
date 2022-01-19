@@ -1,6 +1,6 @@
-package day08_IfStatement;
+package day04_Variables;
 
-public class VariablesConcatenationOperators {
+public class Variables {
 
     public static void main(String[] args) {
 
@@ -20,14 +20,14 @@ public class VariablesConcatenationOperators {
 
             String: String of text, " "
 
-            Variable names:
+         Variable names:
             CamelCase
             cannot start with a number, but can contain a number
             unique
             no special characters except _ and $
             no Java reserved words (public, static, main...)
 
-            Concatenation: Concating any value (any data type), +
+         Concatenation: Concating any value (any data type), +
              */
 
     }

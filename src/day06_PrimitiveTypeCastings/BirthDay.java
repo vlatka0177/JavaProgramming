@@ -14,7 +14,7 @@ public class BirthDay {
         System.out.println(name + " was born on " + birthMonth + "/" + birthDay + "/" + birthYear + ".");
 
         System.out.println("\n");
-//My favorite book is "bookName".
+        //My favorite book is "bookName".
         String bookName = "My favorite book is \"The Prophet\"";
         System.out.println(bookName);
 

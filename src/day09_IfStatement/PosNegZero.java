@@ -24,6 +24,8 @@ public class PosNegZero {
             System.out.println("Zero");
         }
 
+        System.out.println("-----------------------------------------------------------------");
+
         /*
         Multi-branch If Statements
         Once the condition is true, Java Compiler skips executing other code blocks.
@@ -40,5 +42,21 @@ public class PosNegZero {
         }else{
             System.out.println("Zero");
         }
+
+        System.out.println("---------------------------------------------------------------------");
+
+        if(positive){
+            System.out.println("Positive");
+        }
+
+        if(negative){
+            System.out.println("Negative");
+        }else{
+            System.out.println("Zero");
+        }
+
+        // If...Else statements can NEVER be applied for tasks that require more than two conditions.
+
+
     }
 }

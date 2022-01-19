@@ -46,8 +46,6 @@ public class GradeReport {
         if(f){                                  // if the student made an f
             System.out.println("Fail");
         }
-
-
     }
 }
 

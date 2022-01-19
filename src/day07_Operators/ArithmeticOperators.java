@@ -46,8 +46,9 @@ public class ArithmeticOperators {
         System.out.println(num1 + " divided by " + num2 + " is equal to " + division + " with a remainder of " + remainder + ".");
 
         // What is the remainder of 25 divided by 4
-
         System.out.println(25 % 4);
+
+        // What is the remainder of 25 divided by 5
         System.out.println(25 % 5);
 
 

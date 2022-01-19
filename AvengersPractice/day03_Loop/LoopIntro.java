@@ -7,7 +7,7 @@ public class LoopIntro {
        /*
         For Loop
         initialization int i = 0
-        test i < 100
+        test i <= 50
         increment i++
         */
 
@@ -35,7 +35,7 @@ public class LoopIntro {
 
         // Print odd numbers from 1 to 100.
 
-        for (int k = 1; k <= 100; k++) {
+        for (int k = 1; k <= 100; k+=2) {
 
             System.out.print(k + " ");
         }

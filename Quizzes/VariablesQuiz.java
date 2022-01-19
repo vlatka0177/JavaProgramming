@@ -1,6 +1,6 @@
-package day08_IfStatement;
+package Quizzes;
 
-public class Test01Variables {
+public class VariablesQuiz {
 
     public static void main(String[] args) {
 
@@ -47,13 +47,6 @@ public class Test01Variables {
         // fvar = dvar; does not compute
         dvar = ivar;
         // ivar = dvar; does not compute
-
-
-
-
-
-
-
 
 
     }

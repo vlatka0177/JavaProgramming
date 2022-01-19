@@ -19,18 +19,22 @@ public class SimpleMethodCreation {
     }
 
     private static int divide(int i, int i1) {
+
         return i / i1;
     }
 
     private static int multiply(int i, int i1) {
+
         return i * i1;
     }
 
     private static int subtract(int i, int i1) {
+
         return i - i1;
     }
 
     private static int add(int i, int i1) {
+
         return i + i1;
     }
 }

@@ -13,21 +13,25 @@ public class Calculator {
 
     // Implementation of add method
     public static int add (int num1, int num2) {
+
         return num1 + num2;
     }
 
     // Implementation of subtract method
     public static int subtract (int num1, int num2) {
+
         return num1 - num2;
     }
 
     // Implementation of multiply method
     public static int multiply (int num1, int num2) {
+
         return num1 * num2;
     }
 
     // Implementation of divide method
     public static int divide (int num1, int num2) {
+
         return num1 / num2;
     }
 

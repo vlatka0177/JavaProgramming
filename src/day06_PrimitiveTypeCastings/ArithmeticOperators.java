@@ -33,15 +33,15 @@ public class ArithmeticOperators {
         System.out.println(10d / 4); // 2.5
 
         int a = 100;
-        double b = a/6; // 16.0
+        double b = a/6;
 
-        System.out.println(b);
+        System.out.println(b); // 16.0
 
         double c = a/6.0; /* 16.66666
         OR
         double c = (double)a/6; 16.66666  */
 
-        System.out.println(c);
+        System.out.println(c); // 16.666666666666668/
 
 
     }

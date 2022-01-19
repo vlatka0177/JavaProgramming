@@ -24,8 +24,8 @@ public class NumberOfDays {
         }
 
         if(has31Days){                      // If the month has 31 days
-            System.out.println("31 days");
-        }                                   // True. Gets executed. Output.
+            System.out.println("31 days"); // 31 days
+        }
 
     }
 }

@@ -26,6 +26,14 @@ public class EvenlyDivisible {
         System.out.println(number + " is divisible by 3: " + divisibleBy3);
         System.out.println(number + " is divisible by 5: " + divisibleBy5);
 
+        System.out.println("---------------------------------------");
+
+        int year = 2000;
+
+        boolean isLeapYear =  year % 4 == 0;
+
+        System.out.println(year + " is leap year: " + isLeapYear);
+
     }
 
 }
