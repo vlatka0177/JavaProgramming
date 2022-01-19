@@ -26,13 +26,15 @@ public class TernariesIntro {
             System.out.println("Odd");  // String
         }
 
-        /* Ternary can only be used when every block is returning the same data type. */
-
         System.out.println("----------------------------------------------------------");
+
+        // Ternary can only be used when every block is returning the same data type.
 
         String result1 = (n%2 == 0)? "Even" : "Odd";
 
         System.out.println(result1);
+
+        System.out.println("-----------------------------------------------------------");
 
         int age = 23;
 
@@ -56,7 +58,7 @@ public class TernariesIntro {
         String result2 = (age >= 21)? "Eligible" : "Not Eligible";
         System.out.println(result2);
 
-        System.out.println("---------------------------------------------");
+        System.out.println("------------------------------------------------------------------");
 
         int number = 100;
 
@@ -69,6 +71,10 @@ public class TernariesIntro {
             System.out.println("Zero");
         }
          */
+
+        String result3   = (number>0)? "Positive" :(number <0)? "Negative" : "Zero"  ;
+
+        System.out.println(result3);
 
     }
 }

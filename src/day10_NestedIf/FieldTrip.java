@@ -7,7 +7,8 @@ public class FieldTrip {
     public static void main(String[] args) {
 
       /*
-      8. Create a class called FieldTrip. Your school goes on a Field trip each year.
+      8. Create a class called FieldTrip.
+      Your school goes on a Field trip each year.
       The place you go will be based on your grade.
       Given a variable gradeNumber (1-6) figure out the details of your field trip.
       Print the information at the end.
@@ -46,13 +47,13 @@ public class FieldTrip {
        */
 
         Scanner scan = new Scanner(System.in);
-
         int gradeNumber = scan.nextInt();
         String location = " ";
         int numberOfGroups = 0;
         String teacherInCharge = " ";
 
         if(gradeNumber >= 1 && gradeNumber <= 6) {
+
             if (gradeNumber == 1){
                 location = "Apple orchard";
                 numberOfGroups = 3;
