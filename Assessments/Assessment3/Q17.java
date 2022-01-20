@@ -32,8 +32,8 @@ public class Q17 {
         return s.length(); // four s.length 4
     }
 
-    public static int action(boolean b) { // true, false
-        if(!b) {
+    public static int action(boolean b) { // true
+        if(!b) { // b is not true, so it is false
             return 5;
         } else {
             return 10; // 10

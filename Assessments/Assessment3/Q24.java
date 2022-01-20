@@ -18,9 +18,9 @@ public class Q24 {
                 continue; // skip when iteration is 2 (2), 5 (73), 9 (7)
             }
             if(numbers.get(i) == 2 || numbers.get(i) % 3 == 0) { // if number at index i is 2 OR divisible by 3
-                s += "1";                            // index 0 is 2, so we add 1
+                s += "1";                                  // index 0 is 2, so we add 1
             } else {
-                s += "0"; // 97
+                s += "0"; // 97, so add 0
             }
         }
         System.out.println(s); // 1000111
