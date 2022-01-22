@@ -16,7 +16,7 @@ public class GradeCalculator {
         ArrayList<Integer> gradeOfC = new ArrayList<>(); // 70 ~ 79
         ArrayList<Integer> gradeOfD = new ArrayList<>(); // 60 ~ 69
         ArrayList<Integer> gradeOfF = new ArrayList<>(); // 0 ~ 59
-        Write a program that can count the total numbers of grade A, B, C, D and F
+        Write A program that can count the total numbers of grade A, B, C, D and F
         */
 
         ArrayList<Integer> scores = new ArrayList<>();

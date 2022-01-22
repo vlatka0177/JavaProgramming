@@ -1,7 +1,7 @@
 package day37_Inheritance.phoneTask;
 
 /*
-Create a subclass of Phone named Samsung:
+Create A subclass of Phone named Samsung:
                 Variables:
                     brand, model, size, price, color
                 Methods:

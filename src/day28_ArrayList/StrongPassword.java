@@ -5,12 +5,12 @@ public class StrongPassword {
     public static void main(String[] args) {
 
         /*
-    1.Write a program that can verify if a password is a strong password. Characteristics of strong passwords are:
+    1.Write A program that can verify if A password is A strong password. Characteristics of strong passwords are:
         1.1 Password must be at least have 8 characters long, and should not contain space
         1.2 PassWord should at least contain one upper case letter
         1.3 PassWord should at least contain one lower case letter
         1.4 Password should at least contain one special characters
-        1.5 Password should at least contain a digit
+        1.5 Password should at least contain A digit
      */
 
         String password = "Cydeo1990@";
@@ -24,7 +24,7 @@ public class StrongPassword {
         char[] chars = password.toCharArray(); // Convert String characters to Array (data structure).
 
         for (char each : chars) {
-            /* Create a loop. For Each Loop requires a data structure. Accesses each character of the array.
+            /* Create A loop. For Each Loop requires A data structure. Accesses each character of the array.
                The loop executes for each character of the password to check if it is an upper case, lower case, digit
                or special character.
                Boolean variable remains false if the conditions are not met. */

@@ -17,7 +17,7 @@ public class CustomClassIntro {
      /*
      INSTANCE VARIABLE
                 - BELONGS to an OBJECT
-                - Created in a class, but outside any method type
+                - Created in A class, but outside any method type
                 - Attributes of Objects
                 - Initialization is not mandatory
                 - Accessed via Objects
@@ -30,12 +30,12 @@ public class CustomClassIntro {
 
     /*
      STATIC VARIABLE
-                   - BELONGS to a CLASS
+                   - BELONGS to A CLASS
                    - Refers to the common property of all objects
-                   - A single copy of a class' static variable is shared by all objects of the class
+                   - A single copy of A class' static variable is shared by all objects of the class
                    - Initialization is not mandatory
                    - Accessed via ClassName.staticVariable
-                   - if the value of a static variable changes, it affects all Objects
+                   - if the value of A static variable changes, it affects all Objects
                                Car c = new Car();
                                Car.staticVariable = "BMW";
                                Car c1 = new Car();
@@ -68,9 +68,9 @@ public class CustomClassIntro {
 
             /*
          LOCAL VARIABLE
-                        - BELONGS to a METHOD
-                        - Defined inside a method
-                        - Exists only when related to a method
+                        - BELONGS to A METHOD
+                        - Defined inside A method
+                        - Exists only when related to A method
                         - Can not use access modifier for local variables
              */
         }

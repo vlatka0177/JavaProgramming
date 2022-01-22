@@ -6,7 +6,7 @@ public class IfStatementsIntro {
 
         /*
         1. Single If Statement
-        Checks a single condition.
+        Checks A single condition.
         If the condition evaluates to true, any statements in the subsequent code block
         are executed.
 
@@ -15,7 +15,7 @@ public class IfStatementsIntro {
         }
 
         2. If...Else Statement
-        Checks a condition when there are only two options/possibilities.
+        Checks A condition when there are only two options/possibilities.
 
         if(Condition){
             StatementA
@@ -34,7 +34,7 @@ public class IfStatementsIntro {
 
         3. Multi-branch If Statement
         Nested to create an else if clause.
-        Used to make a decision among more than two alternatives.
+        Used to make A decision among more than two alternatives.
 
         if(Condition1){
             Statements
@@ -58,7 +58,7 @@ public class IfStatementsIntro {
         multiple conditions ===> Multi-branch Statement
 
         4. Nested If Statement
-        Used for creating a pre-condition.
+        Used for creating A pre-condition.
         It is used if one condition can be evaluated to several alternatives.
 
          if(Condition){

@@ -5,7 +5,7 @@ public class FrequencyOfWord {
     public static void main(String[] args) {
 
         /*
-        4. Write a program that can return the frequency of the word Java from the sentence
+        4. Write A program that can return the frequency of the word Java from the sentence
            Ex:
            Input: sentence = "JavaJavaJava";
            Output:3

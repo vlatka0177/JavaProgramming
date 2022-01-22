@@ -22,7 +22,7 @@ public class Variables_Practice {
 }
 
 /*
-1. create a class called Variables_Practice & declare the following variables:
+1. create A class called Variables_Practice & declare the following variables:
                             num1 = 100;
                             num2 = 10000;
                             num3 = 3.5;
@@ -33,8 +33,8 @@ public class Variables_Practice {
                 print each of the variables above on the console
 
                 String v. Primitives
-                "123" is a text -> "123" + 1 = "1234"
-                123 is a number -> 123 + 1 = 124
+                "123" is A text -> "123" + 1 = "1234"
+                123 is A number -> 123 + 1 = 124
 
                 9999999999999 is int
                 9999999999999L is long

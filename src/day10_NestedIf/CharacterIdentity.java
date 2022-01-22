@@ -5,9 +5,9 @@ public class CharacterIdentity {
     public static void main(String[] args) {
 
         /*
-        4. Create a class called Character Identity.
-        Write a program that can identify if the given character is a digit or Alphabetic Character(A~Z or a~Z)
-        or a special character
+        4. Create A class called Character Identity.
+        Write A program that can identify if the given character is A digit or Alphabetic Character(A~Z or A~Z)
+        or A special character
 		Input:
 			ch = '@'
 		Output:

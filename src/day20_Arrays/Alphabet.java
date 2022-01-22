@@ -6,11 +6,11 @@ public class Alphabet {
 
     public static void main(String[] args) {
 
-        // Create a variable that can contain 26 characters in separate indexes in the array.
+        // Create A variable that can contain 26 characters in separate indexes in the array.
 
         char[] alphabets = new char[26]; // Mandatory to set the length. Z ~ A
 
-        /* Solution without a loop:
+        /* Solution without A loop:
                   i    ch   ASCII Table
         alphabets[0] = 'Z'; // 90
         alphabets[1] = 'Y'; // 89

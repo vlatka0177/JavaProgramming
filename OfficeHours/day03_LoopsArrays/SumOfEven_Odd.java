@@ -4,7 +4,7 @@ public class SumOfEven_Odd {
 
     public static void main(String[] args) {
 
-        // Write a program using while loop that calculates the sum of even numbers between 0 and 10.
+        // Write A program using while loop that calculates the sum of even numbers between 0 and 10.
 
             int sumOfEven = 0;
             int sumOfOdd = 0;

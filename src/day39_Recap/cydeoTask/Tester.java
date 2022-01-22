@@ -1,7 +1,7 @@
 package day39_Recap.cydeoTask;
 
        /*
-        3. Create a subclass of Employee named Tester
+        3. Create A subclass of Employee named Tester
         Override the work method
         Extra methods:
         createTicket()

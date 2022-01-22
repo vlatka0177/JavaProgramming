@@ -12,17 +12,17 @@ public class Variables {
 
         DataTypes:
             int: for integer numbers
-                 int a = 'A' Getting the number that is representing character A on ASCI Table.
+                 int A = 'A' Getting the number that is representing character A on ASCI Table.
                  Preferable to use char and not int in this case
             double: for decimal numbers
-            char: for single characters, ' ', every single character has a number assigned to them
+            char: for single characters, ' ', every single character has A number assigned to them
             boolean: true/false
 
             String: String of text, " "
 
          Variable names:
             CamelCase
-            cannot start with a number, but can contain a number
+            cannot start with A number, but can contain A number
             unique
             no special characters except _ and $
             no Java reserved words (public, static, main...)

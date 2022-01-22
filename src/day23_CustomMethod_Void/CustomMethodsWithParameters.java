@@ -14,7 +14,7 @@ public class CustomMethodsWithParameters {
 
     }
 
-    // Create a function that can check if a number is an odd number or an even number.
+    // Create A function that can check if A number is an odd number or an even number.
 
     public static void oddOrEven(int number){  //10
 
@@ -25,7 +25,7 @@ public class CustomMethodsWithParameters {
         }
     }
 
-    // Create a function that can display the age of a person.
+    // Create A function that can display the age of A person.
 
     public static void ageOfPerson(int birthYear){
 
@@ -34,7 +34,7 @@ public class CustomMethodsWithParameters {
         System.out.println("Your age is: " + age);
     }
      //                                                        10    50
-    // Create a function that can print all the numbers between X and Y.
+    // Create A function that can print all the numbers between X and Y.
 
     public static void printNumbers(int x, int y){
 

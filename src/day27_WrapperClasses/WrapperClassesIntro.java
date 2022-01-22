@@ -10,17 +10,17 @@ public class WrapperClassesIntro {
         - Dedicated classes of eight primitives
         - Presented in "java.lang" package
         - Used to "wrap" the primitive data type into an object of that class
-          - Object is an instance of a class.
+          - Object is an instance of A class.
         - Data structures:
           - Array: supports primitives and non primitives
           - Collection: ONLY supports non-primitives
           - Map: ONLY supports non-primitives
-        - Provide the mechanism to convert primitives into an object and object into a primitive
+        - Provide the mechanism to convert primitives into an object and object into A primitive
 
         Autoboxing v Unboxing
 
-        - Autoboxing converts a primitive into a wrapper class object
-        - Unboxing converts a wrapper class object into a primitive
+        - Autoboxing converts A primitive into A wrapper class object
+        - Unboxing converts A wrapper class object into A primitive
 
         Primitives                 Wrapper Classes
         byte ==================>   Byte

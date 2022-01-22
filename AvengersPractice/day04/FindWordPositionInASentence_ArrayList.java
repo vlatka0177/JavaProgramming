@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class FindWordPositionInASentence_ArrayList {
 
     /*
-    Find the position (number) of the given word in a sentence.
+    Find the position (number) of the given word in A sentence.
     Do not use indexOf() method                    */
 
     public static void main(String[] args) {

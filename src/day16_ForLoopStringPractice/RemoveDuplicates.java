@@ -5,7 +5,7 @@ public class RemoveDuplicates {
     public static void main(String[] args) {
 
           /*
-        1. Write a program that can remove the duplicated characters from a String
+        1. Write A program that can remove the duplicated characters from A String
             Ex:
                 input:
                     AABBCCBC
@@ -31,13 +31,13 @@ public class RemoveDuplicates {
             // System.out.println(ch)    Not needed. Shows that each character is represented.
 
             if (!result.contains(ch)) {
-                /* if the result does not contain a character, the character is added to the string variable.
-                First execution: if the result does not contain a, a is added to the string variable result.
-                Second execution: the string variable result already has a character a. Condition false.
-                Third execution: if the result does not contain b, b is added to the string variable result.
-                Fourth execution: the string variable result already has a character b. Condition false.
+                /* if the result does not contain A character, the character is added to the string variable.
+                First execution: if the result does not contain A, A is added to the string variable result.
+                Second execution: the string variable result already has A character A. Condition false.
+                Third execution: if the result does not contain B, B is added to the string variable result.
+                Fourth execution: the string variable result already has A character B. Condition false.
                 Fifth execution: if the result does not contain c, c is added to the string variable result.
-                Sixth execution: the string variable result already has a character c. Condition false.
+                Sixth execution: the string variable result already has A character c. Condition false.
                 */
                 result += ch;
             }

@@ -8,13 +8,13 @@ public class AddElementsToArray {
 
         /*
      Task2:
-     1. Create a return method called addInteger that can add an Integer after the  last index of an integer array
+     1. Create A return method called addInteger that can add an Integer after the  last index of an integer array
 
-     2. Create a return method called addDouble that can add a double after the last index of a double array
+     2. Create A return method called addDouble that can add A double after the last index of A double array
 
-     3. Create a return method called addString that can add a String after the last index of a String array
+     3. Create A return method called addString that can add A String after the last index of A String array
 
-     4. Create a return method called addChar that can add a char after last index of a char array
+     4. Create A return method called addChar that can add A char after last index of A char array
       */
 
 
@@ -51,7 +51,7 @@ public class AddElementsToArray {
 
     }
 
-    // 1. Create a return method called addInteger that can add an Integer after the  last index of an integer array
+    // 1. Create A return method called addInteger that can add an Integer after the  last index of an integer array
     public static int[] addInteger(int[] array, int element){
 
         int[] result = new int[array.length + 1];
@@ -67,7 +67,7 @@ public class AddElementsToArray {
     }
 
 
-    // 2. Create a return method called addDouble that can add a double after the last index of a double array
+    // 2. Create A return method called addDouble that can add A double after the last index of A double array
     public static double[] addDouble(double[] array, double element){
 
         double[] result = new double[array.length + 1];
@@ -88,7 +88,7 @@ public class AddElementsToArray {
     /* Copy, paste, and highlight the box to be replaced. Command + r. Top left pop up box: element to be replaced,
      underneath box: element that replaces, press Replace All, exit x top right */
 
-    // 3. create a return method called addString that can add a String after the last index of a String array
+    // 3. create A return method called addString that can add A String after the last index of A String array
        public static String[] addString(String[] array, String element){
 
            String[] result = new String[array.length + 1];
@@ -105,7 +105,7 @@ public class AddElementsToArray {
    }
 
 
-    //4. create a return method called addChar that can add a char after last index of a char array
+    //4. create A return method called addChar that can add A char after last index of A char array
     public static char[] addChar(char[] array, char element){
 
            char[] result = new char[array.length + 1];

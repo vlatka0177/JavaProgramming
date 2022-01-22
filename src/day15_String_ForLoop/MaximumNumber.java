@@ -13,7 +13,7 @@ public class MaximumNumber {
         Any user entered number will be greater than -2147483648.           */
 
         for(int i = 0; i < 5; i++){
-            System.out.println("Enter a number:");
+            System.out.println("Enter A number:");
             int num = scan.nextInt();                                                  /*
             The loop is executed 5 times. If the user enters 1, 2, 3, 4, 5:
             After the first execution of the loop, 1 is assigned to the variable max.
@@ -28,7 +28,7 @@ public class MaximumNumber {
         }
 
         /*
-        Write a program that asks the user to enter a number for 5 times.
+        Write A program that asks the user to enter A number for 5 times.
         Return the maximum number.
          */
     }

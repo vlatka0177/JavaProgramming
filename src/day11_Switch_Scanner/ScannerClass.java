@@ -12,7 +12,7 @@ public class ScannerClass {
 
         int num1 = input.nextInt();
 
-        System.out.println("Enter a decimal: ");
+        System.out.println("Enter A decimal: ");
 
         double num2 = input.nextDouble();
 
@@ -37,16 +37,16 @@ public class ScannerClass {
 
         Scanner Methods decide what input the user has to provide.
 
-        nextByte()          Returns input as a byte
-        nextShort()         Returns input as a short
+        nextByte()          Returns input as A byte
+        nextShort()         Returns input as A short
         nextInt()           Returns input as an integer
-        nextLong()          Returns input as a long
-        nextFloat()         Returns input as a float
-        nextDouble()        Returns input as a double
-        next Boolean()      Returns input as a Boolean
-        next()              Returns input as a String.
-                            Reads the input only until a space.
-        nextLine()          Returns input as a String.
+        nextLong()          Returns input as A long
+        nextFloat()         Returns input as A float
+        nextDouble()        Returns input as A double
+        next Boolean()      Returns input as A Boolean
+        next()              Returns input as A String.
+                            Reads the input only until A space.
+        nextLine()          Returns input as A String.
                             Reads the entire input until the new line (press enter).
 
          */

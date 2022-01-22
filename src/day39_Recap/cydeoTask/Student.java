@@ -1,11 +1,11 @@
 package day39_Recap.cydeoTask;
 
 /*
-6. Create a subclass of Person named Student
+6. Create A subclass of Person named Student
     Extra variables:
                 studentId, fieldOfStudy
     Encapsulate all the fields
-    Add a constructor to set all the fields
+    Add A constructor to set all the fields
     Methods:
                 study()
  */

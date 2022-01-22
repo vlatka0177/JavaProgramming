@@ -7,8 +7,8 @@ public class ForEachLoopIntro {
         /*
         For Each Loop
         - Iteration times and orders are fixed.
-        - There must be a data structure (Array, Collection, Map) to use For Each Loop.
-        - Used to access each successive value of a data structure, starting with the first element.
+        - There must be A data structure (Array, Collection, Map) to use For Each Loop.
+        - Used to access each successive value of A data structure, starting with the first element.
         - Does not have index numbers.
 
             |

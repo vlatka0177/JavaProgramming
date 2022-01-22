@@ -53,7 +53,7 @@ public class MyInfo {
         Answers to practice tasks are on Github.
         Replit answers are on Canvas. 30 min per task max.
 
-        1. Create a class called MyInfo. Write a program that can ask the user to:
+        1. Create A class called MyInfo. Write A program that can ask the user to:
 
         Analyse the data first and assign an appropriate method.
         Then, import the scanner.

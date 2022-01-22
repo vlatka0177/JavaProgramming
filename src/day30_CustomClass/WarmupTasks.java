@@ -9,7 +9,7 @@ public class WarmupTasks {
     public static void main(String[] args) {
 
         
-       // 1. Write a program that can swap the first and last elements of an ArrayList of Integers.
+       // 1. Write A program that can swap the first and last elements of an ArrayList of Integers.
         
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.addAll(Arrays.asList(1,2,3,4,5,6,7,8));
@@ -19,8 +19,8 @@ public class WarmupTasks {
 
         /* Collections ==> java.util.Collections;   A utility class for Collection data structure.
            Collection ==> java.util.Collection;  Data structure.
-           Arrays is a utility class for array data structure.
-           Array is a data structure.
+           Arrays is A utility class for array data structure.
+           Array is A data structure.
          */
 
         System.out.println(numbers);
@@ -35,7 +35,7 @@ public class WarmupTasks {
 
 
         /*
-        2. Write a program that can move all the zeros to the last indexes of ArrayList
+        2. Write A program that can move all the zeros to the last indexes of ArrayList
 
         Ex:
         list: {1,0,2,0,3,0,4,0}
@@ -95,7 +95,7 @@ public class WarmupTasks {
         
         
         /*
-        3. Write a program that can extract the special characters, digits and letters from a string and stores them into separate ArrayLists of Characters
+        3. Write A program that can extract the special characters, digits and letters from A string and stores them into separate ArrayLists of Characters
 
         Ex:
         str = "ABCD123$%#@&456EFG!"

@@ -16,7 +16,7 @@ public class ArraysPractice {
         System.out.println("--------------------------------------------------");
 
 
-        // Create a variable that can contain 5 scores
+        // Create A variable that can contain 5 scores
 
         int[] scores = new int[5]; // [0, 0, 0, 0, 0]
         scores[1] = 65;

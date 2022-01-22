@@ -7,7 +7,7 @@ public class Grade {
     public static void main(String[] args) {
 
         /*
-        3. a char variable named grade is given. use switch statement to print the following messages:
+        3. A char variable named grade is given. use switch statement to print the following messages:
 			'A': excellent
 			'B': great job
 			'C': good

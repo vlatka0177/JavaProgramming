@@ -27,7 +27,7 @@ public class Initials {
         char l = lastName.charAt(0);
 
         /*
-        To apply concatenation, there must be a string on the left and right.
+        To apply concatenation, there must be A string on the left and right.
         String initial = ""+ f + l;  Here, concated to an empty string.
         */
         String initial = f + "." + l + ".";

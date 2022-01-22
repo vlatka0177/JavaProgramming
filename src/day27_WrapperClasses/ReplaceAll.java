@@ -9,7 +9,7 @@ public class ReplaceAll {
 
         /*
         2. Replace All Task:
-        2.1 Create a method named ReplaceAll that passes three parameters: integer array, integer oldElement,
+        2.1 Create A method named ReplaceAll that passes three parameters: integer array, integer oldElement,
         and integer newElement. The method replaces the value of old elements of the array with the given
         value of the new element, and returns the new array.
             Ex:

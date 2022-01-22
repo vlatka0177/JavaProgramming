@@ -6,7 +6,7 @@ public class SwitchEx {
 
         /*  Switch: integer, byte, char and string
 
-        Create  a program that accepts animal as String
+        Create  A program that accepts animal as String
 
            DOG     - domestic animal
            CAT     - domestic animal

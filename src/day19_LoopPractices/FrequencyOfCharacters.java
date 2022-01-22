@@ -5,7 +5,7 @@ public class FrequencyOfCharacters {
     public static void main(String[] args) {
 
         /*
-        4. Write a program that can find the frequency of the characters from a string
+        4. Write A program that can find the frequency of the characters from A string
 			Ex:
             Input: str = "aabcccd";
             Output: a2b1c3d1

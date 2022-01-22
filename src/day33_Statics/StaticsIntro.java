@@ -27,8 +27,8 @@ public class StaticsIntro {
     STATIC VARIABLES
 
     - refer to the common property of all objects
-    - a single copy of a class' static variable is shared by all objects of the class
-    - if changes are made to a static variable, all other instances will change
+    - A single copy of A class' static variable is shared by all objects of the class
+    - if changes are made to A static variable, all other instances will change
 
     public class CydeoStudent {
 
@@ -74,13 +74,13 @@ public class StaticsIntro {
       public static String brand
       Static methods do not accept instance variables
 
-      Local variable: declared within a block, and have to be used within that block
+      Local variable: declared within A block, and have to be used within that block
       Instance variable:
       Static variable: only one copy for all objects
 
       STATIC BLOCK/INITIALIZATION BLOCK
 
-      - A set of instructions that runs only once when a class is loaded into memory
+      - A set of instructions that runs only once when A class is loaded into memory
       - Runs before anything else
       - Used for initializing static variables
 
@@ -114,16 +114,16 @@ public class StaticsIntro {
 
         Regular import
 
-        import packageName.className; // imports everything from a class.
-        impost packageName.*; // imports everything from a class.
+        import packageName.className; // imports everything from A class.
+        impost packageName.*; // imports everything from A class.
 
       - For two classes within the same package,the import is done implicitly.
         (Ex. Student and StudentObjects in day33_Statics package)
 
         Static import
 
-        import static packageName.className.staticMember; // imports one static member of a class
-        import static packageName.className.*; // imports all static members of a class
+        import static packageName.className.staticMember; // imports one static member of A class
+        import static packageName.className.*; // imports all static members of A class
 
      */
 }

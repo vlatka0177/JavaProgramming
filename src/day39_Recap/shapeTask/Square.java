@@ -6,7 +6,7 @@ public class Square extends Shape {
     Square extends Shape:
 	Variables: side
 	Encapsulate the field
-	Add a constructor to set the filed
+	Add A constructor to set the filed
 	area(): side * side
 	perimeter(): side * 4
 	toString(): side, area, perimeter

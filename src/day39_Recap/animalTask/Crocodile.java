@@ -20,7 +20,7 @@ public class Crocodile extends WildAnimal {
 
     // Override the hunt method
     public void hunt() {
-        System.out.println(getName() + " is hunting a wildebeest.");
+        System.out.println(getName() + " is hunting A wildebeest.");
     }
 
     //Add the ambush method

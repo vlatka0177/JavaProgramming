@@ -17,7 +17,7 @@ public class FinalKeywordIntro {
             - Cannot be overridden
             - Any method can be overloaded
         Final Classes
-            - Cannot be inherited. (Cannot be a parent/superclass)
+            - Cannot be inherited. (Cannot be A parent/superclass)
          */
 
     }

@@ -4,7 +4,7 @@ public class OddNumbers {
 
     public static void main(String[] args) {
 
-        //1. create a method that can print odd numbers between 1~100 in a same line separated by space.
+        //1. create A method that can print odd numbers between 1~100 in A same line separated by space.
 
      oddNumbers();
     }

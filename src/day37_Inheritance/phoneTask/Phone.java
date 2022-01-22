@@ -1,7 +1,7 @@
 package day37_Inheritance.phoneTask;
 
 /*
-1.1 Create a class named Phone:
+1.1 Create A class named Phone:
 				Variables:
 					brand, model, size, price, color
                 Add Constructor to set all the fields

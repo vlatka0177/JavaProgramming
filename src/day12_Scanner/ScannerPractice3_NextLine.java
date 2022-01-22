@@ -26,7 +26,7 @@ public class ScannerPractice3_NextLine {
         String schoolName = input.nextLine();
 
         /* Enter key is automatically assigned from the scanner's memory (placed there after 24 Enter)
-         to the school name. That is why schoolName is empty (a bug).
+         to the school name. That is why schoolName is empty (A bug).
          To prevent that from happening, input.nextLine(); needs to be entered after 24 to clear the
          scanner's memory before using another nextLine method.
          All other methods, except nextLine method, ignore the enter key. */

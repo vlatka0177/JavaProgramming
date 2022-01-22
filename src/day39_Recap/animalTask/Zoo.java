@@ -5,7 +5,7 @@ public class Zoo {
     public static void main(String[] args) {
 
     /*
-    6. Create a class named Zoo.
+    6. Create A class named Zoo.
        Create objects of each subclass and test all the functions of each object.
        Analyze the relationships between the classes.
        (Highlight all classes + Right click + Diagrams + Show diagram pop up

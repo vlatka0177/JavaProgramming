@@ -11,7 +11,7 @@ public class ReturnMethodPractice4 {
 
     }
 
-    // Create a method that can remove duplicated characters from a string and return a new value.
+    // Create A method that can remove duplicated characters from A string and return A new value.
 
     public static String removeDuplicates(String str){ // "aaabbcc" ==> "abc"
 

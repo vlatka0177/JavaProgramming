@@ -14,8 +14,8 @@ public class AboutMe {
                 "\nFavorite TV show: \"The Queen's Gambit\"");
 
          /*
-    1. Create a class called AboutMe.java
-            write a program to tell us about yourself:
+    1. Create A class called AboutMe.java
+            write A program to tell us about yourself:
                     favorite music
                     favorite book
                     favorite quote

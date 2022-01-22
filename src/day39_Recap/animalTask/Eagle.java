@@ -20,7 +20,7 @@ public class Eagle extends WildAnimal {
 
     // Override the hunt method
     public void hunt() {
-        System.out.println(getName() + " is hunting a squirrel.");
+        System.out.println(getName() + " is hunting A squirrel.");
     }
 
     //Add the soar method

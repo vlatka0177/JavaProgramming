@@ -10,7 +10,7 @@ public class TernariesQuiz1 {
 
         /*
         Ternaries are shortened If Statements. Take all data types.
-        Underscore could be placed anywhere, so don't assume it is in the place of a comma.
+        Underscore could be placed anywhere, so don't assume it is in the place of A comma.
          */
     }
 }

@@ -36,7 +36,7 @@ public class StringMethods2 {
 
         String s2 = "C# is fun, C# is cool";
         s2 = s2.replace(" C#", " Java");
-        /* Only C# that has a space in front of it will be replaced.
+        /* Only C# that has A space in front of it will be replaced.
            Space C# will be replaced by space Java.
            Remember to assign the value s2. Otherwise, both C# will be printed.
          */
@@ -44,7 +44,7 @@ public class StringMethods2 {
         System.out.println("s2 = " + s2);
 
         String s3 = "Java";
-        s3 = s3.replace("a", "e"); // Jeve
+        s3 = s3.replace("A", "e"); // Jeve
         System.out.println("s3 = " + s3);
 
        /*

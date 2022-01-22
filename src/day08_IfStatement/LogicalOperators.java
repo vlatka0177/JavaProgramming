@@ -44,7 +44,7 @@ public class LogicalOperators {
                                       false      &&  true  ====> false
          */
 
-        System.out.println(name2 + " is eligible for a loan: " + isEligible2);
+        System.out.println(name2 + " is eligible for A loan: " + isEligible2);
 
         System.out.println("-------------------------------------------------------");
 

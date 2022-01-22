@@ -3,7 +3,7 @@ package OfficeHours.day06_CustomMethods;
 public class PrimeNumber {
 
     /*
-    Write a method that can check if a number is a prime number.
+    Write A method that can check if A number is A prime number.
     Prime numbers are numbers that are greater than 1 and divisible only by 1 and themselves.
 
     13 / 1, 13 prime

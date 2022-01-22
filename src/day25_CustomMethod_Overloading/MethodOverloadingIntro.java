@@ -14,7 +14,7 @@ public class MethodOverloadingIntro {
         - parameters must be different (either the data type or the number of parameters)
         - Return Type can be same or different
         - Any method can be overloaded, including Main Method
-        - Method can be overloaded a number of times
+        - Method can be overloaded A number of times
 
          Advantage:
         1. easy to memorize
@@ -24,37 +24,37 @@ public class MethodOverloadingIntro {
 
         Without Method Overload: three different methods with three different names
 
-        public static int sumOfTwoNumbers(int a, int b){
-        return a + b;
+        public static int sumOfTwoNumbers(int A, int B){
+        return A + B;
         }
 
-        public static int sumOfThreeNumbers(int a, int b + int c){
-        return a + b + c;
+        public static int sumOfThreeNumbers(int A, int B + int c){
+        return A + B + c;
         }
 
-        public static int sumOfFourNumbers(int a, int b + int c + int d){
-        return a + b + c + d;
+        public static int sumOfFourNumbers(int A, int B + int c + int d){
+        return A + B + c + d;
         }
 
         Multiple Methods with Method Overloading: three different methods with the same name
 
-        public static int sum(int a, int b){
-        return a + b;
+        public static int sum(int A, int B){
+        return A + B;
         }
 
-        public static int sum(int a, int b, int c){
-        return a + b + c;
+        public static int sum(int A, int B, int c){
+        return A + B + c;
         }
 
-        public static int sum(int a, int b, int c, int d){
-        return a + b + c + d;
+        public static int sum(int A, int B, int c, int d){
+        return A + B + c + d;
         }
 
     Task
-     1. Create a method that can find the sum of two numbers
-	 2. Create a method that can find the sum of three numbers
+     1. Create A method that can find the sum of two numbers
+	 2. Create A method that can find the sum of three numbers
 	                    method name: sumOf3Numbers
-	 3. Create a method that can find the sum of four numbers
+	 3. Create A method that can find the sum of four numbers
 	                    method name: sumOf4Numbers
          */
 

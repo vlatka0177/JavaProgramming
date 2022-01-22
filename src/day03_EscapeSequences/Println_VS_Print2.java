@@ -4,7 +4,7 @@ public class Println_VS_Print2 {
 
   public static void main(String[] args) { //main method
 
-    System.out.println("Knock Knock"); // Prints Knock Knock. Then it appends a new line
+    System.out.println("Knock Knock"); // Prints Knock Knock. Then it appends A new line
     System.out.println("Who is this?");
     System.out.println("This is Java");
 

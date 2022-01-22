@@ -6,7 +6,7 @@ public class SingleIfStatementIntro {
 
         /*
         Single If Statement
-        Evaluates a condition.
+        Evaluates A condition.
         Even if the condition evaluates to true, all statements in the subsequent code block are executed.
         Used for one possible output.
         Multiple Single If statements can be created, but this is not efficient. Thus, it is not done.

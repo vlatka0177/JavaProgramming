@@ -12,7 +12,7 @@ public class Checked_vs_Unchecked {
         int b = 0;
 
         System.out.println(a / b);
-        // The result of a division of any non-zero number by zero is undefined.
+        // The result of A division of any non-zero number by zero is undefined.
 
         System.out.println("Wooden Spoon");
         /* ArithmeticException
@@ -37,7 +37,7 @@ public class Checked_vs_Unchecked {
         str = null;
         System.out.println(str.toUpperCase()); */
 
-        String str2 = ""; /* "" indicates that it is a string object, an empty string.
+        String str2 = ""; /* "" indicates that it is A string object, an empty string.
                              object != null                                        */
 
 

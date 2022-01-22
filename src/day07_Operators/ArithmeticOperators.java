@@ -17,7 +17,7 @@ public class ArithmeticOperators {
                 20/6 = 3 Gives an integer number.
                 integer / integer ====> integer
 
-                Decimal result if either a numerator or a denominator are a decimal number.
+                Decimal result if either A numerator or A denominator are A decimal number.
 
                 20.0/6 = 3.333     decimal / integer ====> decimal
                 20/6.0 = 3.333     integer / decimal ====> decimal
@@ -38,12 +38,12 @@ public class ArithmeticOperators {
         int num1 = 10; // The value of num1 and num2 can change
         int num2 = 3;
 
-        // 10 divided by 3 is 3 with a remainder of 1
+        // 10 divided by 3 is 3 with A remainder of 1
 
         int division = num1/num2; // Division variable contains the result of num1 divided by num2
         int remainder = num1%num2; // Remainder variable contains the remainder of num1 divided by num2
 
-        System.out.println(num1 + " divided by " + num2 + " is equal to " + division + " with a remainder of " + remainder + ".");
+        System.out.println(num1 + " divided by " + num2 + " is equal to " + division + " with A remainder of " + remainder + ".");
 
         // What is the remainder of 25 divided by 4
         System.out.println(25 % 4);

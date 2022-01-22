@@ -22,7 +22,7 @@ public class SumOfNumbers {
 
         for(int i = 0; i < 5; i++) {
 
-            System.out.println("Enter a number:");
+            System.out.println("Enter A number:");
             total += scan.nextInt();
         }
         System.out.println("total = " + total);

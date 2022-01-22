@@ -8,9 +8,9 @@ public class CustomMethodsImplicitCasting {
     }
     /*
     public static void main(String[] args) {
-        double a = 5.4;
-        double b = 5.3;
-        System.out.println(sum(a,b)); // Compiler error because compiler can only do implicit casting
+        double A = 5.4;
+        double B = 5.3;
+        System.out.println(sum(A,B)); // Compiler error because compiler can only do implicit casting
     }                                         double > float > long > int > short > byte
      */
 }

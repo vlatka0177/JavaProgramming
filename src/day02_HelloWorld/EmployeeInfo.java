@@ -8,6 +8,6 @@ public class EmployeeInfo {
         System.out.println("Company Name: Chevron Inc.");
         System.out.println("Employee ID: 0177");
         System.out.println("Job Title: Software Development Engineer in Test");
-        System.out.println("Salary: $120,000 a year");
+        System.out.println("Salary: $120,000 A year");
     }
 }

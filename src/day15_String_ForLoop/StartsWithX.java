@@ -6,17 +6,17 @@ public class StartsWithX {
 
     public static void main(String[] args) {
 
-        System.out.println("Enter a word:");
+        System.out.println("Enter A word:");
         String word = new Scanner(System.in).next(); // xcodex
 
         if(word.charAt(0) == 'x'){
-            word = word.replaceFirst("x", "a"); // "acodex"
+            word = word.replaceFirst("x", "A"); // "acodex"
         }
 
         System.out.println(word);
 
         /*
-  1. Write a program that asks user to enter a word. If the work starts with x, replace it with a.
+  1. Write A program that asks user to enter A word. If the work starts with x, replace it with A.
                     Input:
                         xcodex
                     Output:

@@ -15,7 +15,7 @@ public class ReverseArray1 {
     }
     
     
-    // Reverses the given array, returns a new array.
+    // Reverses the given array, returns A new array.
     public static int[] reverse(int[] array){
 
         int[] result = new int[array.length];
@@ -27,7 +27,7 @@ public class ReverseArray1 {
     }
 
     
-    // Reverses the given array, returns a new array.
+    // Reverses the given array, returns A new array.
     public static double[] reverse(double[] array){
 
         double[] result = new double[array.length];
@@ -39,7 +39,7 @@ public class ReverseArray1 {
     }
 
     
-    // Reverses the given array, returns a new array.
+    // Reverses the given array, returns A new array.
     public static char[] reverse(char[] array){
 
         char[] result = new char[array.length];
@@ -51,7 +51,7 @@ public class ReverseArray1 {
     }
     
 
-    // Reverses the given array, returns a new array.
+    // Reverses the given array, returns A new array.
     public static String[] reverse(String[] array){
 
         String[] result = new String[array.length];

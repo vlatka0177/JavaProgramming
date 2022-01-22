@@ -7,7 +7,7 @@ public class Casting {
         /*
         What we have learnt so far:
         1. main method
-        2. print() does not append a line and println() appends a line
+        2. print() does not append A line and println() appends A line
         3. escape sequences
         4. primitives and String variables
         5. concatenation
@@ -15,8 +15,8 @@ public class Casting {
          */
 
         /*
-        1. create a class named Castings
-            1.1 declare a variable of float named averageScore and initialize it to 20.5
+        1. create A class named Castings
+            1.1 declare A variable of float named averageScore and initialize it to 20.5
             1.2 declare the following variables and assign averageScore to each of them:
                              byte num1;
                              short num2;

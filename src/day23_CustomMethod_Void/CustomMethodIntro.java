@@ -6,10 +6,10 @@ public class CustomMethodIntro {
 
        /*
         Method
-        - groups a series of code fragments to perform a function
+        - groups A series of code fragments to perform A function
         - allows us to reuse the function rather than repeat the same set of statements
 
-        Declaring a Method
+        Declaring A Method
 
          public     static    void    main(String[] args){
         }  |          |        |         |         |
@@ -36,7 +36,7 @@ public class CustomMethodIntro {
         - static, final, abstract, synchronized
 
         Return Type:
-        - determines if the method returns a value
+        - determines if the method returns A value
         - void, Any Data Type
         - if return type is void, method does not return any value
 
@@ -45,16 +45,16 @@ public class CustomMethodIntro {
         - the same rules that apply to variable names also apply to method names
 
         Parenthesis
-        - method name is always followed by a set of parenthesis
+        - method name is always followed by A set of parenthesis
         - can be capable of receiving arguments.
 
         Parameter
         - entered when the method demands additional information to complete its task.
 
-        Calling a Method
+        Calling A Method
         - when we need to perform the task declared in the method body, we call the method.
 
-        displayMessage();    // Calls a method.
+        displayMessage();    // Calls A method.
                                 Method has to be called within main method to see the output in the console.
                                 All the code fragments grouped under the method get executed from top to bottom.
 
@@ -73,7 +73,7 @@ public class CustomMethodIntro {
         - overloading
 
         Passing Argument to Method
-        - When we declare a method, parameters can be given
+        - When we declare A method, parameters can be given
         - Parameters passed to the method act like variables
         - Used for providing additional information the method must have to perform its task
 

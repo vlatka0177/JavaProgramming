@@ -1,7 +1,7 @@
 package day37_Inheritance.phoneTask;
 
 /*
-1.4 Create a subclass of Phone named Nokia:
+1.4 Create A subclass of Phone named Nokia:
                 Variables:
                     brand, model, size, price, color
                 Methods:

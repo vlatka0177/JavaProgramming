@@ -8,7 +8,7 @@ public class Anagram {
 
         /*
          Interview question
-         Write a program that can check if str1 & str2 are build out of the same characters.
+         Write A program that can check if str1 & str2 are build out of the same characters.
          */
 
         String str1 = "acdb";
@@ -17,14 +17,14 @@ public class Anagram {
         char[] ch1 = str1.toCharArray();
         char[] ch2 = str2.toCharArray();
 
-        System.out.println(Arrays.toString(ch1)); // [a, c, d, b]
-        System.out.println(Arrays.toString(ch2)); // [d, b, c, a]
+        System.out.println(Arrays.toString(ch1)); // [A, c, d, B]
+        System.out.println(Arrays.toString(ch2)); // [d, B, c, A]
 
         Arrays.sort(ch1);
         Arrays.sort(ch2);
 
-        System.out.println(Arrays.toString(ch1)); // [a, b, c, d]
-        System.out.println(Arrays.toString(ch2)); // [a, b, c, d]
+        System.out.println(Arrays.toString(ch1)); // [A, B, c, d]
+        System.out.println(Arrays.toString(ch2)); // [A, B, c, d]
 
         boolean anagram = Arrays.equals (ch1, ch2);
 

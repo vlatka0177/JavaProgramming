@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ArraysUtility {
 
-    // No Main Method. This package is a container for the methods that can be used with other methods.
+    // No Main Method. This package is A container for the methods that can be used with other methods.
 
     // Prints each integer of an integer array in separate lines.
     public static void printEachElement(int[] array){
@@ -66,7 +66,7 @@ public class ArraysUtility {
     }
 
 
-    //Checks if the given integer is contained in the given array, and returns a boolean result. contains(int[], int)
+    //Checks if the given integer is contained in the given array, and returns A boolean result. contains(int[], int)
     public static boolean contains(int[] array, int element){
 
         boolean result = false;
@@ -80,7 +80,7 @@ public class ArraysUtility {
     }
 
 
-    //Checks if the given double is contained in the given array, and returns a boolean result.
+    //Checks if the given double is contained in the given array, and returns A boolean result.
     public static boolean contains(double[] array, double element){
 
         boolean result = false;
@@ -94,7 +94,7 @@ public class ArraysUtility {
     }
 
 
-    //Checks if the given char is contained in the given array, and returns a boolean result.
+    //Checks if the given char is contained in the given array, and returns A boolean result.
     public static boolean contains(char[] array, char element){
 
         boolean result = false;
@@ -108,7 +108,7 @@ public class ArraysUtility {
     }
 
 
-    //Checks if the given char is contained in the given array, and returns a boolean result.
+    //Checks if the given char is contained in the given array, and returns A boolean result.
     public static boolean contains(String[] array, String element){
 
         boolean result = false;
@@ -122,7 +122,7 @@ public class ArraysUtility {
     }
 
 
-    // adds the given element to array, returns a new array
+    // adds the given element to array, returns A new array
     public static int[] addElement(int[] array, int element){
         int[] result = new int[array.length + 1];
 
@@ -137,7 +137,7 @@ public class ArraysUtility {
     }
 
 
-    // adds the given element to array, returns a new array
+    // adds the given element to array, returns A new array
     public static double[] addElement(double[] array, double element){
         double[] result = new double[array.length + 1];
 
@@ -153,7 +153,7 @@ public class ArraysUtility {
     }
 
 
-    // adds the given element to array, returns a new array
+    // adds the given element to array, returns A new array
     public static String[] addElement(String[] array, String element){
         String[] result = new String[array.length + 1];
 
@@ -169,7 +169,7 @@ public class ArraysUtility {
     }
 
 
-    // adds the given element to array, returns a new array
+    // adds the given element to array, returns A new array
     public static char[] addElement(char[] array, char element){
         char[] result = new char[array.length + 1];
 
@@ -234,7 +234,7 @@ public class ArraysUtility {
     }
 
 
-    // returns the unique elements of the array as a new array
+    // returns the unique elements of the array as A new array
     public static int[] uniqueElements(int[] array){
         int[] result = {}; //new int[0]
 
@@ -248,7 +248,7 @@ public class ArraysUtility {
     }
 
 
-    // returns the unique elements of the array as a new array
+    // returns the unique elements of the array as A new array
     public static double[] uniqueElements(double[] array){
         double[] result = {}; //new int[0]
 
@@ -262,7 +262,7 @@ public class ArraysUtility {
     }
 
 
-    // returns the unique elements of the array as a new array
+    // returns the unique elements of the array as A new array
     public static char[] uniqueElements(char[] array){
         char[] result = {}; //new int[0]
 
@@ -276,7 +276,7 @@ public class ArraysUtility {
     }
 
 
-    // returns the unique elements of the array as a new array
+    // returns the unique elements of the array as A new array
     public static String[] uniqueElements(String[] array){
         String[] result = {}; //new int[0]
 
@@ -433,7 +433,7 @@ public class ArraysUtility {
     }
 
 
-    //reverses the given array, returns a new array
+    //reverses the given array, returns A new array
     public static int[] reverse(int[] array){
 
         int[] result = new int[array.length];
@@ -445,7 +445,7 @@ public class ArraysUtility {
     }
 
 
-    //reverses the given array, returns a new array
+    //reverses the given array, returns A new array
     public static double[] reverse(double[] array){
 
         double[] result = new double[array.length];
@@ -457,7 +457,7 @@ public class ArraysUtility {
     }
 
 
-    //reverses the given array, returns a new array
+    //reverses the given array, returns A new array
     public static char[] reverse(char[] array){
 
         char[] result = new char[array.length];
@@ -469,7 +469,7 @@ public class ArraysUtility {
     }
 
 
-    //reverses the given array, returns a new array
+    //reverses the given array, returns A new array
     public static String[] reverse(String[] array){
 
         String[] result = new String[array.length];

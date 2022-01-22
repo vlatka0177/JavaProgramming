@@ -1,7 +1,7 @@
 package day39_Recap.cydeoTask;
 
 /*
-5. Create a subclass of Employee named Teacher
+5. Create A subclass of Employee named Teacher
    Override the work method
  */
 

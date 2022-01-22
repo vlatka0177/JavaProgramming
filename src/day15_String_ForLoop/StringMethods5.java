@@ -12,7 +12,7 @@ public class StringMethods5 {
 
         System.out.println(r); // false
 
-        // It is not empty because it contains white space, which is a character.
+        // It is not empty because it contains white space, which is A character.
 
         System.out.println("-----------------------------------------------------");
 

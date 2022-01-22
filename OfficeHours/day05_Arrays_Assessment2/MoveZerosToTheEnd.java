@@ -7,7 +7,7 @@ public class MoveZerosToTheEnd {
     public static void main(String[] args) {
 
         /*
-        Write a program that can move all the zeros to the end of the array.
+        Write A program that can move all the zeros to the end of the array.
         Ex:
             array = {10, 0, 5, 0, 1, 0};
 

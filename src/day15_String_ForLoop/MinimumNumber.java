@@ -18,7 +18,7 @@ public class MinimumNumber {
 
         for (int i = 10; i < 15; i++) {
             // Loop is repeated 5 times. 10th, 11th, 12th, 13th, 14th
-            System.out.println("Enter a number:");
+            System.out.println("Enter A number:");
             int num =scan.nextInt(); // User enters 67, 23, 42, 5, -10
 
             if(num < min){

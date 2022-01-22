@@ -22,7 +22,7 @@ public class UniqueElements {
 
     }
 
-    // returns the unique elements of the array as a new array
+    // returns the unique elements of the array as A new array
     public static int[] uniqueElements(int[] array){
 
         int[] result = {}; //new int[0]
@@ -37,7 +37,7 @@ public class UniqueElements {
     }
 
 
-    // returns the unique elements of the array as a new array
+    // returns the unique elements of the array as A new array
     public static double[] uniqueElements(double[] array){
 
         double[] result = {}; //new int[0]
@@ -52,7 +52,7 @@ public class UniqueElements {
     }
 
 
-    // returns the unique elements of the array as a new array
+    // returns the unique elements of the array as A new array
     public static char[] uniqueElements(char[] array){
 
         char[] result = {}; //new int[0]
@@ -67,7 +67,7 @@ public class UniqueElements {
     }
 
 
-    // returns the unique elements of the array as a new array
+    // returns the unique elements of the array as A new array
     public static String[] uniqueElements(String[] array){
         String[] result = {}; //new int[0]
 

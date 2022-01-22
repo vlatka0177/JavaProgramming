@@ -14,7 +14,7 @@ public class DigitsLettersSpecialChars {
             /*
             Initialization is the starting point of the loop. Here i=0. (Starting index number.)
 
-            Two options for a condition:
+            Two options for A condition:
             i < str.length() or i <= str.length()-1
             length() method counts the number of characters, not their index position.
             Index starts with 0. length() starts with 1.
@@ -23,14 +23,14 @@ public class DigitsLettersSpecialChars {
 
             char ch = str.charAt(i); // ch: each character that we have in str
 
-            if (ch >= '0' && ch <= '9') { // if the character is between '0' and '9', it's a digit
+            if (ch >= '0' && ch <= '9') { // if the character is between '0' and '9', it's A digit
                 digits += ch;
-            } else if (ch >= 'A' && ch <= 'Z') { // if the character is between 'A' and 'Z' it's a letter
+            } else if (ch >= 'A' && ch <= 'Z') { // if the character is between 'A' and 'Z' it's A letter
                 letters += ch;
-            } else if (ch >= 'a' && ch <= 'z') { // if the character is between 'a' and 'z' it's a letter
+            } else if (ch >= 'a' && ch <= 'z') { // if the character is between 'A' and 'z' it's A letter
                 letters += ch;
             } else {
-                if(ch != ' ') { // if the special character is not a space
+                if(ch != ' ') { // if the special character is not A space
                     specialChars += ch;
                 }
             }

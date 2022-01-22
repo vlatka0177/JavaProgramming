@@ -6,10 +6,10 @@ public class Pizza {
         Pizza Task:
     	Attributes:
     		size, numberOfCheeseTopping, numberOfPepperoniTopping
-    		Add a constructor that can set all the fields
+    		Add A constructor that can set all the fields
 		Actions:
 			calcCost(): returns the totalCost of the pizza
-			toString():returns a String containing the pizza size, quantity of each topping,
+			toString():returns A String containing the pizza size, quantity of each topping,
 			and the pizza cost as calculated by calcCost()
 		Pizza cost is determined by:
                         S: $10 + $2 per topping

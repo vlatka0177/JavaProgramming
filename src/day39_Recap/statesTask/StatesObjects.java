@@ -23,7 +23,7 @@ public class StatesObjects {
         System.out.println(california);
 
         /*
-    3. Create a class named StateObjects.
+    3. Create A class named StateObjects.
 	   Create the objects of each subclass.
        Test all the functions of each object.
        Analyze the relationships between the classes.

@@ -4,10 +4,10 @@ public class Animal {
 
     /*
     Animal Task:
-            1. Create a class named Animal:
+            1. Create A class named Animal:
                Variables: name, breed, gender, age, size, color
                Encapsulate all the fields.
-               Add a constructor to set all the fields.
+               Add A constructor to set all the fields.
 
                Conditions:
                1. name, breed and color cannot be null (if obj == null means it's error)
@@ -110,7 +110,7 @@ public class Animal {
         this.color = color;
     }
 
-    // Generating a constructor to set all the fields.
+    // Generating A constructor to set all the fields.
     public Animal(String name, String breed, char gender, int age, String size, String color) {
         setName(name); // this. calls instance variable. Changing it to setter allows for the checking of conditions.
         setBreed(breed);

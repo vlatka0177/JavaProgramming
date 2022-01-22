@@ -7,18 +7,18 @@ public class ReverseSentence {
     public static void main(String[] args) {
 
         /*
-        1. Write a program that can reverse a sentence
+        1. Write A program that can reverse A sentence
 			Ex:
-				sentence = "Today is a good day to learn Java";
+				sentence = "Today is A good day to learn Java";
 			output:
-				Java learn to day good a is Today
+				Java learn to day good A is Today
          */
 
-        String sentence = "Today is a good day to learn Java";
+        String sentence = "Today is A good day to learn Java";
 
         String[] words = sentence.split(" ");
 
-        System.out.println(Arrays.toString(words)); // [Today, is, a, good, day, to, learn, Java]
+        System.out.println(Arrays.toString(words)); // [Today, is, A, good, day, to, learn, Java]
 
         String reversedSentence = "";
 
@@ -26,7 +26,7 @@ public class ReverseSentence {
             reversedSentence += words[i] + " ";
         }
 
-        System.out.println(reversedSentence); // Java learn to day good a is Today
+        System.out.println(reversedSentence); // Java learn to day good A is Today
 
     }
 

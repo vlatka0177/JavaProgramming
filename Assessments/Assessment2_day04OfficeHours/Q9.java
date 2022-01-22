@@ -13,7 +13,7 @@ public class Q9 {
         if (p.equals("opcor")) {
             System.out.println(p.length());
         } else {
-            System.out.println(p.replace("o", "a"));  // pap
+            System.out.println(p.replace("o", "A"));  // pap
         }
 
         String r = "popcorn";
@@ -22,7 +22,7 @@ public class Q9 {
         if (r.equals("opcor")) {
             System.out.println(r.length());  // 5
         } else {
-            System.out.println(r.replace("o", "a"));
+            System.out.println(r.replace("o", "A"));
         }
 
     }

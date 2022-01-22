@@ -6,10 +6,10 @@ public class FINRA {
 
         /*
         Interview Question
-        2. Write a method which prints out the numbers from 1 to 100.
-        For numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number.
-        For numbers which are a multiple of 3, print "FIN" instead of the number.
-        For numbers which are a multiple of 5, print "RA" instead of the number.
+        2. Write A method which prints out the numbers from 1 to 100.
+        For numbers which are A multiple of both 3 and 5, print "FINRA" instead of the number.
+        For numbers which are A multiple of 3, print "FIN" instead of the number.
+        For numbers which are A multiple of 5, print "RA" instead of the number.
 
         ex:
             output:

@@ -1,10 +1,10 @@
 package day39_Recap.cydeoTask;
 
         /*
-        2. Create a subclass of Person named Employee:
+        2. Create A subclass of Person named Employee:
         Extra variables: employeeId, jobTitle, salary
         Encapsulate all the fields
-        Add a constructor to set all the fields
+        Add A constructor to set all the fields
         Methods:
         work()
         toString()
@@ -47,7 +47,7 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    // Add a constructor to set all the fields.
+    // Add A constructor to set all the fields.
     // Right click + Generate constructor to encapsulate all the fields
     public Employee(String name, int age, char gender, int employeeID, String jobTitle, double salary) {
         super(name, age, gender);

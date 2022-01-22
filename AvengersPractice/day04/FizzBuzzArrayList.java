@@ -5,12 +5,12 @@ import java.util.ArrayList;
 public class FizzBuzzArrayList {
 
     /*
-    Write a program that returns a list of strings between two numbers.
-    For multiples of 3 insert "Fizz" instead of a number.
-    For multiples of 5 insert "Buzz" instead of a number.
-    For multiples of 3 and 5 insert "FizzBuzz" instead of a number.
+    Write A program that returns A list of strings between two numbers.
+    For multiples of 3 insert "Fizz" instead of A number.
+    For multiples of 5 insert "Buzz" instead of A number.
+    For multiples of 3 and 5 insert "FizzBuzz" instead of A number.
 
-    You will need to create a divisibleBy method that accepts two integer numbers and returns a Boolean.
+    You will need to create A divisibleBy method that accepts two integer numbers and returns A Boolean.
 
     Input: fizzBuzzGenerator(1,15);
     Output: ["1", "2", "Fizz", "4", "Buzz", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "FizzBuzz"]

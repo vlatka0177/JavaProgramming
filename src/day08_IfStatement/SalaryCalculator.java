@@ -30,7 +30,7 @@ public class SalaryCalculator {
 }
 
 /*
-3. Create a class called SalaryCalculator.java
+3. Create A class called SalaryCalculator.java
 			3.1 declare the following variables:
 					hourlyRate, weeklyHours, stateTaxRate, federalTaxRate
 			3.2 use the given info in above variables to calculate the followings:

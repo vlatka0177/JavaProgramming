@@ -12,7 +12,7 @@ public class ArrayPractice3 {
         System.out.println("How many numbers would you like to enter?");
 
         int length = scan.nextInt();
-        /* Variable name needs to have a meaning: length of the array.
+        /* Variable name needs to have A meaning: length of the array.
         User input determines the length of the array. */
 
         if(length <= 0){
@@ -25,7 +25,7 @@ public class ArrayPractice3 {
            [0,  0,  0,  0,  0] Length of the array is 5. It can store only 5 elements.               */
 
         for(int i = 0; i< length; i++){ // i: 0, 1, 2, 3, 4
-            System.out.println("Enter a number");
+            System.out.println("Enter A number");
             numbers[i] = scan.nextInt();
             /*Each input user provided during each execution of the loop, will be assigned to the indexes of the array.
               User enters 10, 20, 30, 40, 50. Loop repeats 5 times and assigns the user entered numbers to indexes     */

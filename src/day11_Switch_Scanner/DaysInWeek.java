@@ -38,7 +38,7 @@ public class DaysInWeek {
                         If break statement is missing, the next case block is executed. */
             default:   // Only gets executed if none of the case blocks are matching.
                 System.out.println("Invalid");
-                // No need to give a break statement for the last block of the switch to exit it.
+                // No need to give A break statement for the last block of the switch to exit it.
 
         }
 

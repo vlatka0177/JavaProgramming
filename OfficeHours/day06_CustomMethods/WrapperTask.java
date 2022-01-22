@@ -4,7 +4,7 @@ public class WrapperTask {
 
     /*
     String str = "(((W&e**_lco73me %T%o Co!@$, , <r>e <J...$@av^453a";
-    Write a method that returns: Welcome to Core Java
+    Write A method that returns: Welcome to Core Java
     */
 
     public static void main(String[] args) {

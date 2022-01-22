@@ -7,7 +7,7 @@ public class HidePassword {
     public static void main(String[] args) {
 
        /*
-        Given an array of passwords (String), hide each password as a star (*) and show the hidden password
+        Given an array of passwords (String), hide each password as A star (*) and show the hidden password
 
         Input: {"one, "hi", "hold"}
         Output: [ ***, **, **** ]                                                                */

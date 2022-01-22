@@ -3,9 +3,9 @@ package day38_Inheritance.carTask;
 public class Car {
 
     /*
-    Create a class called Car
+    Create A class called Car
 	Instance variables: brand, model, year, price, color, miles
-	Add a constructor to set all the fields
+	Add A constructor to set all the fields
 	Instance methods: start(), drive(), toString()
     */
 

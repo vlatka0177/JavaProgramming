@@ -5,7 +5,7 @@ public class FrequencyOfCharacter {
     public static void main(String[] args) {
 
         /*
-       1. Write a program that can return the frequency of a char from a String
+       1. Write A program that can return the frequency of A char from A String
 		  Ex:
 		  Input:   str = "AAABBBC"
 				   ch = 'A'

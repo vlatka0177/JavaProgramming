@@ -5,8 +5,8 @@ public class MinNumber {
     public static void main(String[] args) {
 
         /*
-        1. Create a class called MinNumber.
-        Write a program that can print the minimum number between two numbers.
+        1. Create A class called MinNumber.
+        Write A program that can print the minimum number between two numbers.
         If both are equal then print Equal.
 
             Ex:
@@ -26,7 +26,7 @@ public class MinNumber {
             System.out.println(n1 + " is the minimum number");
             }
 
-            // OR a step by step way
+            // OR A step by step way
 
             boolean n1IsMin =  n1 < n2;
             boolean n2IsMin = n2 < n1;

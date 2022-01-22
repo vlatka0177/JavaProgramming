@@ -7,12 +7,12 @@ public class SwapTwoNum_WithTempVariable {
         int a = 10;
         int b = 20;
 
-        int temp = a; // Assign temporary number to a, to save its original value of 10 in the system.
-        a = b; // a = 20; // a is swapped with b, and is now 15
-        b = temp; // b = 10; // Saved a = 10 is used here to swap it with b
+        int temp = a; // Assign temporary number to A, to save its original value of 10 in the system.
+        a = b; // A = 20; // A is swapped with B, and is now 15
+        b = temp; // B = 10; // Saved A = 10 is used here to swap it with B
 
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
+        System.out.println("A = " + a);
+        System.out.println("B = " + b);
 
     }
 

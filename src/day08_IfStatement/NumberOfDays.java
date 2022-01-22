@@ -31,7 +31,7 @@ public class NumberOfDays {
 }
 
 /*
-3. Create a class called NumberOfDays, Write a program that can print the number of days in a month
+3. Create A class called NumberOfDays, Write A program that can print the number of days in A month
 
             Ex:
                 number = 1;

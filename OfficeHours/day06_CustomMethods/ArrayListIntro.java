@@ -66,7 +66,7 @@ public class ArrayListIntro {
         // size(): returns the total number of elements in an arrayList
         System.out.println("cities.size() = " + cities.size()); // cities.size() = 6
 
-        // contains(): returns a boolean
+        // contains(): returns A boolean
         System.out.println(cities.contains("Denver")); // true
 
         // remove(index): removes the object at the given index

@@ -4,7 +4,7 @@ public class SalaryCalculator {
 
     public static void main(String[] args) {
 
-        /* 2. Write a program that can calculate the salary after tax based on the following requirements
+        /* 2. Write A program that can calculate the salary after tax based on the following requirements
                 the tax rates are:
                         35% for salary of 130K or more
                         30% for salary of 100K to 129k

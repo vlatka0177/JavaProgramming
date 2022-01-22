@@ -5,11 +5,11 @@ public class CodilityTest {
     public static void main(String[] args) {
 
      /*
-     Write a function that, given a positive integer, replaces any number divisible by 2, 3 or 5 by the following words:
+     Write A function that, given A positive integer, replaces any number divisible by 2, 3 or 5 by the following words:
 				    	 Codility for numbers divisible by 2
                          Test for numbers divisible by 3
                          Coders for numbers divisible by 5
-     If a number is divisible by more than one of the numbers 2, 3 or 5, it should be replaced by a
+     If A number is divisible by more than one of the numbers 2, 3 or 5, it should be replaced by A
      concatenation of the words Codility, Test and Coders.
      EXPECTED
      INPUT : 6     OUTPUT :  CodilityTest

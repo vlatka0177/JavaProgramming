@@ -8,18 +8,18 @@ public class ReturnStatement2 {
 
     }
 
-    // 3. Create a method that can display the name of the month based on the given number to the method.
+    // 3. Create A method that can display the name of the month based on the given number to the method.
 
     public static void monthName(int number) {
 
           /* With the pre-condition, it is possible to use : invalid (else invalid) at the end of the ternary,
-            but nested if is the preferred solution with a pre-condition.  */
+            but nested if is the preferred solution with A pre-condition.  */
 
         String name = " ";
 
         if (number < 1 || number > 12) {
             System.out.println("Invalid");
-            return;  /* Exits monthName Method, although it is a Void Method.
+            return;  /* Exits monthName Method, although it is A Void Method.
                         The remaining code fragment never gets executed.
                         Exits only the current method, and not any other. Main method continues running.
             System.exit(0)              Terminates every method in the entire system. */

@@ -16,7 +16,7 @@ public class CustomMethodsPractice {
 
     }
 
-    // Create a function that can print hello world 5 times ==> helloWorld5Times()
+    // Create A function that can print hello world 5 times ==> helloWorld5Times()
 
     public static void helloWorld5Times(){
 
@@ -28,7 +28,7 @@ public class CustomMethodsPractice {
     /* Press minimize button, -, to the left to minimize the method
        Press maximize button, +, to expand the method
 
-       Create a function that can print hello Cydeo 5 times ==> helloCydeo5Times */
+       Create A function that can print hello Cydeo 5 times ==> helloCydeo5Times */
 
     public static void helloCydeo5Times(){
 
@@ -37,8 +37,8 @@ public class CustomMethodsPractice {
         }
     }
 
-    /* Method needs to have a code fragment to perform
-       Create a function that can print all the even numbers from 1 ~ 10 ==> evenNumbers */
+    /* Method needs to have A code fragment to perform
+       Create A function that can print all the even numbers from 1 ~ 10 ==> evenNumbers */
 
     public static void evenNumbers(){
 

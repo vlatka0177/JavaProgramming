@@ -18,7 +18,7 @@ public class Circle {
     }
 }
     /*
-    3. Create a class named Circle, write a program that can calculate the area & perimeter of any given circle.
+    3. Create A class named Circle, write A program that can calculate the area & perimeter of any given circle.
                     Hints:  PI = 3.14
                             area = radius * radius * PI
                             Perimeter = 2 * radius * PI

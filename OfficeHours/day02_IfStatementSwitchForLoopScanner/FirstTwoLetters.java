@@ -8,14 +8,14 @@ public class FirstTwoLetters {
 
         /* (substring-length-isEmpty)
 
-        Given a string, return the string made of its first two chars,
+        Given A string, return the string made of its first two chars,
         so the String "Hello" yields "He". If the string is shorter than length 2,
         return whatever there is, so "X" yields "X", and the empty string "" yields
         the empty string "".
 
                               Input :"Hello"   → "He"
                               Input :"abcdefg" → "ab"
-                              Input :"a"       → "a"
+                              Input :"A"       → "A"
                               Input :""        → "It can not be empty"
          */
 

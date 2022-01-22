@@ -11,11 +11,11 @@ public class k2 {
             System.out.println(str.charAt(i));
 
 /*
-            byte[]b = new byte[5];
-            for(int j=0; j < b.length; j++) {
-                b[j] = (byte) (b[j]) * 2;
+            byte[]B = new byte[5];
+            for(int j=0; j < B.length; j++) {
+                B[j] = (byte) (B[j]) * 2;
             }
-            System.out.print(b);
+            System.out.print(B);
             }
             */
 

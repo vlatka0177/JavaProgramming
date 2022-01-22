@@ -67,7 +67,7 @@ public class StringIntro {
         // No need to type original: Set up string with bracket, and it is automatically inserted.
 
        /* Stack stores local variables.
-        Heap is a memory location in Java for all objects. Objects consume memory.
+        Heap is A memory location in Java for all objects. Objects consume memory.
         Within Heap there is String Pool, which is reserved for string literals only.
 
         Scanner scan = new Scanner(System.in);

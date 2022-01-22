@@ -23,6 +23,6 @@ public class PalindromeNum {
             num = num / 10; // num: 54, then num: 5
         }
         return reversedNumber == copyOfOriginal;
-        // If the reversed and original version are equal, it is a palindrome.
+        // If the reversed and original version are equal, it is A palindrome.
     }
 }

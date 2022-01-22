@@ -12,7 +12,7 @@ public class StringMethods1 {
         /* trim() method creates new string without white spaces.
         White spaces are unused spaces before and after the text.
         Only the spaces not separating the characters will be removed.
-        "batch     25" is not a white space, and would not be removed.*/
+        "batch     25" is not A white space, and would not be removed.*/
 
         str1 = str1.trim();
         /* "batch 25"
@@ -36,7 +36,7 @@ public class StringMethods1 {
 
         String str3 = "Java Programming Language";
 
-        int n3 = str3.indexOf("a"); // 1
+        int n3 = str3.indexOf("A"); // 1
         System.out.println("n3 = " + n3);
 
         int n4 = str3.indexOf("an"); // 18
@@ -55,19 +55,19 @@ public class StringMethods1 {
 
         String s = "Java Nova Cava Wawa orange";
 
-        int firstA = s.indexOf("a"); // first a from the left
-        int lastA = s.lastIndexOf("a"); // last a or first a from the right
-        int secondA = s.indexOf("a "); // make it unique
-        int thirdA = s.indexOf("a C");
+        int firstA = s.indexOf("A"); // first A from the left
+        int lastA = s.lastIndexOf("A"); // last A or first A from the right
+        int secondA = s.indexOf("A "); // make it unique
+        int thirdA = s.indexOf("A C");
         int fourthA = s.indexOf("ava W");
-        int fourth_A = s.lastIndexOf("av"); // first a in av from the right
+        int fourth_A = s.lastIndexOf("av"); // first A in av from the right
         int fourthA_ = s.indexOf("Ca") + 1; //index number of the character after C
         int fifthA = s.lastIndexOf("va") + 1;
         //index number of the character after v in the first va from the right
-        int fifth_A = s.lastIndexOf("a W");
+        int fifth_A = s.lastIndexOf("A W");
         int sixthA = s.lastIndexOf("aw");
-        int seventhA = s.indexOf("a o");
-        int seventh_A = s.lastIndexOf("a ");
+        int seventhA = s.indexOf("A o");
+        int seventh_A = s.lastIndexOf("A ");
 
 
         System.out.println("fistA = " + firstA);

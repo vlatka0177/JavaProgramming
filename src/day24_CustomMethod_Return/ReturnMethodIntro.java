@@ -6,12 +6,12 @@ public class ReturnMethodIntro {
 
         /*
         Return Methods
-        - Method can return a value by using a Return Statement. It makes the value reusable with another method.
-        - Return statement is used for returning a value from Return Methods and for exiting the method.
+        - Method can return A value by using A Return Statement. It makes the value reusable with another method.
+        - Return statement is used for returning A value from Return Methods and for exiting the method.
         - Return statement can be used to exit not only Return Method, but also other methods, such as Void Method.
 
                       20      40
-        total = sum(value1, value2); ==> Calling a value in Return Method
+        total = sum(value1, value2); ==> Calling A value in Return Method
 
         public static int sum(int num1, int num2){
 
@@ -53,7 +53,7 @@ public class ReturnMethodIntro {
 
             reverse += str.charAt(i);
         }
-        return reverse;  // Return line instead of a print statement
+        return reverse;  // Return line instead of A print statement
     }
 
 

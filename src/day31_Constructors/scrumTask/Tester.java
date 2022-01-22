@@ -3,7 +3,7 @@ package day31_Constructors.scrumTask;
 public class Tester {
 
     /*
-    Create a class called Tester
+    Create A class called Tester
 	        Attributes:
 	            name, employeeID, JobTitle, Salary
 	        Add A constructor that can set all the fields

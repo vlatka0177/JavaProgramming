@@ -7,10 +7,10 @@ public class Employee {
     public String jobTitle;
     public double salary;
 
-    /* To call a constructor in another constructor
+    /* To call A constructor in another constructor
         1. this(); keyword needs to be called,so that the function can be executed.
            Constructor cannot be called by its name.
-        2. Only a constructor can call another constructor.
+        2. Only A constructor can call another constructor.
         3. Constructor call must be at the first step.
         4. Only one constructor can be called within another constructor's body.
 

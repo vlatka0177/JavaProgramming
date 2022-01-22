@@ -5,10 +5,10 @@ public class IsAlphabet {
     public static void main(String[] args) {
 
         /*
-        Create a program to check whether a character is an alphabet.
+        Create A program to check whether A character is an alphabet.
 
         INPUT : '.'			EXPECTED : Your character is not in alphabet.
-        INPUT : 'a'			EXPECTED : Your character is an alphabet.
+        INPUT : 'A'			EXPECTED : Your character is an alphabet.
         */
 
         char character = ',';

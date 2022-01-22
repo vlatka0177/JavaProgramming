@@ -9,7 +9,7 @@ public class ArrayListPractice1 {
 
         /*
         1. Create an Array of string called countries
-        2. Write a program that can remove all the country names that have length of 10 or greater
+        2. Write A program that can remove all the country names that have length of 10 or greater
         */
 
         String[] countries = {"Japan", "Korea", "United States", "Turkey", "United Kingdom", "Canada"};

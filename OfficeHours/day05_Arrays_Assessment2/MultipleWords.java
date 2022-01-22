@@ -7,7 +7,7 @@ public class MultipleWords {
     public static void main(String[] args) {
 
         /*
-         Task :  Write a program that accepts string and prints multiple words in the string
+         Task :  Write A program that accepts string and prints multiple words in the string
 
          "knife, wooden spoons, plates, wine opener, cups, forks, rubbish bin";
 

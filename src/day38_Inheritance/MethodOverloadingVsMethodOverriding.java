@@ -11,7 +11,7 @@ public class MethodOverloadingVsMethodOverriding {
 
     METHOD OVERRIDING
     - One method having multiple different implementations in different classes.
-    - Overriding a method MUST take place in a subclass (child)
+    - Overriding A method MUST take place in A subclass (child)
     - Return type, method name and parameters must be the same
     - Access modifier needs to be the same or more visible
       public > protected > default > private

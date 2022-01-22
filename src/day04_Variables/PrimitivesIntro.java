@@ -17,13 +17,13 @@ public class PrimitivesIntro {
 
         String: sequence of characters (string of text)
         Always inverted double commas " "
-        Always capitalized because it is a class
+        Always capitalized because it is A class
 
-        soutv + enter is a shortcut to print a variable
+        soutv + enter is A shortcut to print A variable
 
         Variable naming rules:
         1. Must be unique, meaningful, readable, understandable
-        2. Starts with a lower case letter
+        2. Starts with A lower case letter
         3. Camel Case
         4. It cannot start with digits
         5. No Java Reserved Words (can be included, but not stand on its own)

@@ -20,7 +20,7 @@ public class ArrayListMethods1 {
 
         System.out.println(numbers); // [10, 20, 30, 40, 50]
 
-        // Inserts an element to a specific index
+        // Inserts an element to A specific index
 
         numbers.add(2,25); // Inserts 25 at index 2. Other indexes are shifted.
         numbers.add(5,45);

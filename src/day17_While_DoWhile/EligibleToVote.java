@@ -20,12 +20,12 @@ public class EligibleToVote {
             age = scan.nextInt();
         }
 
-        System.out.println("Are you a U.S. citizen? yes/no");
+        System.out.println("Are you A U.S. citizen? yes/no");
         String answer = scan.next().toLowerCase();
 
         while (!(answer.equals("yes") || answer.equals("no"))){
             System.err.println("Invalid Entry. Please re-enter.");
-            System.err.println("Are you a U.S. citizen? yes/no");
+            System.err.println("Are you A U.S. citizen? yes/no");
             answer = scan.next().toLowerCase();
         }
 

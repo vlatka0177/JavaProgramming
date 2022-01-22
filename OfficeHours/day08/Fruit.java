@@ -10,8 +10,8 @@ public class Fruit {
 
            To make it work:     */
 
-           public Fruit(String color) { // Add Fruit constructor to create a new juice object in another line
-           juice = new Juice(color);   // Creating a new object by calling a juice class
+           public Fruit(String color) { // Add Fruit constructor to create A new juice object in another line
+           juice = new Juice(color);   // Creating A new object by calling A juice class
             }
 }
 

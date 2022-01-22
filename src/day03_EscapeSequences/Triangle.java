@@ -12,7 +12,7 @@ public class Triangle {
         System.out.println("\t\t\t  ----------");
 
         /*
-         Create a class called Triangle.java and print:
+         Create A class called Triangle.java and print:
 
                     ^
                    / \

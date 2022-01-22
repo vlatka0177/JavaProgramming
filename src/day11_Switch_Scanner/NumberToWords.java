@@ -5,7 +5,7 @@ public class NumberToWords {
     public static void main(String[] args) {
 
         /*
-        Write a program that can convert numbers 0~9 to words.
+        Write A program that can convert numbers 0~9 to words.
         NOTE: MUST use ternary
          */
 

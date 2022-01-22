@@ -6,9 +6,9 @@ public class CustomClassMain {
 
         /*
         OBJECT
-            - An instance of a class
+            - An instance of A class
             - Has its own memory
-            - Cannot create an OBJECT without a class
+            - Cannot create an OBJECT without A class
 
             Car             c               =               new                              Car();
            Class          Object                    Keyword to create an object           Constructor
@@ -52,13 +52,13 @@ public class CustomClassMain {
 
         System.out.println("================");
 
-        // Create a new Object
+        // Create A new Object
         CustomClassIntro c1 = new CustomClassIntro();
         System.out.println("c = " + c1);
 
         System.out.println("================");
 
-        // Create a new Object
+        // Create A new Object
         CustomClassIntro c2 = new CustomClassIntro();
         System.out.println("c = " + c2);
 

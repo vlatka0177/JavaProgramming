@@ -4,10 +4,10 @@ public class Carpet {
 
     /*
     1.Carpet Task:
-		1.1 create a custom class for the Carpet class that should contain the following:
+		1.1 create A custom class for the Carpet class that should contain the following:
                 Attributes:
                         width, length, unitPrice, isPersian (boolean)
-				Add a constructor to set all the instances
+				Add A constructor to set all the instances
                 Actions:
                     calcCost(): should be able to calculate the total cost of the carpet and return it as double
                     toString(): should be able to display all the info of the carpet including the total cost of the carpet as calculated by calcCost()
@@ -50,7 +50,7 @@ public class Carpet {
                 ", total price= $" + calcCost() +
                 '}';
 
-        // Split screen. Create new class. Right-click on a class tab on top of the page + Split Right
+        // Split screen. Create new class. Right-click on A class tab on top of the page + Split Right
     }
 }
 

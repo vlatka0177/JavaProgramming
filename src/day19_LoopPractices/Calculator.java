@@ -8,10 +8,10 @@ public class Calculator {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter a number:"); // 5
+        System.out.println("Enter A number:"); // 5
         int num1 = scan.nextInt();
 
-        System.out.println("Enter a math operator:"); // +
+        System.out.println("Enter A math operator:"); // +
         char operator = scan.next().charAt(0); // "-".charAt(0), "+"
 
         if( !(operator == '+' || operator == '-')) { // if the operator is not valid
@@ -19,7 +19,7 @@ public class Calculator {
             System.exit(0); // terminates the whole program
         }
 
-        System.out.println("Enter a number: "); // 30
+        System.out.println("Enter A number: "); // 30
         int num2 = scan.nextInt();
 
         if(operator == '-'){

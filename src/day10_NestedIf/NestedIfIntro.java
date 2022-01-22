@@ -5,7 +5,7 @@ public class NestedIfIntro {
     public static void main(String[] args) {
 
        /*
-        Used for creating a pre-condition.
+        Used for creating A pre-condition.
         It is used if one condition can be evaluated to several alternatives.
 
         if(Condition){
@@ -19,7 +19,7 @@ public class NestedIfIntro {
 
         if(score >= 0 && score <= 100){    // if the score is valid
 
-            if (score >= 60){              // if a student passed the exam
+            if (score >= 60){              // if A student passed the exam
                 System.out.println("Passed");
             }else{                         // if the student failed the exam
                 System.out.println("Failed");
@@ -50,7 +50,7 @@ public class NestedIfIntro {
 
         int number = 7;
 
-        if(number >= 1 && number <= 7){  // if the number is a valid number (1~7)
+        if(number >= 1 && number <= 7){  // if the number is A valid number (1~7)
 
             if(number == 1){
                 System.out.println("Monday");

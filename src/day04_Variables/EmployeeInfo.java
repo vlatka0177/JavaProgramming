@@ -37,7 +37,7 @@ public class EmployeeInfo {
 
 
         /*
-        6. Create a class named EmployeeInfo. Declare the following variables:
+        6. Create A class named EmployeeInfo. Declare the following variables:
         1. name (String)
         2. age (int)
         3. gender (char)

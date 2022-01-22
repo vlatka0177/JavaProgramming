@@ -7,15 +7,15 @@ public class SwapTwoNumbers_WithoutTempVariable {
         int a = 10;
         int b = 15;
 
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
+        System.out.println("A = " + a);
+        System.out.println("B = " + b);
 
         int temp = a;
         a = b;
         b = temp;
 
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
+        System.out.println("A = " + a);
+        System.out.println("B = " + b);
 
         System.out.println("-----------------------------------------------------------");
 

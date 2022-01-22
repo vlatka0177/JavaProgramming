@@ -19,7 +19,7 @@ public class Rectangle {
     }
 }
     /*
-    2. Create a class named Rectangle. Write a program that can calculate the area & perimeter of any given rectangle.
+    2. Create A class named Rectangle. Write A program that can calculate the area & perimeter of any given rectangle.
 
                         length
                         width

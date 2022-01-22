@@ -7,10 +7,10 @@ public class FieldTrip {
     public static void main(String[] args) {
 
       /*
-      8. Create a class called FieldTrip.
-      Your school goes on a Field trip each year.
+      8. Create A class called FieldTrip.
+      Your school goes on A Field trip each year.
       The place you go will be based on your grade.
-      Given a variable gradeNumber (1-6) figure out the details of your field trip.
+      Given A variable gradeNumber (1-6) figure out the details of your field trip.
       Print the information at the end.
 
     Data based on grade:
@@ -80,7 +80,7 @@ public class FieldTrip {
                 teacherInCharge = "Mr. Watt";
             }
         }else{
-            System.out.println("That grade is not participating in a field trip.");
+            System.out.println("That grade is not participating in A field trip.");
         }
         System.out.println("Grade " + gradeNumber + " will go to " + location + " with " + numberOfGroups
                 + " other groups, supervised by "+ teacherInCharge + ".");

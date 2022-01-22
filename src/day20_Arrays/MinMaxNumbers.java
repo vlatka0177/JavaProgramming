@@ -13,7 +13,7 @@ public class MinMaxNumbers {
         // Scanner + enter, automatically creates import java.util.Scanner;
 
         /*
-        3. Write a program that asks user to enter a number 10 times:
+        3. Write A program that asks user to enter A number 10 times:
             1. store all user entered numbers in an array
             2. find the max number
             3. find the min number                                 */
@@ -22,7 +22,7 @@ public class MinMaxNumbers {
 
         for (int i = 0; i < numbers.length; i++) {
 
-            System.out.println("Enter a Number:");
+            System.out.println("Enter A Number:");
 
             numbers[i] = scan.nextInt(); // Each user input will be assigned to the indexes of the array numbers
         }

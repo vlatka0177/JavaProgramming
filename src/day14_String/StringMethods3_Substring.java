@@ -9,7 +9,7 @@ public class StringMethods3_Substring {
         substring(beginning index, ending index)
         Creates substring starting from the given beginning index until the ending index.
         (Ending index is excluded.)
-        a small portion of the string
+        A small portion of the string
 
         substring(beginning Index)
         Creates substring starting from the given beginning index till the end of the string

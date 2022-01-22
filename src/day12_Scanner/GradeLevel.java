@@ -5,7 +5,7 @@ public class GradeLevel {
     public static void main(String[] args) {
 
         /*
-        1. Create a class called GradeLevel, Given a number(byte) grade level determine and print which
+        1. Create A class called GradeLevel, Given A number(byte) grade level determine and print which
            school type someone is in.
            Grade level and types are:
                     1-5: Elementary school

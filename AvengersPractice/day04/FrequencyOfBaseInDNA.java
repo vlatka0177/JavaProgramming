@@ -3,7 +3,7 @@ package AvengersPractice.day04;
 public class FrequencyOfBaseInDNA {
 
     /*
-    Find frequency of bases 'A','C','G','T' in a DNA string.
+    Find frequency of bases 'A','C','G','T' in A DNA string.
     DNA string = "ATGCTTCAGAAAGGTCTTACG"
     Expected output: A:6 C:4 G:5 T:6                                          */
 

@@ -12,11 +12,11 @@ public class Q1_Q2 {
         String str1 = new String();
 
         String is immutable.
-        Concatenating anything to a String will turn everything to a String.
+        Concatenating anything to A String will turn everything to A String.
 
 
         QUESTION 2
-        To return the last index of a String
+        To return the last index of A String
         str.length()-1;
 
         String str = "abc"

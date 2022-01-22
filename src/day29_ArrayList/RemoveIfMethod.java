@@ -15,7 +15,7 @@ public class RemoveIfMethod {
         remove() removes one element. Must not be used in the loop.
         removeAll() removes multiple elements, if the elements to be removed are known.
         retainAll() retains multiple elements, if the elements to be removed are known.
-        removeIf() removes  one or multiple elements under a condition, if the elements to be removed are known
+        removeIf() removes  one or multiple elements under A condition, if the elements to be removed are known
         */
 
 

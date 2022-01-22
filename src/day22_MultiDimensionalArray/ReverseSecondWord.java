@@ -7,7 +7,7 @@ public class ReverseSecondWord {
     public static void main(String[] args) {
 
         /* Interview Question
-        2. Write a program that can reverse the second word of the sentence
+        2. Write A program that can reverse the second word of the sentence
             Ex:
                 sentence = "I Love Java";
 

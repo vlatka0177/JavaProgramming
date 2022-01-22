@@ -13,7 +13,7 @@ public class ArraysPractice2 {
         letters[1] = 'B';
         letters[2] = 'C';
 
-        Use the loop to avoid assigning a character 26 times.
+        Use the loop to avoid assigning A character 26 times.
         With each repetition, the character and the index number are changing.
 
         for(int i = 0, j = 'A'; i < letters.length; i++, j++){ // i: index number 0 ~ last index

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class RemoveSpaces {
 
     /*
-    Write a method that can remove all extra spaces from String.
+    Write A method that can remove all extra spaces from String.
     Input: "   Hello world   I   love   Java   "
     Output: hello world I love Java                           */
 

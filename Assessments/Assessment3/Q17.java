@@ -33,7 +33,7 @@ public class Q17 {
     }
 
     public static int action(boolean b) { // true
-        if(!b) { // b is not true, so it is false
+        if(!b) { // B is not true, so it is false
             return 5;
         } else {
             return 10; // 10

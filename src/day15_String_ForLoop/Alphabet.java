@@ -10,7 +10,7 @@ public class Alphabet {
             System.out.print((char) i + " ");
         }
 
-        System.out.println(); // Prints next statement in a new line.
+        System.out.println(); // Prints next statement in A new line.
 
         System.out.println("----------------------------------------------------------------");
 
@@ -22,9 +22,9 @@ public class Alphabet {
 
         System.out.println("-----------------------------------------------------------------");
 
-        // a ~ z
+        // A ~ z
 
-        for(char i = 'a'; i <= 'z'; i++) {  // i: a b c d e f ... z
+        for(char i = 'a'; i <= 'z'; i++) {  // i: A B c d e f ... z
             System.out.print(i + " ");
         }
 
@@ -42,7 +42,7 @@ public class Alphabet {
 
              System.out.println("---------------------------------------------------------------");
 
-            // z ~ a
+            // z ~ A
 
             for(char i = 'z'; i >= 'a'; i--){
                 System.out.print(i + " ");
@@ -61,9 +61,9 @@ public class Alphabet {
         /*
         Print:
         A~Z
-        a~z
+        A~z
         Z~A
-        z~a
+        z~A
          */
     }
 }

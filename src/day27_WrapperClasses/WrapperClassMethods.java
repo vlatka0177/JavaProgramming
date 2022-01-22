@@ -13,12 +13,12 @@ public class WrapperClassMethods {
            String "1234567"  =======> integer
 
         2. valueOf method
-           - converts wrapper class into a primitive
+           - converts wrapper class into A primitive
          */
 
         String str = "1234";
 
-        int num = Integer.parseInt(str);  // Returns Integer value, so it can be assigned to a primitive int
+        int num = Integer.parseInt(str);  // Returns Integer value, so it can be assigned to A primitive int
 
         System.out.println(num + 1); // 1234 + 1 = 1235
         System.out.println(str + 1); // 12341

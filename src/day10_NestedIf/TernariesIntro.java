@@ -51,7 +51,7 @@ public class TernariesIntro {
 
         System.out.println((age >= 21)? "Eligible" : "Not Eligible");
 
-        Preferred way is to assign ternary to a variable, so that it can be reused with
+        Preferred way is to assign ternary to A variable, so that it can be reused with
         different values.
          */
 

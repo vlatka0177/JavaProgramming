@@ -4,7 +4,7 @@ public class ReturnStatement {
 
     public static void main(String[] args) {
 
-        // 4. Create a method that can print the name of the day based on the given number to the method.
+        // 4. Create A method that can print the name of the day based on the given number to the method.
 
         nameOfDay(5);
 
@@ -15,7 +15,7 @@ public class ReturnStatement {
 
         if (number < 1 || number > 7) {
             System.out.println("Invalid");
-            return; // Exits nameOfDay Method, although it is a void method.
+            return; // Exits nameOfDay Method, although it is A void method.
         }
 
         if (number == 1) {

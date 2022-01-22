@@ -3,7 +3,7 @@ package day36_Inheritance.encapsulation;
 public class Student {
 
     /*
-    1. Create a class named Student:
+    1. Create A class named Student:
 	   Private variables:
 	   name, age, gender, grade, schoolName
 
@@ -13,7 +13,7 @@ public class Student {
 	   2. gender should not be set to any character other than: 'M' and 'F'
 	   3. grade should not be set to any characters other than: 'A', 'B', 'C', 'D', and 'F'
 
-		Add a constructor that can set all the fields when the object is created
+		Add A constructor that can set all the fields when the object is created
 		(Requirements of fields in the above must be applied)
 
 		Methods:
@@ -41,7 +41,7 @@ public class Student {
     }
 
     public void setName(String name) { // Data type of the parameter matches the data type of the private instance variable
-        this.name = name; // this keyword calls a private instance variable
+        this.name = name; // this keyword calls A private instance variable
     }
 
     public int getAge() {

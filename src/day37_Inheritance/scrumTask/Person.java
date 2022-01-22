@@ -1,7 +1,7 @@
 package day37_Inheritance.scrumTask;
 
     /*
-    Create a class named Person
+    Create A class named Person
             variables:
                 name, age, gender
             methods:

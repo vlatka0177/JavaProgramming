@@ -11,7 +11,7 @@ public class SelfIntro {
         System.out.println("My favorite book is Khalil Gibran's 'The Prophet'.");
         System.out.println("My favorite TV show is Shit's Creek.");
         System.out.println("My favorite sport is tennis.");
-        System.out.println("My dream job is a software development engineer in test.");
+        System.out.println("My dream job is A software development engineer in test.");
 
 
 

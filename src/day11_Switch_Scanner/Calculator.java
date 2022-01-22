@@ -5,7 +5,7 @@ public class Calculator {
     public static void main(String[] args) {
 
       /*
-    Given two double variables n1, n2 and a char variable named operator,
+    Given two double variables n1, n2 and A char variable named operator,
     use switch statement to calculate the result of n1 and n2 based on the given operator.
 
     Valid operators are: 1, +, *, /

@@ -12,7 +12,7 @@ public class Q14 {
         int i = 0;
 
         while (i < size) {
-            a [i++] = input.nextInt(); // a [i++] = 7, 3, 8, 20, 14
+            a [i++] = input.nextInt(); // A [i++] = 7, 3, 8, 20, 14
         }
         method8(a); // 7, 3, 14
     }

@@ -3,11 +3,11 @@ package day31_Constructors;
 public class Rectangle {
 
     /*
-    Create a custom class named Rectangle
+    Create A custom class named Rectangle
        Attributes:
        length, width
 
-       Add a constructor that can set all the fields
+       Add A constructor that can set all the fields
 
        Actions:
        calculateArea(): calculates the area of the rectangle, returns it as double

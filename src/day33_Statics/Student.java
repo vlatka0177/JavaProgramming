@@ -4,23 +4,23 @@ public class Student {
 
     /*
     Student Task:
-    1. Create a class called Student:
+    1. Create A class called Student:
 
     Attributes: name, gender, age, studentID, grade
 
-    Add a constructor that allows user to create object by setting the name of student
+    Add A constructor that allows user to create object by setting the name of student
 
-    Add a constructor that allows user to create object by setting the name and gender of the student
+    Add A constructor that allows user to create object by setting the name and gender of the student
 
-    Add a constructor that allows user to create object by setting the name and studentID of the student
+    Add A constructor that allows user to create object by setting the name and studentID of the student
 
-    Add a constructor that allows user to create object by setting the name, studentID and grade of the student
+    Add A constructor that allows user to create object by setting the name, studentID and grade of the student
 
-    Add a constructor that allows user to create object by setting the name, gender and age of the student
+    Add A constructor that allows user to create object by setting the name, gender and age of the student
 
-    Add a constructor that allows user to create object by setting the name, gender, age and studentID of the student
+    Add A constructor that allows user to create object by setting the name, gender, age and studentID of the student
 
-    Add a constructor that allows user to create object by setting the name, gender, age, studentID and grade of the
+    Add A constructor that allows user to create object by setting the name, gender, age, studentID and grade of the
        student
 
    Actions:

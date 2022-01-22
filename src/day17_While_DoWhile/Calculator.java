@@ -14,7 +14,7 @@ public class Calculator {
         System.out.println("Enter your second number: ");
         int num2 = scan.nextInt();
 
-        System.out.println("Enter a math operator");
+        System.out.println("Enter A math operator");
         char ch = scan.next().charAt(0);
 
         while ( !(ch == '+' || ch == '-')) { // if the operator is invalid

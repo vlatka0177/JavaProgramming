@@ -3,7 +3,7 @@ package OfficeHours.day07.customClass.animalSpeciesTask;
 public class AnimalSpecies {
 
  /*
- Create a class AnimalSpecies
+ Create A class AnimalSpecies
  Create these variables in the class:
 	- name (String),
 	- population (int) For practice we can consider 1 unit as 1 million.
@@ -21,7 +21,7 @@ public class AnimalSpecies {
 	- getGrowthRate()
 	  no parameters, returns the growth rate variable
 	- toString()
-	- Create a class Earth
+	- Create A class Earth
 	- Create AnimalSpecies objects, call get methods of the objects
      */
 

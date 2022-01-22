@@ -13,7 +13,7 @@ public class ArithmeticOperators {
 
                 in Java:
                 10/4 = 2    Gives an integer number.
-                10.0/4 = 2.5   Decimal result if either a numerator or a denominator are a decimal number.
+                10.0/4 = 2.5   Decimal result if either A numerator or A denominator are A decimal number.
 
                 integer / integer ====> integer
                 decimal / integer ====> decimal
@@ -39,7 +39,7 @@ public class ArithmeticOperators {
 
         double c = a/6.0; /* 16.66666
         OR
-        double c = (double)a/6; 16.66666  */
+        double c = (double)A/6; 16.66666  */
 
         System.out.println(c); // 16.666666666666668/
 

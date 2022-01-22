@@ -7,8 +7,8 @@ public class ForLoopIntro {
         /*
         Loops: repeated action
 
-        Check a condition.
-        If condition returns true, a code block will run.
+        Check A condition.
+        If condition returns true, A code block will run.
         The condition will be checked again.
         It repeats until condition returns false. Terminates the loop.
 
@@ -55,11 +55,11 @@ public class ForLoopIntro {
           It is recommended to always include curly braces.
 
         4. Nested Loop:
-        - loop inside a loop (inner and outer)
+        - loop inside A loop (inner and outer)
         - outer loop repeats the inner loop
 
         1. For Loop
-        Runs the given code a specific number of times.
+        Runs the given code A specific number of times.
         Initialization is the starting point of the loop.
         Condition is the ending point of the loop.
         Iterator is responsible for making the condition false.

@@ -5,10 +5,10 @@ public class TipCalculator {
     public static void main(String[] args) {
 
         /*
-    2. Create a class called TipCalculator, write a program for a tip calculator.
+    2. Create A class called TipCalculator, write A program for A tip calculator.
        There will be different service quality benchmarks that will determine the tip given.
        There will also be the ability to calculate based on the number of people in the party
-       and if there is a split of the bill or not.
+       and if there is A split of the bill or not.
 
 	   Poor = 5%, Fair = 10%, Good = 15%, Great = 20%, Excellent = 25%
 

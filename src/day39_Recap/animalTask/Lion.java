@@ -20,7 +20,7 @@ public class Lion extends WildAnimal {
 
     // Override the hunt method
     public void hunt() {
-        System.out.println(getName() + " is hunting a nyala.");
+        System.out.println(getName() + " is hunting A nyala.");
     }
 
     //Add the roar method

@@ -6,13 +6,13 @@ public class SumOfNumbers {
 
          /*
         Task1:
-        1. create a method that can find the sum of two numbers
+        1. create A method that can find the sum of two numbers
                         method name: sumOf2Numbers
 
-        2. create a method that can find the sum of three numbers
+        2. create A method that can find the sum of three numbers
                         method name: sumOf3Numbers
 
-        3. create a method that can find the sum of four numbers
+        3. create A method that can find the sum of four numbers
                         method name: sumOf4Numbers
          */
 

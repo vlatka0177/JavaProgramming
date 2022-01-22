@@ -8,8 +8,8 @@ public class WrapperClassIntro {
 
         String st = new String();
 
-        Integer n1 = Integer.valueOf(300); // Creating a new object
-        int n2 = Integer.parseInt("123"); // Returning a primitive
+        Integer n1 = Integer.valueOf(300); // Creating A new object
+        int n2 = Integer.parseInt("123"); // Returning A primitive
 
         byte b = 10;
         short s = 20;

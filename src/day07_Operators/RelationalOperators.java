@@ -9,7 +9,7 @@ public class RelationalOperators {
         >= greater or equal than
         <  lesser than
         <= lesser or equal than
-        == equal (Single equal operator, =, assigns a value to a specific variable)
+        == equal (Single equal operator, =, assigns A value to A specific variable)
         != not equal
          */
 

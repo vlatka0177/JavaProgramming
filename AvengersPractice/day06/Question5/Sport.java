@@ -6,7 +6,7 @@ public class Sport {
     int numOfPlayers;
     boolean teamBased;
 
-    public void makeSport (String name, int players, boolean teams){ // makeSport is a void method
+    public void makeSport (String name, int players, boolean teams){ // makeSport is A void method
         this.name = name;
         this.numOfPlayers = players;
         this.teamBased = teams;

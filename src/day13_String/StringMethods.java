@@ -63,7 +63,7 @@ public class StringMethods {
 
         System.out.println(str);
 
-        String sentence = "Today is a great day to learn java programming language.";
+        String sentence = "Today is A great day to learn java programming language.";
         sentence = sentence.toUpperCase();
 
         System.out.println(sentence);
@@ -75,7 +75,7 @@ public class StringMethods {
 
         5. equals()
         Checks if the two strings have the same text.
-        Returns a Boolean.
+        Returns A Boolean.
         */
 
     }

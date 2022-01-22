@@ -17,7 +17,7 @@ public class ReturnMethodPractice3 {
 
     }
 
-        //                       "aaa"        'a'
+        //                       "aaa"        'A'
     public static int frequency(String str, char ch){
 
         int count = 0;

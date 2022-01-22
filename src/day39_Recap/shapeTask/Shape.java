@@ -6,7 +6,7 @@ public class Shape {
 	Create class Shape
 	variables: name
 	Encapsulate the field
-	Add a constructor to set the field.
+	Add A constructor to set the field.
 	Methods:
 		area(){}
 		perimeter(){}
@@ -50,11 +50,11 @@ public class Shape {
 
     /* Right click + Generate + Override Method + toString
     @Override // Compile error for @Override because this is an overloaded method
-    public String toString(int a) {
+    public String toString(int A) {
         return super.toString();
     }
     */
-    // Right click + Generate + toString. Then, add area() and perimeter() with a comma + space after ".
+    // Right click + Generate + toString. Then, add area() and perimeter() with A comma + space after ".
     @Override
     public String toString() {
         return "Shape{" +

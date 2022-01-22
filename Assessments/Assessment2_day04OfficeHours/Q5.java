@@ -8,7 +8,7 @@ public class Q5 {
         String s = "Java is fun";
         int c = s.charAt(4);  // ' '
 
-        if (c == 'a') {
+        if (c == 'A') {
             System.out.println("A");
         } else if (c == ' ') {
             System.out.println("B");  // B

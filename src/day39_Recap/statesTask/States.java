@@ -103,7 +103,7 @@ public class States {
         this.stateTax = stateTax;
     }
 
-    // Add a constructor to set all the fields
+    // Add A constructor to set all the fields
     public States(String name, String abbreviation, String politicalParty, String governor, String senator,
                   int population, double stateTax) {
         setName(name);       // Change this.name = name; to setName(name);
@@ -133,13 +133,13 @@ public class States {
 /*
     States Task:
 
-	1. Create a class named States:
+	1. Create A class named States:
 			Variables:
 				name, abbreviation, politicalParty, governor, senator, population, stateTax
 
 			Encapsulate all the fields.
 
-			Add a constructor that can set all the fields.
+			Add A constructor that can set all the fields.
 
 			Conditions:
 			1. name, abbreviation, politicalParty, Governor, and senator can not be null

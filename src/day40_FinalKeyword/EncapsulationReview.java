@@ -26,9 +26,9 @@ public class EncapsulationReview {
 
          class A extends class B
 
-       - child class (sub) inherits the variables and methods from a parent class (super)
+       - child class (sub) inherits the variables and methods from A parent class (super)
          that are visible to the child class
-       - parent class (super) cannot inherit anything from a child (sub) class
+       - parent class (super) cannot inherit anything from A child (sub) class
        - at least one constructor from the parent class has to be called in the child class
        - with the default constructor, the constructor in the child class is called implicitly
        - super keyword

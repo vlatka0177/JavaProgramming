@@ -24,7 +24,7 @@ public class Replace {
 
         /*
         1. Replace Task:
-        1.1 Create a method named Replace that passes three parameters: integer array, integer index, integer newElement.
+        1.1 Create A method named Replace that passes three parameters: integer array, integer index, integer newElement.
         The method replaces the element of the array at given index with the new element, and returns the new array.
                 Ex:
                     arr = {1,2,3,4,5};

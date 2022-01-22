@@ -25,7 +25,7 @@ public class FormatFullName {
 
 
 /*
- 3. Write a program that asks user to enter first and last names.
+ 3. Write A program that asks user to enter first and last names.
     Then print the full name in regular format (first character in upper case)
 
         input:

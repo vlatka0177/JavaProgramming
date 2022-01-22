@@ -4,11 +4,11 @@ public class SalaryCalculator {
 
     /*
     1. SalaryCalculator Task:
-		1.1 Create a class named SalaryCalculator:
+		1.1 Create A class named SalaryCalculator:
 		    Attributes:
 		    hourlyRate, stateTaxRate, federalTaxRate, weeklyHours
 
-	        Add a constructor to set all the fields
+	        Add A constructor to set all the fields
 
 		    Actions:
 		    salary(): calculates the salary ( hourlyRate * weeklyHour * 52)

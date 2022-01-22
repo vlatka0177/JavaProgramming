@@ -20,7 +20,7 @@ public class Bear extends WildAnimal {
 
     // Override the hunt method
     public void hunt() {
-        System.out.println(getName() + " is hunting a seal.");
+        System.out.println(getName() + " is hunting A seal.");
     }
 
     //Add the hibernate method

@@ -6,7 +6,7 @@ public class Reverse {
 
         /*
         7. Interview question.
-           Write a program that can reverse any given string.
+           Write A program that can reverse any given string.
 
 			Ex:
 				input:
@@ -34,7 +34,7 @@ public class Reverse {
         result += str.charAt(1);  // o
         result += str.charAt(0);  // W
 
-        Another way is to create a loop. Before creating any loop, analyze.
+        Another way is to create A loop. Before creating any loop, analyze.
         */
         for(int i = str.length()-1; i >= 0; i--){
             result += str.charAt(i);
@@ -44,7 +44,7 @@ public class Reverse {
 
             With i = str.length()-1; i is index number of str, starting from last index to index 0.
             length() method counts the number of characters, not their index position.
-            The end of a string is always length()-1 because the indexes start at 0, but length starts at 1.
+            The end of A string is always length()-1 because the indexes start at 0, but length starts at 1.
 
             result += Concatenation: adds each character to result.
             Without +, the character is not going to be added to the string.

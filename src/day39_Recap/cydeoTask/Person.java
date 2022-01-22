@@ -1,10 +1,10 @@
 package day39_Recap.cydeoTask;
 
 /*
-1. Create a class named Person:
+1. Create A class named Person:
    Variables: name, age, gender
    Encapsulate all the fields
-   Add a constructor to set all the fields
+   Add A constructor to set all the fields
    Methods:
                 eat()
                 drink()
@@ -49,13 +49,13 @@ public class Person {
         this.gender = gender;
     }
 
-    // Add a constructor to set all the fields
+    // Add A constructor to set all the fields
     // Right click + Generate + Constructor + Highlight name, age, gender + OK
     public Person(String name, int age, char gender) {
         setName(name); // Change this.name = name; to setName(name);
         setAge(age); // Change this.age = age; to setAge(age);
         setGender(gender); // Change this.gender = gender; to setGender(gender);
-    } // Setter is preferred because it can check conditions (age range, name starting with a letter etc.)
+    } // Setter is preferred because it can check conditions (age range, name starting with A letter etc.)
 
     public void eat(){
 

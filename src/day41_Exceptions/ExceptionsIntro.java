@@ -56,7 +56,7 @@ public class ExceptionsIntro {
         - Not to be used
 
         Exception Object
-        - Every time the exception occurs, Java catches it and assigns it to a variable in a Catch Block
+        - Every time the exception occurs, Java catches it and assigns it to A variable in A Catch Block
         -
 
         Multiple Catch Blocks
@@ -67,7 +67,7 @@ public class ExceptionsIntro {
         Final - keyword
 
         Finalize()
-        - a method called automatically by the Garbage Collector when an object becomes unreferenced,
+        - A method called automatically by the Garbage Collector when an object becomes unreferenced,
           so that the object is destroyed
 
         Finally Block

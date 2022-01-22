@@ -28,7 +28,7 @@ public class BranchingStatements {
 
         while(true){
 
-            System.out.println("Enter a number: ");
+            System.out.println("Enter A number: ");
 
             int num = scan.nextInt();
 

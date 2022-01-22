@@ -11,12 +11,12 @@ public class PrimitiveTypeCasting {
         byte a = 100;
         short b = a;
         /*
-        short b = (short)a;
-                   (short)a               */
+        short B = (short)A;
+                   (short)A               */
 
         int c = b; // implicit casting
-        /* int c = (int)b
-           () is a casting operator.
+        /* int c = (int)B
+           () is A casting operator.
            Implicit when smaller primitives are cast to larger.
            Has to be written manually when larger primitives are cast into smaller.
         */

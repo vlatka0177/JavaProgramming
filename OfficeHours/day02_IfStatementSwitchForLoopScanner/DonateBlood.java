@@ -8,12 +8,12 @@ public class DonateBlood {
 
       /*
        Scanner Class can be used.
-       Create a program that accepts age and weight(kg) as int.
+       Create A program that accepts age and weight(kg) as int.
 
-       If age is greater than or equal to 18 and weight greater than 50 kg give a message
+       If age is greater than or equal to 18 and weight greater than 50 kg give A message
        EXPECTED  :  "You are eligible to donate blood"
 
-       If age is greater than or equal to 18 and weight smaller or equal than 50 kg give a message
+       If age is greater than or equal to 18 and weight smaller or equal than 50 kg give A message
        EXPECTED  :  "You are not eligible to donate blood"
 
        If age is smaller than 18 "Age must be greater than 18"

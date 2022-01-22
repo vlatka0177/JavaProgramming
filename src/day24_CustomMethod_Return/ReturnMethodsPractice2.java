@@ -4,7 +4,7 @@ public class ReturnMethodsPractice2 {
 
     public static void main(String[] args) {
 
-        /* Create a function that can calculate the grade.
+        /* Create A function that can calculate the grade.
            Check the grade
            'A' ==> Excellent
            'B' ==> Very Good
@@ -38,7 +38,7 @@ public class ReturnMethodsPractice2 {
         }
         return result;
         // Void Method cannot return any value. Compile error.
-        // Method needs to be String (Return Method). Allows us to assign the result to a variable to reuse it.
+        // Method needs to be String (Return Method). Allows us to assign the result to A variable to reuse it.
     }
 
 }

@@ -20,7 +20,7 @@ public class Tiger extends WildAnimal {
 
     // Override the hunt method
     public void hunt() {
-        System.out.println(getName() + " is hunting a boar.");
+        System.out.println(getName() + " is hunting A boar.");
     }
 
     //Add the pounce method

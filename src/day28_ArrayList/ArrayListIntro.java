@@ -16,7 +16,7 @@ public class ArrayListIntro {
         - Does not support primitives
 
         ArrayList
-        - A class in a Collection
+        - A class in A Collection
         - Presented in "java.util" package. import java.util.ArrayList;
         - Stores objects
         - Elements have index numbers

@@ -5,7 +5,7 @@ public class PatientInfo {
     public static void main(String[] args) {
 
        /*
-       Create a class named PatientInfo. Declare the following variables:
+       Create A class named PatientInfo. Declare the following variables:
 
         1. name (String)
         2. age (int)

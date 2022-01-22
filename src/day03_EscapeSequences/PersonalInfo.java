@@ -5,7 +5,7 @@ public class PersonalInfo {
     public static void main(String[] args) {
 
         /*
-        1. Create a class called PersonalInfo and print the following:
+        1. Create A class called PersonalInfo and print the following:
                         name
                         gender
                         date of birth

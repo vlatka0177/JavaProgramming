@@ -5,18 +5,18 @@ public class FrequencyOfElement {
     public static void main(String[] args) {
 
         /*
-        1. Create a class named FrequencyOfElement:
+        1. Create A class named FrequencyOfElement:
 
-			1.1 Create a method that passes two parameters: an integer array and an integer element. The method
+			1.1 Create A method that passes two parameters: an integer array and an integer element. The method
 			returns the frequency of the given integer element from the integer array.
 
-			1.2 Create a method that passes two parameters: a double array and a double element. The method
+			1.2 Create A method that passes two parameters: A double array and A double element. The method
 			returns the frequency of the given integer from the array.
 
-			1.3 Create a method that passes two parameters: a char array and a char element. The method returns
+			1.3 Create A method that passes two parameters: A char array and A char element. The method returns
 			the frequency of the given char element from the char array.
 
-			1.4 Create a method that passes two parameters: a String array and a String element. The method returns
+			1.4 Create A method that passes two parameters: A String array and A String element. The method returns
 			the frequency of the given String element from the String array.
         */
 

@@ -20,7 +20,7 @@ public class Python extends WildAnimal {
 
     // Override the hunt method
     public void hunt() {
-        System.out.println(getName() + " is hunting a mouse.");
+        System.out.println(getName() + " is hunting A mouse.");
     }
 
     //Add the slither method

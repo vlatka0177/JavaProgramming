@@ -3,7 +3,7 @@ package AvengersPractice.day04;
 public class FindWordPositionInASentence {
 
     /*
-    Find the position (number) of the given word in a sentence.
+    Find the position (number) of the given word in A sentence.
     Do not use indexOf() method                    */
 
     public static void main(String[] args) {

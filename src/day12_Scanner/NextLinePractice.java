@@ -33,7 +33,7 @@ public class NextLinePractice {
         System.out.println("age = " + age);
         System.out.println("fullName = " + fullName);
 
-        /* 70% of learning a programming language comes from practice.
+        /* 70% of learning A programming language comes from practice.
            30% comes from reading, watching videos, lectures. */
 
         input.close();

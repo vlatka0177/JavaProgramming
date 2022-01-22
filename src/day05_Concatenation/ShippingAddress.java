@@ -25,7 +25,7 @@ public class ShippingAddress {
         String address = fullName + "\n" + buildingNumber + " " + streetName + "\n" + apartmentNumber + "\n" + city + "\n" + state + " " + zipCode;
 
         /*
-        Store Concatenation in a String, and then print the assigned String to make it reusable.
+        Store Concatenation in A String, and then print the assigned String to make it reusable.
         If stored in System.out.println, each time the data changes, one would have to create new Concatenation.
          */
 

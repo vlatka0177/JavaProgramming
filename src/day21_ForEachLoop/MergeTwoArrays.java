@@ -15,7 +15,7 @@ public class MergeTwoArrays {
 
         int i = 0; // starting from index 0
         for (String each : group1) {  // get all elements from the array1
-            students[i++] = each; // each element is assigned to a separate index number
+            students[i++] = each; // each element is assigned to A separate index number
         }                         // without it, each element would be assigned to index 0
 
         for (String each : group2) {

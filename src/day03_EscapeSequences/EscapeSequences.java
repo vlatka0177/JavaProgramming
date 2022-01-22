@@ -8,7 +8,7 @@ public class EscapeSequences {
         Escape sequences MUST be followed by double quote
         \n: New line
         \t: Tab indent
-        \\ Backslash (Causes a backslash \ to be printed.)
+        \\ Backslash (Causes A backslash \ to be printed.)
         \" Inverted comma (Causes an inverted comma " to be printed.)
         */
 
@@ -20,7 +20,7 @@ public class EscapeSequences {
 
         System.out.println("---------------");
 
-        System.out.println("\tJava is a cool programming language.");
+        System.out.println("\tJava is A cool programming language.");
 
         System.out.println("/ \\"); // To print one backslash, \\ needs to be used.
 

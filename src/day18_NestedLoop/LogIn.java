@@ -7,7 +7,7 @@ public class LogIn {
     public static void main(String[] args) {
 
         /*
-        You are writing a code for the log-in function of the Cydeo Application.
+        You are writing A code for the log-in function of the Cydeo Application.
         Assume that your credentials are:
                     username: Cydeo
                     password: WoodenSpoon

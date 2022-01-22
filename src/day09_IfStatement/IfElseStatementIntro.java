@@ -25,8 +25,8 @@ public class IfElseStatementIntro {
         task:
         1. Maximum number between two different numbers
         2. Minimum number between two different numbers
-        3. Write a program that can check if the person is eligible to buy alcohol
-        4. Write a program that can check if the person is eligible to vote
+        3. Write A program that can check if the person is eligible to buy alcohol
+        4. Write A program that can check if the person is eligible to vote
          */
 
         int n1 = 5;

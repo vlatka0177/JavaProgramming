@@ -8,19 +8,19 @@ public class Movie {
     /*
     3. Movie Task:
 
-	   Create a class named Movie
+	   Create A class named Movie
 
 	   Attributes: country (String), title (String), Genre (String), releaseDate (String), director (String),
 	   casts (ArrayList<String>)
 
-		Add a constructor to set the country, title, genre, release date, and director of the Movie
+		Add A constructor to set the country, title, genre, release date, and director of the Movie
 
 	    Actions
 	    addCast(String): adds the given string argument to the arrayList casts
 	    addCasts(String[]): adds the given string array argument to the arrayList casts
 	    toString(): returns the name of country, title, release date, and total number of casts
 
-        Create a class called MovieObjects.
+        Create A class called MovieObjects.
         Create an object of the movie:
                     title: Journey to SDET: Cydeo Batch 25
                     country: USA

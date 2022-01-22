@@ -28,7 +28,7 @@ public class BreakfastTasks {
     }
 
 
-    // 1. Create a method that can display the initials of a person.
+    // 1. Create A method that can display the initials of A person.
 
     public static void initials(String firstName, String lastName){
         
@@ -40,7 +40,7 @@ public class BreakfastTasks {
     }
 
 
-    // 2. Create a method that can display the domain of an email
+    // 2. Create A method that can display the domain of an email
 
     public static void domain(String email) {
 
@@ -49,14 +49,14 @@ public class BreakfastTasks {
         System.out.println("domain = " + domain);
     }
 
-    /* Void method executes the function, but it cannot return a specific value (data) to make it reusable.
+    /* Void method executes the function, but it cannot return A specific value (data) to make it reusable.
 
-     3. Create a method that can display the name of the month based on the given number to the method. */
+     3. Create A method that can display the name of the month based on the given number to the method. */
 
     public static void monthName(int number){
 
-          /* With the pre-condition, it is possible to state it in a ternary with else invalid : invalid
-             at the end of the ternary,  but nested if is the preferred solution for a pre-condition.  */
+          /* With the pre-condition, it is possible to state it in A ternary with else invalid : invalid
+             at the end of the ternary,  but nested if is the preferred solution for A pre-condition.  */
 
         String name = " ";
 
@@ -73,7 +73,7 @@ public class BreakfastTasks {
         System.out.println("Month name = " + name);
     }
 
-    //4. Create a method that can print the name of the day based on the given number to the method
+    //4. Create A method that can print the name of the day based on the given number to the method
 
     public static void nameOfDay(int number){
 

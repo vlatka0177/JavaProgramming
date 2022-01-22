@@ -3,7 +3,7 @@ package day39_Recap.animalTask;
 public class WildAnimal extends Animal {
 
     /*
-    3. Create a subclass of Animal named WildAnimal.
+    3. Create A subclass of Animal named WildAnimal.
        Variable: isWild, isFriendly, isPlayable
        Extra Methods:
        hunt()
@@ -37,7 +37,7 @@ public class WildAnimal extends Animal {
         WildAnimal.isPlayable = isPlayable;
     }
 
-    // Add a constructor to set all the fields.
+    // Add A constructor to set all the fields.
     public WildAnimal(String name, String breed, char gender, int age, String size, String color) {
         super(name, breed, gender, age, size, color);
     }

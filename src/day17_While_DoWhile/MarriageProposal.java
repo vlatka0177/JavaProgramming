@@ -7,7 +7,7 @@ public class MarriageProposal {
     public static void main(String[] args) {
 
         /*
-        1. Write a program for the  marriage proposal program asking the user, "Will you marry me?"
+        1. Write A program for the  marriage proposal program asking the user, "Will you marry me?"
            If the answer is yes, print "Congrats."
            If the answer is no, print "Goodbye"
            If the answer is neither yes nor no, print "Invalid answer, please re-enter" and repeat it

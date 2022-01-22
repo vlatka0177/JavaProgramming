@@ -5,8 +5,8 @@ public class Browser {
     public static void main(String[] args) {
 
         /*
-        Create a class called Browser. Write a program that can display the name of selected browser
-        1. declare a String variable named browserName
+        Create A class called Browser. Write A program that can display the name of selected browser
+        1. declare A String variable named browserName
         2. Assume that the valid browsers are: chrome, firefox, opera, safari, edge.
         3. if the browser name does not match with the valid browser names, out put should be: Invalid Browser Name
 
@@ -22,7 +22,7 @@ public class Browser {
         String browserName = "chrome";
 
         String result = ""; /* Has to be initialized to avoid the compile error.
-                               "" is added as a temporary value. */
+                               "" is added as A temporary value. */
 
         boolean validBrowser = browserName == "chrome" || browserName == "firefox" || browserName == "opera"
                              || browserName == "safari" || browserName == "edge";

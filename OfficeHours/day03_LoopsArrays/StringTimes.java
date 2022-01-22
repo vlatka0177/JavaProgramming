@@ -7,7 +7,7 @@ public class StringTimes {
     public static void main(String[] args) {
 
         /*
-        Given a string and a non-negative int num, return a larger string that copies the number
+        Given A string and A non-negative int num, return A larger string that copies the number
         of times that is int num.
 
         input String: Hi, input int: 3

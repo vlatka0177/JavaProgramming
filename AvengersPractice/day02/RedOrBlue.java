@@ -11,7 +11,7 @@ public class RedOrBlue {
 
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a word: ");
+        System.out.println("Enter A word: ");
         String word = input.next();
 
         String result = " ";

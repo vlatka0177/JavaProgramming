@@ -7,7 +7,7 @@ public class Palindrome {
     public static void main(String[] args) {
 
         /*
-        Write a program that can check if the given String is a palindrome.
+        Write A program that can check if the given String is A palindrome.
 
          Ex:
          input:

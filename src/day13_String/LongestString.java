@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LongestString {
     /*
-    2. Write a program that asks user to enter two strings, and print out the longest string
+    2. Write A program that asks user to enter two strings, and print out the longest string
     */
 
     public static void main(String[] args) {

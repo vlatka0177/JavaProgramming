@@ -17,15 +17,15 @@ public class EncapsulationIntro {
     ENCAPSULATION
     - An object hides its internal data from code that is outside the class
     - Only the current class' methods can directly access and make changes to the instance variables
-    - Hide an INSTANCE VARIABLE by giving a private access modifier, and making the methods that access
+    - Hide an INSTANCE VARIABLE by giving A private access modifier, and making the methods that access
       those fields public
     - These public methods are called getters and setters (accessor and mutator)
 
     Private access modifier
-    - When applied to a class member, the member cannot be accessed by a code outside its class
+    - When applied to A class member, the member cannot be accessed by A code outside its class
 
     Public access modifier
-    - When applied to a class member, the member can be accessed by a code inside or outside the class
+    - When applied to A class member, the member can be accessed by A code inside or outside the class
 
     Getters and Setters
     - Public instance methods, used to protect data and make code more secure
@@ -55,7 +55,7 @@ public class EncapsulationIntro {
             }
 
       - A public instance method with the return type of VOID
-      - Passes a parameter, and parameter will be assigned to the private instance variable
+      - Passes A parameter, and parameter will be assigned to the private instance variable
       - Data type of the parameter must match the data type of the private instance variable
      */
 }

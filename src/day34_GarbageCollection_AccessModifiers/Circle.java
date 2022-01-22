@@ -26,7 +26,7 @@ public class Circle {
         pi = 3.14;
         name = "Circle";
 
-        numbers = new ArrayList<>(); // Static block is used when multiple steps are required to set a static variable
+        numbers = new ArrayList<>(); // Static block is used when multiple steps are required to set A static variable
         numbers.add(10);
         numbers.add(20);
     }

@@ -8,7 +8,7 @@ public class Circle extends Shape {
 			radius
 			pi (static)
 	Encapsulate the field
-	Add a constructor to set the filed
+	Add A constructor to set the filed
 	area(): radius * radius * pi
 	perimeter(): 2 * radius * pi
 	toString(): r, pi, area, perimeter

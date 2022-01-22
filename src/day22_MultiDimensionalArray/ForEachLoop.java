@@ -15,7 +15,7 @@ public class ForEachLoop {
         For Each Loop
         - already iterated
         - iteration order is fixed
-        - there must be a data structure
+        - there must be A data structure
 
         for(DataType variable : Array){
         }

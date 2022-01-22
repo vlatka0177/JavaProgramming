@@ -12,7 +12,7 @@ public class BulkOperations {
 
         /*
         Bulk Operations
-        - Argument must be a collection type.
+        - Argument must be A collection type.
 
         addAll(CollectionType) adds collection of values to the arrayList
         removeAll(CollectionType) removes all the matching elements from the arrayList
@@ -27,7 +27,7 @@ public class BulkOperations {
 
         System.out.println(list);
 
-        list.removeAll(Arrays.asList(3, 5, 8)); // Arrays.asList() converts 3,5,8, into a collectionType
+        list.removeAll(Arrays.asList(3, 5, 8)); // Arrays.asList() converts 3,5,8, into A collectionType
 
         System.out.println(list);
 

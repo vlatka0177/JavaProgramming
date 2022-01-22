@@ -41,7 +41,7 @@ public class Loops_StringManipulations {
 
         Q6
 
-        The continue statement can only be used in a loop.
+        The continue statement can only be used in A loop.
 
         Q7
         */

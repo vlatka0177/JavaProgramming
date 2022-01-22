@@ -14,12 +14,12 @@ public class ConstructorIntro {
             |                   |
         Class Name           Keyword
 
-        - a special method for a class
-        - creates objects of a class
+        - A special method for A class
+        - creates objects of A class
         - initializes the object's instance variables
-        - execution of a constructor depends on the object
+        - execution of A constructor depends on the object
 
-        Creating a Constructor
+        Creating A Constructor
         - matches the class name
         - no return type
         - no specifier

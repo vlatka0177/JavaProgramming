@@ -24,7 +24,7 @@ public class StudentInfo {
 }
 
 /*
-2. Create a class called StudentInfo, and declare variables for the followings:
+2. Create A class called StudentInfo, and declare variables for the followings:
                 1. student name (String)
                 2. age (int)
                 3. gender (char)

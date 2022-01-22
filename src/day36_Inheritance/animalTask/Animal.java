@@ -13,7 +13,7 @@ public class Animal {
     public int age;
     public String size;
     public String color;
-                                       // Parameter name is a local variable.
+                                       // Parameter name is A local variable.
     public void setInfo(String name, String breed, char gender, int age, String size, String color) {
         this.name = name; // this keyword calls instance variable
         this.breed = breed;

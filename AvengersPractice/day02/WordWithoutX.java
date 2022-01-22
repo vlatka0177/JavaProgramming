@@ -4,7 +4,7 @@ public class WordWithoutX {
 
     public static void main(String[] args) {
 
-        // Remove x only if at the beginning or at the end of a string. Otherwise, leave unchanged.
+        // Remove x only if at the beginning or at the end of A string. Otherwise, leave unchanged.
 
         String word = "XHiX";
 

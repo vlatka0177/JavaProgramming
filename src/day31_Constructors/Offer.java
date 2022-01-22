@@ -3,7 +3,7 @@ package day31_Constructors;
 public class Offer {
 
 /*
- 1. Create a custom class named Offer
+ 1. Create A custom class named Offer
             Attributes:
     location, companyName, jobTitle, salary, hasBenefit, hasPTO, isWFH, isFullTime
 

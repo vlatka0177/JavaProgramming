@@ -6,7 +6,7 @@ public class WhileLoopQuiz {
 
         int a = 0;
         while(a <= 6){
-            a+=2; // a = a + 2
+            a+=2; // A = A + 2
         }
         System.out.println(a);
     }

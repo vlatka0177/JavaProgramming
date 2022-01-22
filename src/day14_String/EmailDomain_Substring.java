@@ -4,7 +4,7 @@ public class EmailDomain_Substring {
 
     public static void main(String[] args) {
 
-        /* Write a program that can get the domain of the email.
+        /* Write A program that can get the domain of the email.
         Ex:
         email = Cydeo.School@gmail.com
         output: gmail

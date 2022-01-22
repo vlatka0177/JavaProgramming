@@ -10,7 +10,7 @@ public class Discount {
         A shop will give 10% discount on purchases over $1000. Unit price is $100.
 	    Use Scanner Class for quantity variable.
 		INPUT for quantity :  5      EXPECTED : No discount applied
-		INPUT for quantity :  15	 EXPECTED : You get a discount of $150 and your total is $1350																			   your total cost is $totalCost
+		INPUT for quantity :  15	 EXPECTED : You get A discount of $150 and your total is $1350																			   your total cost is $totalCost
          */
 
         Scanner input=new Scanner(System.in);
@@ -25,7 +25,7 @@ public class Discount {
         if(totalCost >= 1000){
             totalDiscount = discountRate * totalCost;
 
-            System.out.println("You get a discount of $" + totalDiscount + " and your total is $" +
+            System.out.println("You get A discount of $" + totalDiscount + " and your total is $" +
                     (totalCost - totalDiscount));
         }else{
             System.out.println("No discount applied.");

@@ -4,10 +4,10 @@ public class Address {
 
    /*
    2. Address Task:
-      Create a class named Address
+      Create A class named Address
       Attributes: buildingNumber, street, city, state, zipCode;
 
-      Add a constructor to set all the fields
+      Add A constructor to set all the fields
 
       Actions
       toString: returns the address

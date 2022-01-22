@@ -5,8 +5,8 @@ public class InheritanceIntro {
     /*
     INHERITANCE (Is A Relation)
 
-    - Used for creating an "is a" relationship among the classes (parent and child, super and sub)
-    - When an "is a" relationship exists between objects, it means that the specialized object has all the
+    - Used for creating an "is A" relationship among the classes (parent and child, super and sub)
+    - When an "is A" relationship exists between objects, it means that the specialized object has all the
       characteristics of the general object
 
 
@@ -74,9 +74,9 @@ public class InheritanceIntro {
         - owns
 
         CALLING THE SUPER CLASS CONSTRUCTOR
-        - If a Parent/Super Class has default constructor, Child/Sub Class calls it implicitly
+        - If A Parent/Super Class has default constructor, Child/Sub Class calls it implicitly
         - Otherwise, Parent/Super Class constructor needs to be called explicitly in the Child/Sub Class
-        - Super keyword calls a Super Class constructor. Super keyword refers to an object's Super Class.
+        - Super keyword calls A Super Class constructor. Super keyword refers to an object's Super Class.
 
         this keyword refers to the instances Current Class
         this. calls instance variables and instance methods
@@ -89,7 +89,7 @@ public class InheritanceIntro {
         SUPER KEYWORD
         - super() is used to call Parent Class' constructor from Child Class constructor
         - If Parent Class has default (no-argument) constructor, compiler will put super() automatically
-        - If Parent Class only has constructor with parameters, Child Class constructor MUST make a matching
+        - If Parent Class only has constructor with parameters, Child Class constructor MUST make A matching
           super(parameters) call
 
         TYPES OF INHERITANCE
@@ -113,20 +113,20 @@ public class InheritanceIntro {
                     public class D extends A {
                     }
 
-                    class Phone { phone: a
-                    } a
-                    class Iphone extends Phone { // iphone: a, b
-                    } b
-                    class Samsung extends Phone { // samsung: a, c
+                    class Phone { phone: A
+                    } A
+                    class Iphone extends Phone { // iphone: A, B
+                    } B
+                    class Samsung extends Phone { // samsung: A, c
                     } c
-                    class LG extends Phone { // LG: a, d
+                    class LG extends Phone { // LG: A, d
                     } d
-                    class Nokia extends Phone { // Nokia: a, e
+                    class Nokia extends Phone { // Nokia: A, e
                     } e
 
         - Multi Level Inheritance
           Child/Sub Class inherits the features of one Parent/Super Class,
-          whilst acting as a Parent/Super Class to a GrandChild/Sub Class.
+          whilst acting as A Parent/Super Class to A GrandChild/Sub Class.
 
                     public class A {
                     }
@@ -135,13 +135,13 @@ public class InheritanceIntro {
                     public class C extends B {
                     }
 
-                    class Person { // person: a
-                    } a
-                    class Employee extends Person { // employee: a, b
-                    } b
-                    class Tester extends Employee {  // tester: a, b, c
+                    class Person { // person: A
+                    } A
+                    class Employee extends Person { // employee: A, B
+                    } B
+                    class Tester extends Employee {  // tester: A, B, c
                     } c
-                    class ManualTester extends Tester { // manual tester: a, b, c, d
+                    class ManualTester extends Tester { // manual tester: A, B, c, d
                     } d
 
         - Multiple Inheritance

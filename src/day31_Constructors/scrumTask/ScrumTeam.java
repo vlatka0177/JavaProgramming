@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class ScrumTeam {
 
     /*
-    Create a class called ScrumTeam
+    Create A class called ScrumTeam
          Attributes:
              String PO, BA, SM;
              ArrayList<Tester> testersList = new ArrayList<>();

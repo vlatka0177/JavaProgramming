@@ -6,11 +6,11 @@ public class ReplaceX {
 
         String str = "xcodeX";
 
-        String result = str.replace("x", "a"). replace("X", "a");
+        String result = str.replace("x", "A"). replace("X", "A");
 
         /*
     2.
-    Write a program that asks user to enter a word. Replace all the x or X with character a.
+    Write A program that asks user to enter A word. Replace all the x or X with character A.
     Input:
         xcodeX
     Output:

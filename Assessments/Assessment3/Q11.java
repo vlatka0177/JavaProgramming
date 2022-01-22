@@ -10,12 +10,12 @@ public class Q11 {
             check = false;
         }
 
-        if(!str.contains("a")) {
+        if(!str.contains("A")) {
             check = false;
         }else if (str.contains("z")) {
             check = false;
         }
-        check = str.substring(0, 1).equals("a") ? check : false;
+        check = str.substring(0, 1).equals("A") ? check : false;
 
         return check; // boolean check = true, so the answer is true
     }

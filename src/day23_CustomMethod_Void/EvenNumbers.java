@@ -4,7 +4,7 @@ public class EvenNumbers {
 
     public static void main(String[] args) {
 
-        // 2. Create a method that can print even numbers between 1~100 in a same line separated by space.
+        // 2. Create A method that can print even numbers between 1~100 in A same line separated by space.
 
     evenNumbers();;
 

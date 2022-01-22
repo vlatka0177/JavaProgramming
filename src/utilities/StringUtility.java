@@ -15,7 +15,7 @@ public class StringUtility {
 
 
     // Reverses the given string and returns the reversed string.
-    public static String reverse(String str){  // Void or Return? Is there a value from the function I want to return?
+    public static String reverse(String str){  // Void or Return? Is there A value from the function I want to return?
 
         String result = "";
 
@@ -26,13 +26,13 @@ public class StringUtility {
     }
 
 
-    // Checks if the given string is a palindrome, and returns a boolean result.
+    // Checks if the given string is A palindrome, and returns A boolean result.
     public static boolean isPalindrome(String str){
         return reverse(str).equalsIgnoreCase(str);
     }
 
 
-    // Checks if the given string is anagram, and returns a boolean result.
+    // Checks if the given string is anagram, and returns A boolean result.
     public static boolean anagram(String str1, String str2){
         char[] ch1 = str1.toCharArray();
         char[] ch2 = str2.toCharArray();
@@ -44,7 +44,7 @@ public class StringUtility {
     }
 
 
-    // Removes the duplicates from given string, and returns a string. "aaaabbbbcccc" ==> "abc"
+    // Removes the duplicates from given string, and returns A string. "aaaabbbbcccc" ==> "abc"
     public static String removeDuplicates(String str){
 
         String result = "";

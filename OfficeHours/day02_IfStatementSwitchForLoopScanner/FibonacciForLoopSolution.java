@@ -7,9 +7,9 @@ public class FibonacciForLoopSolution {
     public static void main(String[] args) {
 
         /*
-        Create a program that will give you the Fibonacci numbers up to the x value.
+        Create A program that will give you the Fibonacci numbers up to the x value.
 
-        Fibonacci is a sequence of numbers, starting from 0 and 1,
+        Fibonacci is A sequence of numbers, starting from 0 and 1,
         where the following numbers are the sum of the previous 2 numbers.
 
         Note: Fibonacci numbers are read as index values,

@@ -3,13 +3,13 @@ package day35_Encapsulation;
 public class CydeoStudent {
 
     /*
-    2. Create a class named CydeoStudent
+    2. Create A class named CydeoStudent
             Variables:
             name, gender, age, batchNumber, groupNumber, schoolName, fieldOfStudy, programmingLanguage, secretCode
 
-            Add a constructor to initialize all the fields
+            Add A constructor to initialize all the fields
 
-            Add a static block to initialize all the statics
+            Add A static block to initialize all the statics
 
             Methods:
                 printSchoolName();

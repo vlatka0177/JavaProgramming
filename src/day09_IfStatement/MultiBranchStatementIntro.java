@@ -7,7 +7,7 @@ public class MultiBranchStatementIntro {
         /*
         Multi-branch If Statement
         Nested to create an else if clause.
-        Used to make a decision among more than two alternatives.
+        Used to make A decision among more than two alternatives.
 
         multiple conditions ===> Multi-branch Statement
 

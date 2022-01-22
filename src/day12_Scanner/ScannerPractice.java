@@ -11,7 +11,7 @@ package day12_Scanner;
 import java.util.*;  Wild import: imports everything from the package.
                      Uses more resources (memory), which costs money. */
 
-import java.util.Scanner; // Regular import: only imports a class that is needed.
+import java.util.Scanner; // Regular import: only imports A class that is needed.
 
 public class ScannerPractice {
 
@@ -21,7 +21,7 @@ public class ScannerPractice {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter a number between 1 to 7:");
+        System.out.println("Enter A number between 1 to 7:");
 
         /* Preferred methods for numbers are:
            - nextInt()
@@ -33,7 +33,7 @@ public class ScannerPractice {
 
         int num = scan.nextInt();
 
-        String result = ""; // Always assign a temporary value "" to prevent errors.
+        String result = ""; // Always assign A temporary value "" to prevent errors.
 
         if(num >= 1 && num <= 7) {
 

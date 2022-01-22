@@ -3,13 +3,13 @@ package day35_Encapsulation;
 public class Person {
 
     /*
-    2. Create a class named Person:
+    2. Create A class named Person:
 
        Variables: name, age, gender, language, planet, isHuman, hasNose, numberOfWings, numberOfHead
 
-       Add a constructor to initialize all the fields
+       Add A constructor to initialize all the fields
 
-       Add a static block to initialize all the statics
+       Add A static block to initialize all the statics
 
        Methods:
                 printPlanetName()

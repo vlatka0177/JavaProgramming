@@ -6,7 +6,7 @@ public class FactorialNumber {
 
     public static void main(String[] args) {
 
-        /* Write a program that can return the factorial number of any given number
+        /* Write A program that can return the factorial number of any given number
 
             Ex:
             input: 5

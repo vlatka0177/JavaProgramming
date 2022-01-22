@@ -3,7 +3,7 @@ package day39_Recap.animalTask;
 public class FriendlyAnimal extends Animal {
 
     /*
-    2. Create a subclass of Animal named FriendlyAnimal:
+    2. Create A subclass of Animal named FriendlyAnimal:
        Variable:
                 isWild
                 isFriendly
@@ -43,7 +43,7 @@ public class FriendlyAnimal extends Animal {
         FriendlyAnimal.isPlayable = isPlayable;
     }
 
-    // Add a constructor to set all the fields.
+    // Add A constructor to set all the fields.
     public FriendlyAnimal(String name, String breed, char gender, int age, String size, String color) {
         super(name, breed, gender, age, size, color);
     }

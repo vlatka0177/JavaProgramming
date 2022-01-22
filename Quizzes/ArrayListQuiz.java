@@ -17,13 +17,13 @@ public class ArrayListQuiz {
 
         /*
         ArrayList does not support primitives.
-        Autoboxing converts a primitive into a wrapper class object.         */
+        Autoboxing converts A primitive into A wrapper class object.         */
 
         ArrayList<Double> list3 = new ArrayList<>();
 
         /* QUESTION 2
 
-        ArrayList<int> list = new ArrayList<>();  // int is a primitive. ArrayList does not support primitives.
+        ArrayList<int> list = new ArrayList<>();  // int is A primitive. ArrayList does not support primitives.
         list.add(10);
 
         System.out.println(list);  // Compile Error
@@ -49,7 +49,7 @@ public class ArrayListQuiz {
         list5.add(2);  // Object 2
         list5.add(3);  // Object 3
 
-        Integer b = 1; // Object b = 1
+        Integer b = 1; // Object B = 1
         list4.remove(b);
 
         System.out.println(list5); // [2, 3]
@@ -97,7 +97,7 @@ public class ArrayListQuiz {
         for(char i = 'a'; i <='z'; i++) {
             list7.add(i);
         }
-        boolean result = list7.containsAll(Arrays.asList('a', 'c', 'D')); // 'D' - case sensitive, a ~ z
+        boolean result = list7.containsAll(Arrays.asList('a', 'c', 'D')); // 'D' - case sensitive, A ~ z
 
         System.out.println(result); // false
 

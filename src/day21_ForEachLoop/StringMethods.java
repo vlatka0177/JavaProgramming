@@ -10,17 +10,17 @@ public class StringMethods {
         String Methods
 
         1. toCharArray()
-           Returns a char array
-           "abc".toCharArray() ====> {'a', 'b', 'c'}
+           Returns A char array
+           "abc".toCharArray() ====> {'A', 'B', 'c'}
          */
 
         String str = "Java";
         char[] chars = str.toCharArray();
 
-        System.out.println(Arrays.toString(chars)); // [J, a, v, a]
+        System.out.println(Arrays.toString(chars)); // [J, A, v, A]
 
         for(char each : chars) {
-            System.out.println(each); // J a v a
+            System.out.println(each); // J A v A
         }
 
         System.out.println("--------------------------------------------------------------");
@@ -52,11 +52,11 @@ public class StringMethods {
 
         System.out.println("--------------------------------------------------------------");
 
-        String s = "Today is a nice day. Today is Monday. Today we learn Java";
+        String s = "Today is A nice day. Today is Monday. Today we learn Java";
 
-        String[] sentences = s.split("\\."); // If split by a dot, need to add \\
+        String[] sentences = s.split("\\."); // If split by A dot, need to add \\
 
-        System.out.println(Arrays.toString(sentences)); // [Today is a nice day,  Today is Monday,  Today we learn Java]
+        System.out.println(Arrays.toString(sentences)); // [Today is A nice day,  Today is Monday,  Today we learn Java]
 
     }
 

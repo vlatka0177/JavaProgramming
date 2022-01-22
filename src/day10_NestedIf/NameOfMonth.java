@@ -7,11 +7,11 @@ public class NameOfMonth {
         int number = 10;
 
         String result = " ";
-        /* Give a variable some temporary value, such as an empty string " ".
+        /* Give A variable some temporary value, such as an empty string " ".
            This allows for the variable to be initiated.
            The temporary value will be replaced by the result, once found.
            Allows for only one print statement that contains the result.
-           Avoids printing a statement after every if statement. */
+           Avoids printing A statement after every if statement. */
 
         if(number >=1 && number <= 12) {  /* if the number is valid (1~12)
         Click on the - on the line to the left of the pre-condition statement to condense.

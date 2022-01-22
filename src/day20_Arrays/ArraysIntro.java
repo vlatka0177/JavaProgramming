@@ -56,7 +56,7 @@ public class ArraysIntro {
            DataType[] variable name = {data1, data2, data3}
 
         Task:
-        Create a variable that is capable of containing 5 names.         */
+        Create A variable that is capable of containing 5 names.         */
 
         String[] myGroup = new String[5];
         // Initialize the size of the array: 5 variables. Index 0~4.
