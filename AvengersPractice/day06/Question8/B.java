@@ -10,7 +10,7 @@ public class B extends A {
 
         System.out.println(num3); // protected
 
-        // System.out.println(num4) ; // static
+      //  System.out.println(num4) ; // static
 
     }
 }
