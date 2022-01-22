@@ -1,4 +1,4 @@
-package day15_String_ForLoop;
+package Replits;
 
 import java.util.Scanner;
 
