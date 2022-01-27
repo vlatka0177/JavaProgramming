@@ -3,6 +3,7 @@ package day32_Constructor;
 public class Test {
 
         public Test(){ //A
+
             System.out.println("A");
         }
 

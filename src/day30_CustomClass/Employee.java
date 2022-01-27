@@ -32,7 +32,6 @@ public class Employee {
     }
 
     // toString Method shortcut (Check off insert@Override)
-
     public String toString() {
         return "Employee{" +
                 "name='" + name + '\'' +
@@ -46,6 +45,7 @@ public class Employee {
     }
 
     public void work() {
+
         System.out.println(jobTitle + " " + name + " is working");
     }
 

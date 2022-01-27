@@ -49,11 +49,13 @@ public class Rectangle extends Shape {
 
     @Override
     public double area() {  // double for the number, String for the text
+
         return length * width;
     }
 
     @Override
     public double perimeter() {
+
         return 2 * ( length + width);
     }
 

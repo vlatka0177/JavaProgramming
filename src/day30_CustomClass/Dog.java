@@ -20,12 +20,15 @@ public class Dog {
         }
 
         public void eat() {
+
             System.out.println(name + " is eating");
         }
 
         public void bark() {
+
             System.out.println(name + " is barking");
         }
+
         // toString Method shortcut (Check off insert@Override)
         public String toString() {
             return "Dog{" +

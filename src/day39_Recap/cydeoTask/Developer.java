@@ -15,10 +15,12 @@ public class Developer extends Employee {
     }
 
     public void work() {
+
         System.out.println(getJobTitle() + " " + getName() + " is developing an application.");
     }
 
     public void fixingBugs() {
+
         System.out.println(getJobTitle() + " " + getName() + " is fixing bugs.");
      }
 

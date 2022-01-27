@@ -6,7 +6,7 @@ public class RoomObjects {
 
         Room room = new Room();
         room.setInfo(5, 11);
-        System.out.print(room);
+        System.out.print(room); // Width: 5.0, Length: 11.0
 
     }
 }

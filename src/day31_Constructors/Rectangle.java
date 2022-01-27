@@ -24,10 +24,12 @@ public class Rectangle {
     }
 
     public double calcArea(){
+
         return length * width;
     }
 
     public double calcPerimeter() {
+
         return 2 * (length + width);
     }
 

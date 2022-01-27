@@ -8,7 +8,7 @@ public class Question6 {
 
         int [] arr = {4,1,0,8,-9,3,4};
         int min = minNum(arr);
-        System.out.println("min = " + min);
+        System.out.println("min = " + min); // min = -9
     }
 
     public static int minNum(int[] nums) {

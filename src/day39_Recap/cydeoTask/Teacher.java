@@ -12,6 +12,7 @@ public class Teacher extends Employee {
     }
 
     public void work() {
+
         System.out.println(getJobTitle() + " " + getName() + " is teaching");
     }
 }

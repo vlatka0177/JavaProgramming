@@ -6,19 +6,19 @@ public class Sport {
     int numOfPlayers;
     boolean teamBased;
 
-    public void makeSport (String name, int players, boolean teams){ // makeSport is A void method
+    public void makeSport (String name, int players, boolean teams){ // makeSport is a void method
         this.name = name;
         this.numOfPlayers = players;
         this.teamBased = teams;
     }
 
     public String toString(){
-        String msg = "The sport is " + name + "and has " +
-                numOfPlayers + "players total" ;
+        String msg = "The sport is " + name + " and it has " +
+                numOfPlayers + " players total" ;
         if(teamBased){
-            msg += "divided into teams";
+            msg += " divided into teams";
         } else {
-            msg += "but there is no teams";
+            msg += " but there is no teams";
         }
         return msg;
     }

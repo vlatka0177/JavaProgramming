@@ -5,10 +5,12 @@ public class Question3 {
     int count; // Default of integer is 0
 
     public void m() {
+
         count++;
     }
 
     public void m(int n) {
+
         count *= n;
     }
 
@@ -19,7 +21,6 @@ public class Question3 {
         obj.count += 10; // count = 1 + 10 = 11
         obj.m(2); // count = 11 * 2 = 22
         System.out.print(obj.count); // 22
-
 
     }
 

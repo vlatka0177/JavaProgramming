@@ -2,7 +2,7 @@ package day30_CustomClass;
 
 public class Car {
 
-    // Each car Object has different attributes: brand, model, color, year, price
+    // Each car object has different attributes: brand, model, color, year, price
     public String brand;
     public String model;
     public String color;
@@ -10,7 +10,6 @@ public class Car {
     public int price;
 
     // setInfo Method
-
     public void setInfo(String carBrand, String carModel, String carColor, int carYear, int carPrice) {
         // 5 parameters (arguments) for 5 attributes
         brand = carBrand;
@@ -24,7 +23,6 @@ public class Car {
     Generating toString Method
     Right click. Generate. toString(). Uncheck the box in the bottom left.
     */
-
     public String toString() {
         return "Car{" +
                 "brand='" + brand + '\'' +
@@ -36,16 +34,18 @@ public class Car {
     }
 
     public void drive(){
-        System.out.println("Driving "+brand+" "+model);
+
+        System.out.println("Driving "+ brand + " " + model);
     }
 
     public void start(){
-        System.out.println(brand+" "+model+" has started");
+
+        System.out.println(brand + " " + model + " has started");
     }
 
     public void stop(){
 
-        System.out.println(brand+" "+model+" has stopped");
+        System.out.println(brand + " " + model + " has stopped");
     }
 
 }

@@ -32,7 +32,7 @@ public class ExceptionsIntro {
 
         Errors
         - Indicate that an illegal operation is being performed
-        - Occurs during runtime only
+        - Occur during runtime only
         - Cannot be recovered
         - Not recommended handling them
 

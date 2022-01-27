@@ -6,6 +6,6 @@ public class SportObjects {
 
         Sport volleyball = new Sport();
         volleyball.makeSport ("Volleyball", 12, true);
-        System.out.println(volleyball);
+        System.out.println(volleyball); // The sport is Volleyball and it has 12 players total divided into teams
     }
 }

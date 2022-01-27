@@ -27,8 +27,9 @@ public class StaticsIntro {
     STATIC VARIABLES
 
     - refer to the common property of all objects
-    - A single copy of A class' static variable is shared by all objects of the class
-    - if changes are made to A static variable, all other instances will change
+    - gets memory only once in the class area at the time of class loading
+    - A single copy of a class' static variable is shared by all objects of the class
+    - if changes are made to a static variable, all other instances will change
 
     public class CydeoStudent {
 
@@ -36,16 +37,23 @@ public class StaticsIntro {
     public int age;
 
     public static String schoolName = "Cydeo School"; // Only one, common value for all objects.
-      |                                                  One copy. Consumes less memory.
-    Static variable
-    }
+                                                         One copy. Consumes less memory.
+    public static void getSchoolInfo() { // Static method
+    System.out.println("School Name is " + schoolName);
+    }                                           |
+    }                                      static variable
+
 
     public class Circle {
 
     public double radius;
-    public static double pi = 3.14;  // Static belongs to the class, and not object.
-                                |       Shared by all objects.
-                          Static variable
+    public static double pi = 3.14;  // Static belongs to the class. Shared by all objects.
+
+    public static void displayPiValue() { // Static method
+    System.out.pritnln("PI's value is " + pi);
+    }                                      |
+    }                                static variable
+
 
     STATIC METHODS
 
@@ -57,30 +65,30 @@ public class StaticsIntro {
 
     - Objects can call static method
 
-    - Only accepts static members. Cannot use any instances.
-      Does it use any fields (instance variables) or instance methods?
-      Yes -> Instance method
-      No -> Static method
+    - Only accept static members. Cannot use any instance methods or instance variables directly.
 
-      public String model
-                     |
+    - Static methods do not accept instance variables
+
+    - Cannot use this keyword
+
+                        Should a method be static?
+      Does it use any fields (instance variables) or instance methods?
+                        Yes -> Instance method
+                        No -> Static method
+
       Instance variable belongs to the object
       Objects come from the class
       Instance variables that come from the object cannot be shared with the class
 
-      Instance method accepts static members. Called through the objects.
-      public String brand
+      Instance method can access static methods and static variables directly. Called through the objects.
 
-      public static String brand
-      Static methods do not accept instance variables
-
-      Local variable: declared within A block, and have to be used within that block
+      Local variable: declared within a block, and have to be used within that block
       Instance variable:
       Static variable: only one copy for all objects
 
       STATIC BLOCK/INITIALIZATION BLOCK
 
-      - A set of instructions that runs only once when A class is loaded into memory
+      - A set of instructions that runs only once when a class is loaded into memory
       - Runs before anything else
       - Used for initializing static variables
 

@@ -41,7 +41,7 @@ public class TryCatchBlocks {
 
             e.printStackTrace();
 
-            // System.out.println( e.getMessage() );
+            // System.out.println(e.getMessage() );
 
         }
 
@@ -51,10 +51,11 @@ public class TryCatchBlocks {
 
         System.out.println("Test3 started");
 
-
         try {
             System.out.println("Cydeo".substring(2, 0));
+
         }catch (RuntimeException e){
+
             e.printStackTrace();
         }
 
@@ -65,8 +66,11 @@ public class TryCatchBlocks {
         System.out.println("Hello");
 
         try {
+
             Thread.sleep(3000);
+
         }catch(InterruptedException e) {
+
             e.printStackTrace();
         }
         System.out.println("Cydeo");
@@ -74,10 +78,12 @@ public class TryCatchBlocks {
         System.out.println("-----------------------------------------------");
 
         try {
+
             FileInputStream file = new FileInputStream("File path");
+
         } catch (FileNotFoundException e) {
+
             e.printStackTrace();
         }
     }
-
 }

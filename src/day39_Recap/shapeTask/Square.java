@@ -19,6 +19,7 @@ public class Square extends Shape {
 
     //Encapsulating the field
     public double getSide() {
+
         return side;
     }
 
@@ -39,11 +40,13 @@ public class Square extends Shape {
 
     @Override
     public double area() {
+
         return side * side;
     }
 
     @Override
     public double perimeter() {
+
         return side * 4;
     }
 

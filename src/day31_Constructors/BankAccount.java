@@ -33,13 +33,14 @@ public class BankAccount {
     }
 
     public void checkBalance(){
+
         System.out.println("Your available balance is: $" + balance);
     }
 
     public void deposit(double amount){
         if(amount <= 0){
-            System.out.println("Depositing amount cannot be zeor or negative");
-            return; // exits the function, but does not terminate the program like exit method
+            System.out.println("Depositing amount cannot be zero or negative");
+            return; // Exits the function, but does not terminate the program like exit method
         }
         balance += amount;
     }

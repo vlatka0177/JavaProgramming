@@ -47,8 +47,8 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    // Add A constructor to set all the fields.
-    // Right click + Generate constructor to encapsulate all the fields
+    /* Add A constructor to set all the fields.
+       Right click + Generate constructor to encapsulate all the fields */
     public Employee(String name, int age, char gender, int employeeID, String jobTitle, double salary) {
         super(name, age, gender);
         setEmployeeID(employeeID); // Change this.employeeID = employeeID to setEmployeeID(employeeID);

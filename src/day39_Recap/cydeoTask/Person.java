@@ -49,8 +49,8 @@ public class Person {
         this.gender = gender;
     }
 
-    // Add A constructor to set all the fields
-    // Right click + Generate + Constructor + Highlight name, age, gender + OK
+    /* Add A constructor to set all the fields
+       Right click + Generate + Constructor + Highlight name, age, gender + OK  */
     public Person(String name, int age, char gender) {
         setName(name); // Change this.name = name; to setName(name);
         setAge(age); // Change this.age = age; to setAge(age);

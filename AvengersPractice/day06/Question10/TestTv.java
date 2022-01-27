@@ -5,7 +5,9 @@ public class TestTv {
     public static void main(String[] args) {
 
         Tv tv = new Tv();
-        tv.start();
+        tv.start(); /* Initialized
+                       Started     */
+
         // tv.init(); // line 4
 
     }

@@ -9,7 +9,9 @@ public class TestPage extends HomePage {
 
     public static void main(String[] args) {
 
-        HomePage homePage = new HomePage();
+        HomePage homePage = new HomePage(); /* I am in Base Page
+                                               I am in Home Page    */
+
     }
 }
 

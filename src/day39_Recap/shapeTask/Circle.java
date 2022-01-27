@@ -36,10 +36,13 @@ public class Circle extends Shape {
     }
 
     public double area() {
+
+
         return radius * radius * pi;
     }
 
     public double perimeter() {
+
         return 2 * radius * pi;
     }
 

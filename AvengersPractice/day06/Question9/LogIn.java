@@ -6,8 +6,8 @@ public class LogIn {
 
       CredentialsForPerson obj = new CredentialsForPerson();
 
-        System.out.println( obj.getUserName());
-        System.out.println( obj.getPassword ());
+        System.out.println( obj.getUserName()); // BugBusters
+        System.out.println( obj.getPassword ()); // CyberTek123
 
     }
 

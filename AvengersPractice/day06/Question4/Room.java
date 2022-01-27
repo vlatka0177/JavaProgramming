@@ -6,6 +6,7 @@ public class Room {
     double length;
 
     public String toString() { // Blue circle = Overriden Method in Object Class
+
         return "Width: " + width + ", Length: " + length;
     }
 

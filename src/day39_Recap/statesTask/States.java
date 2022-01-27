@@ -8,6 +8,7 @@ public class States {
 
     // Generate getters and setters to encapsulate all the fields
     public String getName() {
+
         return name;
     }
 
@@ -24,14 +25,17 @@ public class States {
     }
 
     public String getAbbreviation() {
+
         return abbreviation;
     }
 
     public void setAbbreviation(String abbreviation) {
+
         this.abbreviation = abbreviation;
     }
 
     public String getPoliticalParty() {
+
         return politicalParty;
     }
 
@@ -48,6 +52,7 @@ public class States {
     }
 
     public String getGovernor() {
+
         return governor;
     }
 
@@ -64,6 +69,7 @@ public class States {
     }
 
     public String getSenator() {
+
         return senator;
     }
 
@@ -80,6 +86,7 @@ public class States {
     }
 
     public int getPopulation() {
+
         return population;
     }
 
@@ -92,6 +99,7 @@ public class States {
     }
 
     public double getStateTax() {
+
         return stateTax;
     }
 

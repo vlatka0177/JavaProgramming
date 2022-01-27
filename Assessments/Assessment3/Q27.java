@@ -21,7 +21,18 @@ public class Q27 {
                 rev += str.charAt(i);     // reverse Boston and Houston back
             }
             list.set(--a, rev); // notsoB at index 4, notsugH at index 3, nitsuA at index 2 Houston at 1 and Boston at 0
-        }
+        }   /* The set method is changing the specific index of elements, changing the string list,
+               and setting the new version of the list.   */
         System.out.println(list); // [Boston, Houston, nitsuA, notsuoH, notsoB]
+
+        /*
+        [Boston, Houston, Austin, Lincoln, Tulsa]
+        [Boston, Houston, Austin, Lincoln, notsoB]
+        [Boston, Houston, Austin, notsuoH, notsoB]
+        [Boston, Houston, nitsuA, notsuoH, notsoB]
+        [Boston, Houston, nitsuA, notsuoH, notsoB]
+        [Boston, Houston, nitsuA, notsuoH, notsoB]
+        [Boston, Houston, nitsuA, notsuoH, notsoB]
+        */
     }
 }

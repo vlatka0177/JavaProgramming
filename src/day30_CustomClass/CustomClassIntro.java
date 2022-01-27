@@ -6,9 +6,9 @@ public class CustomClassIntro {
     Custom Class is used for creating objects, and not for running. Thus, no Main Method is needed.
 
     Class
-    - A template or A set of instructions to build A specific type of Object
+    - A template or a set of instructions to build a specific type of object
     - Specifies what the object should contain and how it should behave
-    - No memory is allocated for A class
+    - No memory is allocated for a class
     - Class can exist without objects
 
     ex.
@@ -25,13 +25,13 @@ public class CustomClassIntro {
     Run()
 
     Object
-    - An instance of A class that stores data called fields.
+    - An instance of a class that stores data called fields.
     - Each object has its own memory.
-    - Multiple objects can be created from A class.
+    - Multiple objects can be created from a class.
 
     Instance Variables
     - Declared inside the class and outside any methods/blocks
-    - Each Object has A separate copy of instance variable.
+    - Each object has a separate copy of instance variable.
 
     Access   Key   Class
     Modifier Word  Name
@@ -47,12 +47,12 @@ public class CustomClassIntro {
     Writing A Custom Class
 
     Instance Methods
-    - Do not have A static specifier. Static would make the action applicable to all objects in A class.
+    - Do not have a static specifier. Static would make the action applicable to all objects in a class.
     - Belong to the object
-    - Each Object has A separate copy of the instance methods
+    - Each object has a separate copy of the instance methods
 
     Creating an Object/Instance
-    - The new keyword is used to create an instance of A class
+    - The new keyword is used to create an instance of a class
 
      Object Name    Constructor
           |          |

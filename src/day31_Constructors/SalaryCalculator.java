@@ -31,15 +31,19 @@ public class SalaryCalculator {
     }
 
     public double salary() {
+
         return 52 * (hourlyRate * weeklyHours);
     }
     public double stateTax() {
+
         return (salary() * stateTaxRate) / 100;
     }
     public double federalTax() {
+
         return (salary() * federalTaxRate) / 100;
     }
     public double salaryAfterTax() {
+
         return salary() - (stateTax() + federalTax());
     }
 

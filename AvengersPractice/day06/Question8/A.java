@@ -4,17 +4,19 @@ public class A {
 
     public static int num1 = 100;
 
-    private  static int num2 = 200;
+    private static int num2 = 200;
 
     public static int getNum2() { // getter
+
         return num2;
     }
 
     protected static int num3 = 300;
 
-  //  public static int getNum4() {
-   //     return num4;
-    }
+  /*  public static int getNum4() {
+        return num4;
+      }                              */
+}
 
 
 

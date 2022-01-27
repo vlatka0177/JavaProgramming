@@ -6,18 +6,22 @@ public class FinalKeywordIntro {
 
         /*
         Access Modifiers
-        public > protected > default > pricate
+        public > protected > default > private
 
         FINAL KEYWORD: unchangeable
 
-        Final Variables
+        Final Variable
             - Cannot be reassigned
+            - Cannot be modified
             - Initialized only one time
-        Final Methods
+            - Can use getter, but not setter
+
+        Final Method
             - Cannot be overridden
-            - Any method can be overloaded
-        Final Classes
-            - Cannot be inherited. (Cannot be A parent/superclass)
+            - Any method, including final, can be overloaded
+
+        Final Class
+            - Cannot be inherited. (Cannot be a parent/superclass)
          */
 
     }
