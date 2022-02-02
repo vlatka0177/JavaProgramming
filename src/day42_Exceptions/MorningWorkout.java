@@ -8,12 +8,9 @@ public class MorningWorkout {
 
         for(int i = 1; i <= 30; i++) {
 
-            System.out.println("\rPush up " + i);
-            try {
-                Thread.sleep(1500);
-            }catch (InterruptedException e ) {
-                e.printStackTrace();
-            }
+            System.out.print("\rPush up " + i);
+
+            sleep(1.5);
         }
         System.out.println("\n--------------------Push ups completed----------------");
 
@@ -22,13 +19,8 @@ public class MorningWorkout {
         for(int i = 1; i <= 20; i++) {
 
             System.out.println("\rPull up " + i);
+
             sleep(2.5);
-            /*
-            try {
-                Thread.sleep(2500);
-            }catch (InterruptedException e ) {
-                e.printStackTrace();
-            }                               */
         }
         System.out.println("\n--------------------Pull ups completed------------------");
     }
@@ -42,3 +34,8 @@ public class MorningWorkout {
         }
     }
 }
+/*
+MorningWorkOut:
+			1. Do 30 push-ups and try pausing 1.5 seconds in each
+			2. Do 20 Pull-ups and try pausing 2.5 seconds in each
+*/
