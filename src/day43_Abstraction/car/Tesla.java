@@ -1,4 +1,4 @@
-package day43_Abstraction.Car;
+package day43_Abstraction.car;
 
 public final class Tesla extends Car{ // Other classes cannot extend Tesla class
 
@@ -7,10 +7,12 @@ public final class Tesla extends Car{ // Other classes cannot extend Tesla class
     }
 
     public void start() {
+
         System.out.println("Say \"start\"");
     }
 
     public void autoPilot() {
+
         System.out.println(getBrand() + getModel() + " has auto pilot feature.");
     }
 }

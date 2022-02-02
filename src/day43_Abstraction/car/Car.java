@@ -1,4 +1,4 @@
-package day43_Abstraction.Car;
+package day43_Abstraction.car;
 
 public abstract class Car {
 
@@ -44,7 +44,7 @@ public abstract class Car {
 
     public void setPrice(double price) {
         if(price <= 0){
-            throw new RuntimeException("Invalid price: "+price);
+            throw new RuntimeException("Invalid price: " + price);
         }
         this.price = price;
     }

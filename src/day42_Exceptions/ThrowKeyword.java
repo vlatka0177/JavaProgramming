@@ -7,8 +7,8 @@ public class ThrowKeyword {
 
     /*
     THROW KEYWORD
-    - Used to manually create a new exception.
-    - Whenever in a conditional statement, the condition is not made, and you want to terminate the program.
+    - Used to manually create a new exception to terminate the program
+      when in a conditional statement, the condition is not made.
 
     throw ExceptionObject
     String browser = "Cydeo"; // invalid browser

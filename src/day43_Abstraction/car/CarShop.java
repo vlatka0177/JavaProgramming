@@ -1,4 +1,4 @@
-package day43_Abstraction.Car;
+package day43_Abstraction.car;
 
 public class CarShop {
 
@@ -31,7 +31,5 @@ public class CarShop {
         System.out.println(honda);
         System.out.println(audi);
         System.out.println(tesla);
-
-
     }
 }
