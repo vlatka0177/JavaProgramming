@@ -13,14 +13,17 @@ public abstract class Person {
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public int getAge() {
+
         return age;
     }
 
@@ -42,6 +45,7 @@ public abstract class Person {
     public abstract void sleep();
 
     public void eat(){
+
         System.out.println(name + " is eating baklava.");
     }
 

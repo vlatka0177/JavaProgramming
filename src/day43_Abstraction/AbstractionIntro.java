@@ -3,21 +3,21 @@ package day43_Abstraction;
 public class AbstractionIntro {
 
     /*
-    Object Oriented Programming
+    OBJECT ORIENTED PROGRAMMING
 
-    Encapsulation
+    1. ENCAPSULATION
     - Hiding the data
 
-    Inheritance
+    2. INHERITANCE
     - Creating IS A relation between classes (parent/super and child/sub)
     - Common features are created one time in the parent class, and are then inherited by the child class
     - Easy to maintain
     - Method Overriding
           - Gives multiple, different implementations to the method
 
-     Polymorphism
+     3. POLYMORPHISM
 
-     ABSTRACTION
+     4. ABSTRACTION
 
      - Process of hiding implementation details from the user
      - Only the functionality will be provided to the user
@@ -31,17 +31,25 @@ public class AbstractionIntro {
          - public abstract void eat();
          - public abstract double calculate();
      - Meant to be overridden
-         - final and static method cannot be overridden
+         - final and static method cannot be overridden, so abstract method cannot be final or static
      - Cannot have private access modifier
      - Can only be created in an abstract class or in an interface
 
      ABSTRACT CLASS
      - a parent/super class
+     - meant to be inherited
      - provides reusable variables and methods to child/subclasses
      - abstract keyword creates abstract class
      - it cannot be instantiated
 
+     CREATING OBJECTS
+     - a child/sub class of an abstract class is called a concrete class and can be instantiated
+     - a concrete class must implement all the inherited abstract methods
 
-
+                   REGULAR CLASS                                  ABSTRACT CLASS
+     Can have constructors, instances and statics  Can have constructors, instances and statics
+     Can be instantiated                           Cannot be instantiated
+     Cannot have abstract method                   Can have abstract method
+     Can be declared as final                      Cannot be declared as final
      */
 }
