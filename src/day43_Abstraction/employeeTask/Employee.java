@@ -17,26 +17,31 @@ public abstract class Employee extends Person{
     }
 
     public int getId() {
+
         return id;
     }
 
     public String getJobTitle() {
+
         return jobTitle;
     }
 
     public void setJobTitle(String jobTitle) {
+
         this.jobTitle = jobTitle;
     }
 
     public double getSalary() {
+
         return salary;
     }
 
     public void setSalary(double salary) {
+
         this.salary = salary;
     }
 
-    public abstract void work();
+    public abstract void work(); // abstract keyword is mandatory in abstract class methods
 
     public String toString() {
         return "Employee{" +

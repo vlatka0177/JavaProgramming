@@ -14,7 +14,7 @@ public class ConstructorIntro {
         Class Name           Keyword
 
         - a special method for a class
-        - creates objects of a class
+        - CREATES OBJECTS of a class
         - initializes the object's instance variables
         - execution of a constructor depends on the object
 
