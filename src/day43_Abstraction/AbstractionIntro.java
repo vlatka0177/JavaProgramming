@@ -37,18 +37,18 @@ public class AbstractionIntro {
 
      ABSTRACT CLASS
      - a parent/super class
-     - meant to be inherited
+     - meant to be inherited (has to contain common features of the class)
      - provides reusable variables and methods to child/subclasses
      - abstract keyword creates abstract class
-     - it cannot be instantiated
+     - it cannot be instantiated (cannot create objects)
 
      CREATING OBJECTS
-     - a child/sub class of an abstract class is called a concrete class and can be instantiated
+     - a child/sub class of an abstract class is called a concrete class and can be instantiated (create objects)
      - a concrete class must implement all the inherited abstract methods
 
                    REGULAR CLASS                                  ABSTRACT CLASS
      Can have constructors, instances and statics  Can have constructors, instances and statics
-     Can be instantiated                           Cannot be instantiated
+     Can be instantiated                           Cannot be instantiated (cannot create objects)
      Cannot have abstract method                   Can have abstract method
      Can be declared as final                      Cannot be declared as final
      */
