@@ -1,4 +1,4 @@
-package day45;
+package day45.shapeTask;
 
 public class Circle extends Shape {
 
