@@ -7,7 +7,7 @@ public class OddOrEven {
     public static void main(String[] args) {
 
         /*
-    2. Write A program that asks user to enter A number, and check if the number is odd or even.
+    2. Write a program that asks a user to enter a number, and check if the number is odd or even.
        If it's odd, print "Odd Number"
        If it's even, print "Even number"
        Ask the user "Would you like to enter another number"
@@ -18,7 +18,7 @@ public class OddOrEven {
         Scanner scan = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Enter A number:");
+            System.out.println("Enter a number:");
             int num = scan.nextInt();
 
             if (num % 2 == 0) {

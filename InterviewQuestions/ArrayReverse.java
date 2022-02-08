@@ -15,6 +15,5 @@ public class ArrayReverse {
             reversed[j] = numbers[i];
         }
             System.out.println(Arrays.toString(reversed));
-
     }
 }
