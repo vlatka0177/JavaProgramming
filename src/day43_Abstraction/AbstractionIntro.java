@@ -43,7 +43,7 @@ public class AbstractionIntro {
      - it cannot be instantiated (cannot create objects)
 
      CREATING OBJECTS
-     - a child/sub class of an abstract class is called a concrete class and can be instantiated (create objects)
+     - a child/subclass of an abstract class is called a concrete class and can be instantiated (create objects)
      - a concrete class must implement all the inherited abstract methods
 
                    REGULAR CLASS                                  ABSTRACT CLASS

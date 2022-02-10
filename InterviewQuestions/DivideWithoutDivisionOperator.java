@@ -6,6 +6,7 @@ public class DivideWithoutDivisionOperator {
 
         int count = 0; // 1 + 1 + 1 = 3 times,
 
+        // if 0 condition
         while(num1 >= num2) { // 1 < 3
             num1 -= num2; // 10 -3 = 7, num1 = 7, 7 - 3 = 4, num1 = 4, 4 - 3 = 1, num1 = 1
             count++; // increase the count by 1

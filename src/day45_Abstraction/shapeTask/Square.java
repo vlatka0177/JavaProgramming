@@ -1,6 +1,4 @@
-package day45.shapeTask;
-
-import day45.shapeTask.Shape;
+package day45_Abstraction.shapeTask;
 
 public class Square extends Shape {
 

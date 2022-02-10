@@ -1,4 +1,4 @@
-package day45.shapeTask;
+package day45_Abstraction.shapeTask;
 
 public abstract class Shape {
 
@@ -13,6 +13,7 @@ public abstract class Shape {
     }
 
     public String getName() { // final can generate only a getter, not a setter
+
         return name;
     }
 
