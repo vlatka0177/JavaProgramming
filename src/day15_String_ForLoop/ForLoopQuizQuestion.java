@@ -11,8 +11,6 @@ public class ForLoopQuizQuestion {
             System.out.println(i + "");
 
         }
-
-
     }
 
 }

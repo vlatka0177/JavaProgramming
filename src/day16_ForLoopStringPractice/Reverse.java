@@ -19,7 +19,7 @@ public class Reverse {
         String str = "Wooden Spoon";
         // index:     0123456789...
 
-        String result = " "; // Contains the reversed version of str: noopS nedooW
+    String result = " "; // Contains the reversed version of str: noopS nedooW
         /*
         result += str.charAt(11); // n
         result += str.charAt(10); // o
@@ -36,9 +36,12 @@ public class Reverse {
 
         Another way is to create A loop. Before creating any loop, analyze.
         */
-        for(int i = str.length()-1; i >= 0; i--){
-            result += str.charAt(i);
-        }
+        for(int i = str.length() - 1; i >=0;i--){
+        result += str.charAt(i);
+    }
+       System.out.println(result);
+    }
+    }
         /* (initialization; condition; iteration)
             Without iteration, i always = 11, which is always >= 0. Thus, infinite loop.
 
@@ -49,9 +52,16 @@ public class Reverse {
             result += Concatenation: adds each character to result.
             Without +, the character is not going to be added to the string.
         */
-        System.out.println(result);
 
 
 
-    }
-}
+
+
+
+
+
+
+
+
+
+

@@ -27,16 +27,21 @@ public class AbstractionIntro {
 
      ABSTRACT METHOD
      - Method without the body (implementation)
-     - Abstract keyword is used to create it
-         - public abstract void eat();
-         - public abstract double calculate();
-     - Meant to be overridden
-         - final and static method cannot be overridden, so abstract method cannot be final or static
+     - Abstract keyword is used to create abstract method in superclass/parent
+
+         public abstract double area();
+
+     - Meant to be overridden in a subclass/child
+     - Final and static method cannot be overridden, so abstract method cannot be final or static
      - Cannot have private access modifier
      - Can only be created in an abstract class or in an interface
 
      ABSTRACT CLASS
      - a parent/super class
+
+       public abstract class Shape {
+       }
+
      - meant to be inherited (has to contain common features of the class)
      - provides reusable variables and methods to child/subclasses
      - abstract keyword creates abstract class
@@ -44,10 +49,21 @@ public class AbstractionIntro {
 
      CREATING OBJECTS
      - a child/subclass of an abstract class is called a concrete class and can be instantiated (create objects)
+
+       public class Circle extends Shape {
+       }
+
      - a concrete class must implement all the inherited abstract methods
+     - Compile error when class is created in subclass/child and there is an abstract method in the superclass/parent
+     - Hover over light bulb icon. Click on implement methods to override the abstract method from the superclass/parent
+       (Alternatively, generate an override)
+
+       @override
+       public double area() {
+       }
 
                    REGULAR CLASS                                  ABSTRACT CLASS
-     Can have constructors, instances and statics  Can have constructors, instances and statics
+     Can have constructors,instances and statics  Can have constructors,instances and statics
      Can be instantiated                           Cannot be instantiated (cannot create objects)
      Cannot have abstract method                   Can have abstract method
      Can be declared as final                      Cannot be declared as final
