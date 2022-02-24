@@ -108,6 +108,8 @@ public class CollectionsIntro {
     - child interface of collection
     - does not allow duplicates
     - does not have index numbers
+    - insertion order is not preserved
+    - import java.util.Set
 
     2.1. HASHSET CLASS
     - implements the set interface
@@ -122,12 +124,13 @@ public class CollectionsIntro {
     - accepts null values
     - import java.util.LinkedList;
 
-    2.2. SORTED SET
+    2.2. SORTED SET INTERFACE
 
     2.2.1. TREE SET CLASS
     - implements the SortedSet interface
     - maintains the sorted (ascending) order
-    - does not accept null keyword
+    - does not accept null keyword (value)
+    - import java.util.TreeSet
 
     3. QUEUE INTERFACE
 
