@@ -82,7 +82,6 @@ public class ObjectOrientedProgrammingAdvantages {
                 - happens in the same class
                 - any method can be overloaded, including the main method
                 - access modifier does not matter, as long as it is the same or more visible
-
          */
     }
 }

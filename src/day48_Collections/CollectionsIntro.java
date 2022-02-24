@@ -108,6 +108,8 @@ public class CollectionsIntro {
     - child interface of collection
     - does not allow duplicates
     - does not have index numbers
+    - insertion order is not preserved
+    - import java.util.Set
 
     2.1. HASHSET CLASS
     - implements the set interface
@@ -122,14 +124,42 @@ public class CollectionsIntro {
     - accepts null values
     - import java.util.LinkedList;
 
-    2.2. SORTED SET
+    2.2. SORTED SET INTERFACE
 
     2.2.1. TREE SET CLASS
     - implements the SortedSet interface
     - maintains the sorted (ascending) order
-    - does not accept null keyword
+    - does not accept null keyword (value)
+    - import java.util.TreeSet
 
     3. QUEUE INTERFACE
+    - child interface of Collection
+    - allows duplicates
+    - does not have index numbers
+    - insertion order is not preserved
+    - first in, first out order
+    - import java.util.Queue;
 
+    3.1. PRIORITY QUEUE CLASS
+    - implements the Queue interface
+    - maintains the random order
+    - does not accept null values
+    - import java.util.PriorityQueue;
+
+    3.2. DEQUE INTERFACE
+    - child interface of Collection
+    - has two child classes: ArrayDeque and LinkedList
+    - duplicates are allowed
+    - insertion order is not preserved
+    - poll() -> first in, first out order
+
+    3.2.1. ARRAY DEQUE CLASS
+    - child of Deque Interface
+    - maintains insertion order
+    - accepts duplicates
+
+    3.2.2. LINKED LIST CLASS
+    - child of Deque Interface
+    - maintains insertion order
      */
 }

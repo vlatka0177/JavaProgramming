@@ -6,4 +6,21 @@ public interface Volume {
     // The variable must be final and static, so final and static does not have to be specified
 
     double volume();
+
+    /*
+    default void drink(){
+         System.out.println("Drinks water");
+     }
+   */
+
 }
+
+/*
+abstract class QQ{
+}
+interface R{
+}
+*/
+
+
+

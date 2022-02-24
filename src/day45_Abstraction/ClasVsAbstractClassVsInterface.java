@@ -36,12 +36,12 @@ public class ClasVsAbstractClassVsInterface {
     - instance methods
     - constructor
     - blocks
+    - private, default, protected access modifiers
 
     WE NEED INTERFACE
     - one class can extend one class ONLY
-    - one class can implement multiple interfaces
-
-    100% abstraction
+    - one class can implement multiple interfaces (multiple inheritance is allowed)
+    - 100% abstraction
 
     ABSTRACT CLASS vs INTERFACE SIMILARITIES
     - used for achieving abstraction
@@ -59,6 +59,17 @@ public class ClasVsAbstractClassVsInterface {
 
      INTERFACE
      - one class can implement multiple interfaces
+
+     EXTENDS vs IMPLEMENTS
+     - used for inheritance
+     - extends first, then implements
+
+     EXTENDS
+     - class extends class
+     - interface extends interface(s)
+
+     IMPLEMENTS
+     - class implements interface(s)
 
     */
 }

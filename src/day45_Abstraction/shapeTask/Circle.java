@@ -6,13 +6,14 @@ public class Circle extends Shape {
     public final static double pi =3.14; // pi value is unchangeable, and the same for all circles
 
     // Generate a constructor
-    public Circle(String name, double radius) {
+    public Circle(double radius) {
         super("Circle"); // change name to "Circle"
-        this.radius = radius;
+        setRadius(radius);
     }
 
     // Generate getter
     public double getRadius() {
+
         return radius;
     }
 

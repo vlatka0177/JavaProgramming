@@ -73,7 +73,8 @@ public class ExceptionsIntro {
         Finally Block
         - A block of try catch.
         - It always gets executed.
-        - The only way to stop the execution of the Finally Block is to  explicitly terminate the program with .
+        - The only way to stop the execution of the Finally Block is to  explicitly terminate the program
+          with System.exit(0) .
 
         Throws Keyword
 
